@@ -143,6 +143,16 @@ img { display: block; max-width: 100%; }
 .item-from button { background: none; border: 0; padding: 0; color: var(--red); font-size: 12px; text-align: left; }
 .item-from button:hover { text-decoration: underline; }
 .item-links { display: flex; flex-wrap: wrap; gap: 6px; }
+/* 商品画像（左）＋テキスト（右） */
+.item-row { display: flex; gap: 12px; align-items: flex-start; }
+.item-body { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.item-thumb { flex: 0 0 84px; width: 84px; height: 84px; border-radius: 8px; overflow: hidden; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; }
+.item-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.item-thumb.is-broken img { display: none; }
+.item-thumb-empty, .item-thumb.is-broken { background: var(--bg-soft); color: var(--gray); font-weight: 700; font-size: 22px; }
+.modal-item { flex-direction: row; display: flex; gap: 14px; align-items: flex-start; }
+.modal-item .item-thumb { flex-basis: 96px; width: 96px; height: 96px; }
+@media (max-width: 640px) { .item-thumb { flex-basis: 72px; width: 72px; height: 72px; } .modal-item .item-thumb { flex-basis: 80px; width: 80px; height: 80px; } }
 .item-links:empty { display: none; }
 
 /* modal */
@@ -177,7 +187,7 @@ img { display: block; max-width: 100%; }
 .modal-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .modal-section h3 { margin: 0 0 8px; font-size: 13px; color: var(--text-sub); font-weight: 500; letter-spacing: .04em; }
 .modal-items { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.modal-item { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 4px; }
+.modal-item { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
 .modal-item .item-links { margin-top: 4px; }
 details.caption { border-top: 1px solid var(--line); padding-top: 10px; }
 details.caption summary { cursor: pointer; font-size: 13px; color: var(--text-sub); }

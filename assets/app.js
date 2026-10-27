@@ -100,6 +100,13 @@
     $("#chips-mall").closest(".filter-row").hidden = mallsUsed.length === 0;
   }
 
+  // ---- render: item thumbnail（画像はAmazon・楽天・公式サイトの商品画像をそのまま参照。無ければブランドの頭文字） ----
+  function thumbHtml(it) {
+    if (it.image) return `<div class="item-thumb"><img src="${esc(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('is-broken')"></div>`;
+    const ch = (it.brand || it.name || "?").trim().charAt(0).toUpperCase();
+    return `<div class="item-thumb item-thumb-empty"><span>${esc(ch)}</span></div>`;
+  }
+
   // ---- render: link buttons ----
   function linkButtons(item, small) {
     const links = itemLinks(item);
@@ -135,11 +142,16 @@
     const el = $("#view-items");
     el.innerHTML = list.map((it) => `
       <article class="item-card">
-        ${it.brand ? `<div class="item-brand">${esc(it.brand)}</div>` : ""}
-        <h2 class="item-name">${esc(it.name)}</h2>
-        ${it.price ? `<div class="item-price">${esc(it.price)}</div>` : ""}
-        ${it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
-        <div class="item-links">${linkButtons(it, true)}</div>
+        <div class="item-row">
+          ${thumbHtml(it)}
+          <div class="item-body">
+            ${it.brand ? `<div class="item-brand">${esc(it.brand)}</div>` : ""}
+            <h2 class="item-name">${esc(it.name)}</h2>
+            ${it.price ? `<div class="item-price">${esc(it.price)}</div>` : ""}
+            ${it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
+            <div class="item-links">${linkButtons(it, true)}</div>
+          </div>
+        </div>
         <div class="item-from">紹介した動画: <button data-open="${esc(it.video.id)}">${esc(it.video.title)}</button></div>
       </article>`).join("");
   }
@@ -170,11 +182,14 @@
           <h3>紹介したアイテム${(v.items || []).length ? `（${v.items.length}点）` : ""}</h3>
           ${(v.items || []).length ? `<ul class="modal-items">${v.items.map((it) => `
             <li class="modal-item">
-              ${it.brand ? `<div class="item-brand">${esc(it.brand)}</div>` : ""}
-              <div class="item-name">${esc(it.name)}</div>
-              ${it.price ? `<div class="item-price">${esc(it.price)}</div>` : ""}
-              ${it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
-              <div class="item-links">${linkButtons(it, false)}</div>
+              ${thumbHtml(it)}
+              <div class="item-body">
+                ${it.brand ? `<div class="item-brand">${esc(it.brand)}</div>` : ""}
+                <div class="item-name">${esc(it.name)}</div>
+                ${it.price ? `<div class="item-price">${esc(it.price)}</div>` : ""}
+                ${it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
+                <div class="item-links">${linkButtons(it, false)}</div>
+              </div>
             </li>`).join("")}</ul>` : `<p class="item-note">この動画はアイテム紹介ではありません。</p>`}
         </div>
         ${v.caption ? `<details class="caption"><summary>投稿のキャプションを見る</summary><pre>${esc(v.caption)}</pre></details>` : ""}

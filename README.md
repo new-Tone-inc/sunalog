@@ -86,3 +86,9 @@ python3 -m http.server 8787
 - 更新手順: このフォルダで `videos.json` 等を直して `git add` → `git commit` → `git push origin main`。数分で反映される
 - DNSの注意: newtone-inc.jp はお名前.com（dnsv.jp）で、`*.newtone-inc.jp` のワイルドカードがVercelに向いている。`sunalog` を明示的にCNAMEで追加すればワイルドカードより優先される
 - HTTPSの強制（Enforce HTTPS）は、DNSが通って証明書が発行されたあとに `gh api -X PUT repos/new-Tone-inc/sunalog/pages -F https_enforced=true` で有効にする
+
+## アイテム画像（2026-10-28）
+
+- 各アイテムの `image` は、楽天の商品画像（アフィリエイトのリンク作成で出る画像と同じ）を優先し、無ければ公式サイトのOG画像、Amazonの商品画像の順。URLを参照するだけで、画像ファイルはこのリポジトリに保存しない
+- 画像が無いアイテムはブランドの頭文字のプレースホルダー。読み込みに失敗したときも同じ表示に落ちる
+- 元データは `data/instagram/image-sources.json`
