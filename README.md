@@ -76,3 +76,11 @@ python3 -m http.server 8787
 
 詳細画面の「動画を再生」を押すと、`instagramUrl` + `embed/` をiframeで読み込んで、その場で動画を再生する。
 公開アカウントの投稿だけ再生できる。開いたときに毎回読み込むと重いので、ボタンを押したときだけ読み込む。
+
+## 公開先（2026-10-28）
+
+- 公開URL: https://sunalog.newtone-inc.jp （new-Toneのドメインのサブドメイン。もっくん承認済み）
+- ホスティング: GitHub Pages（リポジトリ `new-Tone-inc/sunalog`、mainブランチのルートを公開）
+- DNS: `sunalog` の CNAME → `new-tone-inc.github.io`（もっくんが設定。ClickUp: https://app.clickup.com/t/1100350000014448/z8rcten098 ）
+- `CNAME` ファイルと `.nojekyll` はPages用。消さない
+- 更新手順: このフォルダで `videos.json` 等を直して `git add` → `git commit` → `git push origin main`。数分で反映される
