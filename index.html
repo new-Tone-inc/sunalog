@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>すなおのガジェログ</title>
+<meta name="description" content="Instagram @simple_suna で紹介したショート動画とアイテムの一覧。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./">
+      <span class="brand-mark"></span>
+      <span class="brand-name">すなおのガジェログ</span>
+    </a>
+    <nav class="site-nav">
+      <a href="https://www.instagram.com/simple_suna/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="intro">
+    <h1>Instagramで紹介した<br class="sp">ショート動画とアイテム</h1>
+    <p class="lead">動画で取り上げたガジェットを、動画ごと・アイテムごとに探せます。<br class="pc">価格は紹介した時点のものです。最新の価格は各ショップでご確認ください。</p>
+    <p class="note" id="disclosure">※ 当サイトのリンクには、アフィリエイトリンクが含まれる場合があります。</p>
+  </section>
+
+  <div class="tabs" role="tablist">
+    <button class="tab is-active" role="tab" data-view="videos">動画で探す <span class="count" id="count-videos"></span></button>
+    <button class="tab" role="tab" data-view="items">アイテムを探す <span class="count" id="count-items"></span></button>
+  </div>
+
+  <section class="filters">
+    <div class="filter-row">
+      <div class="filter-label">紹介した月</div>
+      <div class="chips" id="chips-month"></div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-label">カテゴリ</div>
+      <div class="chips" id="chips-category"></div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-label">ショップ</div>
+      <div class="chips" id="chips-mall"></div>
+    </div>
+    <div class="filter-row">
+      <div class="filter-label">検索</div>
+      <input class="search" id="search" type="search" placeholder="動画名・アイテム名で検索" autocomplete="off">
+    </div>
+  </section>
+
+  <p class="result-count" id="result-count"></p>
+
+  <section id="view-videos" class="grid grid-videos"></section>
+  <section id="view-items" class="grid grid-items" hidden></section>
+
+  <p class="empty" id="empty" hidden>該当するものがありません。</p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© すなお / <a href="https://www.instagram.com/simple_suna/" target="_blank" rel="noopener">@simple_suna</a></p>
+  </div>
+</footer>
+
+<!-- 詳細モーダル -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" data-close aria-label="閉じる">×</button>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
