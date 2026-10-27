@@ -84,3 +84,5 @@ python3 -m http.server 8787
 - DNS: `sunalog` の CNAME → `new-tone-inc.github.io`（もっくんが設定。ClickUp: https://app.clickup.com/t/1100350000014448/z8rcten098 ）
 - `CNAME` ファイルと `.nojekyll` はPages用。消さない
 - 更新手順: このフォルダで `videos.json` 等を直して `git add` → `git commit` → `git push origin main`。数分で反映される
+- DNSの注意: newtone-inc.jp はお名前.com（dnsv.jp）で、`*.newtone-inc.jp` のワイルドカードがVercelに向いている。`sunalog` を明示的にCNAMEで追加すればワイルドカードより優先される
+- HTTPSの強制（Enforce HTTPS）は、DNSが通って証明書が発行されたあとに `gh api -X PUT repos/new-Tone-inc/sunalog/pages -F https_enforced=true` で有効にする
