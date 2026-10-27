@@ -101,8 +101,10 @@
   }
 
   // ---- render: item thumbnail（画像はAmazon・楽天・公式サイトの商品画像をそのまま参照。無ければブランドの頭文字） ----
-  function thumbHtml(it) {
+  function thumbHtml(it, v) {
     if (it.image) return `<div class="item-thumb"><img src="${esc(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('is-broken')"></div>`;
+    // 商品画像が無いときは、紹介した動画のサムネイル（投稿のカバー）を代わりに出す
+    if (v && v.cover) return `<div class="item-thumb item-thumb-cover"><img src="assets/covers/${esc(v.cover)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('is-broken')"><span class="thumb-tag">動画</span></div>`;
     const ch = (it.brand || it.name || "?").trim().charAt(0).toUpperCase();
     return `<div class="item-thumb item-thumb-empty"><span>${esc(ch)}</span></div>`;
   }
@@ -143,7 +145,7 @@
     el.innerHTML = list.map((it) => `
       <article class="item-card">
         <div class="item-row">
-          ${thumbHtml(it)}
+          ${thumbHtml(it, it.video)}
           <div class="item-body">
             ${it.brand ? `<div class="item-brand">${esc(it.brand)}</div>` : ""}
             <h2 class="item-name">${esc(it.name)}</h2>
@@ -182,7 +184,7 @@
           <h3>紹介したアイテム${(v.items || []).length ? `（${v.items.length}点）` : ""}</h3>
           ${(v.items || []).length ? `<ul class="modal-items">${v.items.map((it) => `
             <li class="modal-item">
-              ${thumbHtml(it)}
+              ${thumbHtml(it, v)}
               <div class="item-body">
                 ${it.brand ? `<div class="item-brand">${esc(it.brand)}</div>` : ""}
                 <div class="item-name">${esc(it.name)}</div>

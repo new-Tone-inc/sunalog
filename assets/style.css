@@ -149,6 +149,9 @@ img { display: block; max-width: 100%; }
 .item-thumb { flex: 0 0 84px; width: 84px; height: 84px; border-radius: 8px; overflow: hidden; background: #fff; border: 1px solid var(--line); display: grid; place-items: center; }
 .item-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .item-thumb.is-broken img { display: none; }
+.item-thumb-cover { position: relative; background: var(--dark); }
+.item-thumb-cover img { object-fit: cover; }
+.thumb-tag { position: absolute; left: 4px; bottom: 4px; background: rgba(63,74,82,.86); color: #fff; font-size: 10px; line-height: 1; padding: 3px 5px; border-radius: 3px; }
 .item-thumb-empty, .item-thumb.is-broken { background: var(--bg-soft); color: var(--gray); font-weight: 700; font-size: 22px; }
 .modal-item { flex-direction: row; display: flex; gap: 14px; align-items: flex-start; }
 .modal-item .item-thumb { flex-basis: 96px; width: 96px; height: 96px; }
