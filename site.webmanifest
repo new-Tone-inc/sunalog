@@ -1,0 +1,13 @@
+{
+  "name": "すなおのガジェログ",
+  "short_name": "SunaLog",
+  "description": "Instagram @simple_suna で紹介したショート動画とガジェットの一覧",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f5",
+  "theme_color": "#e94b25",
+  "icons": [
+    { "src": "/assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

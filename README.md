@@ -114,3 +114,8 @@ python3 -m http.server 8787
 Claude Codeの定時タスク「サイト更新＋インサイト記録」が毎朝5時に [tools/DAILY_UPDATE.md](tools/DAILY_UPDATE.md) の手順で動く（Claudeアプリが開いていて、ChromeがInstagramにログインしている必要がある。閉じていれば次に開いたときに動く）。
 やること: 新しい投稿の追加（アイテム・リンク・カバー）→ 直近30日（日曜は1年）のいいね・保存数の取り直し → 4SNSのフォロワー数 → 検査 → push。結果は `Personal/Sunao/ガジェログ日次レポート/YYYY-MM-DD.md`。
 補助スクリプトは `tools/`（`new_reels.py` 未登録の投稿を出す / `add_videos.py` 下書きを追加しカバー保存 / `insights_targets.py` 取り直す投稿一覧 / `stats_merge.py` / `social_update.py` / `item_images.py` / `validate.py` 公開前検査）。
+
+## アイコン・OG画像（2026-10-28）
+
+`assets/brand/sunalog-character.jpg`（すなおのイラスト）から `tools/make_icons.py` で作る: favicon（ico/16/32）、apple-touch-icon（180）、manifest用（192/512）、ヘッダーのマーク（`mark-128.png`）、SNS共有用の `og-image.png`（1200×630、「SunaLog」の文字入り）。
+`site.webmanifest` の `short_name` は「SunaLog」（ホーム画面に追加したときの名前）。作り直すときは Pillow を入れた Python と Noto Sans JP のフォント（`/tmp/sunalog/NotoSansJP.ttf`、Google Fonts の GitHub から取得）が要る。
