@@ -200,7 +200,7 @@ details.caption { border-top: 1px solid var(--line); padding-top: 10px; }
 details.caption summary { cursor: pointer; font-size: 13px; color: var(--text-sub); }
 details.caption pre { white-space: pre-wrap; font: inherit; font-size: 13px; margin: 10px 0 0; color: var(--text); }
 /* popular videos */
-.popular { margin: 4px 0 18px; }
+.popular { margin: 4px 0 26px; }
 .popular-title { font-size: 15px; margin: 0 0 10px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .popular-sub { font-size: 12px; color: var(--text-sub); font-weight: 400; }
 .popular .related-card { flex-basis: 150px; }
