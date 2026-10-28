@@ -12,6 +12,8 @@
 
   // claude.ai のプレビュー上は外部サイトの埋め込みがCSPで止められるため、再生ボタンを出さない（自分のドメインに置けば動く）
   const EMBED_OK = !/(^|\.)claude\.ai$/.test(location.hostname);
+  // Instagram / Facebook / LINE のアプリ内ブラウザ。Instagramの埋め込みが「Instagramで見る」になって再生できないことがある
+  const IN_APP = /Instagram|FBAN|FBAV|FB_IAB|Line\//i.test(navigator.userAgent);
   const state = { view: "videos", year: "all", month: "all", category: "all", mall: "all", q: "", page: 1 };
   const PAGE_SIZE = 10;
   let VIDEOS = [];
@@ -218,6 +220,7 @@
         ${v.instagramUrl && EMBED_OK ? `<button class="play-btn" data-embed="${esc(v.instagramUrl)}" aria-label="Instagramの動画をここで再生"><span class="play-icon">▶</span><span>動画を再生</span></button>` : ""}
       </div>
       <div class="modal-main">
+        ${IN_APP ? `<p class="inapp-note">アプリ内のブラウザでは動画をここで再生できないことがあります。右上の「…」から「ブラウザで開く」を選ぶか、下の「Instagramで動画を見る」からご覧ください。</p>` : ""}
         <div class="modal-kicker">
           <span>${esc(v.category || "")}</span>
           ${v.postedDate ? `<span>${esc(fmtDate(v.postedDate))} 投稿</span>` : ""}
