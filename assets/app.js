@@ -293,6 +293,49 @@
         <span class="related-title">${esc(v.title)}</span>
         <span class="related-meta">${esc(v.category || "")}${v.postedDate ? ` · ${esc(fmtDate(v.postedDate))}` : ""}</span>
       </button>`).join("");
+    startPopularAutoScroll();
+  }
+  // 人気の動画を3秒に1枚ずつ右へ送る。端まで行ったら先頭へ戻る。触っている間・マウスを乗せている間・画面外・動きを減らす設定のときは止める
+  let popularTimer = null;
+  function startPopularAutoScroll() {
+    const row = $("#popular-row");
+    if (!row || popularTimer) return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let paused = false;
+    let visible = true;
+    const pause = () => { paused = true; };
+    const resume = () => { paused = false; };
+    row.addEventListener("mouseenter", pause);
+    row.addEventListener("mouseleave", resume);
+    row.addEventListener("touchstart", pause, { passive: true });
+    row.addEventListener("touchend", () => setTimeout(resume, 4000), { passive: true });
+    row.addEventListener("focusin", pause);
+    row.addEventListener("focusout", resume);
+    if ("IntersectionObserver" in window) new IntersectionObserver((es) => { visible = es[0].isIntersecting; }).observe(row);
+    // scrollBy({behavior:"smooth"}) は環境によって動かない（スナップとの組み合わせ）ので、自前で動かす
+    const animateTo = (target) => {
+      const from = row.scrollLeft, dist = target - from, dur = 350, t0 = performance.now();
+      const prevSnap = row.style.scrollSnapType;
+      row.style.scrollSnapType = "none";
+      const stepFn = (now) => {
+        const t = Math.min(1, (now - t0) / dur);
+        const e = 1 - Math.pow(1 - t, 3); // ease-out
+        row.scrollLeft = from + dist * e;
+        if (t < 1) requestAnimationFrame(stepFn);
+        else row.style.scrollSnapType = prevSnap;
+      };
+      requestAnimationFrame(stepFn);
+    };
+    popularTimer = setInterval(() => {
+      if (paused || !visible || document.hidden || !$("#modal").hidden) return;
+      const card = row.querySelector(".related-card");
+      if (!card) return;
+      const step = card.getBoundingClientRect().width + 10; // カード幅 + gap
+      const max = row.scrollWidth - row.clientWidth;
+      if (max <= 0) return; // 全部収まっているときは動かさない
+      if (row.scrollLeft >= max - 2) animateTo(0);
+      else animateTo(Math.min(max, Math.round(row.scrollLeft / step) * step + step));
+    }, 3000);
   }
 
   // ---- render: フォロワー数と目標（data/social.json。followers が入っているものだけ出す） ----

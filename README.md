@@ -119,3 +119,6 @@ Claude Codeの定時タスク「サイト更新＋インサイト記録」が毎
 
 `assets/brand/sunalog-character.jpg`（すなおのイラスト）から `tools/make_icons.py` で作る: favicon（ico/16/32）、apple-touch-icon（180）、manifest用（192/512）、ヘッダーのマーク（`mark-128.png`）、SNS共有用の `og-image.png`（1200×630、「SunaLog」の文字入り）。
 `site.webmanifest` の `short_name` は「SunaLog」（ホーム画面に追加したときの名前）。作り直すときは Pillow を入れた Python と Noto Sans JP のフォント（`/tmp/sunalog/NotoSansJP.ttf`、Google Fonts の GitHub から取得）が要る。
+- `index.html` の `style.css` / `app.js` の読み込みには `?v=日時` を付けている（ブラウザの古いキャッシュ対策）。CSS/JSを変えたら `?v=` の値も変える
+- ヘッダー右上は Instagram / TikTok / YouTube / Threads のアイコン（インラインSVG）。それぞれ @simple_suna のプロフィールへ飛ぶ（2026-10-28）
+- 「人気の動画」は3秒ごとに1枚ずつ右へ自動で送る（端で先頭へ戻る）。触っている間・マウスを乗せている間・詳細を開いている間・画面外では止まる。`assets/app.js` の `startPopularAutoScroll()`

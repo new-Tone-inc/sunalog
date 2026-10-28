@@ -41,9 +41,19 @@ img { display: block; max-width: 100%; }
 .site-header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 56px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+.site-nav { display: flex; align-items: center; gap: 6px; }
+.site-nav a { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; color: var(--text-sub); }
+.site-nav a:hover { color: var(--red); background: var(--bg-soft); }
+.site-nav svg { width: 22px; height: 22px; display: block; }
+.brand-name { white-space: nowrap; }
+@media (max-width: 480px) {
+  .brand { gap: 8px; font-size: 15px; }
+  .site-nav { gap: 0; }
+  .site-nav a { width: 32px; height: 32px; }
+  .site-nav svg { width: 20px; height: 20px; }
+}
 .brand-mark { width: 32px; height: 32px; border-radius: 50%; display: block; background: #f5f5f5; }
-.site-nav a { font-size: 13px; color: var(--text-sub); padding: 6px 10px; border-radius: 6px; }
-.site-nav a:hover { background: var(--bg-soft); color: var(--text); }
+
 
 /* intro */
 .intro { padding: 44px 0 20px; }
