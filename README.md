@@ -106,5 +106,5 @@ python3 -m http.server 8787
 - **人気の動画**: タブの上に、直近1年の投稿を「いいね＋保存数」の多い順に最大8本。数値は各動画の `stats`（`likes` / `saves` / `comments` / `asOf`）。Instagramのインサイト画面（自分のアカウントでログインした状態で `https://www.instagram.com/insights/media/{メディアID}/`）から取った。メディアIDはリールのコードを64進数で読んだもの。更新するときは同じ手順で `stats` を書き換える
 - **フィルタ**: 並びはカテゴリ → ショップ → 紹介した年。年を選ぶと、その年の月が下に出る
 - **ページ送り**: 動画もアイテムも10件ずつ。「← 前へ / 1 2 … / 次へ →」で切り替え。フィルタやタブを変えると1ページ目に戻る
-- **フォロワー数と目標**: 一覧の下の枠。`data/social.json` の `followers` が入っているSNSだけ表示する。`featured: true` のSNS（Instagram）を大きくメイン表示。目標: Instagram 50,000 / TikTok 20,000 / YouTube 10,000、Threadsは未設定（すなお、2026-10-28）。`goal` を入れると目標までの残りと進み具合（%）が出る。数値は手で更新する（`asOf` も合わせて直す）
+- **フォロワー数と目標**: 一覧の下の枠。`data/social.json` の `followers` が入っているSNSだけ表示する。`featured: true` のSNS（Instagram）を大きくメイン表示。目標: Instagram 50,000 / TikTok 20,000 / YouTube 10,000、Threads 20,000（すなお、2026-10-28）。`goal` を入れると目標までの残りと進み具合（%）が出る。数値は手で更新する（`asOf` も合わせて直す）
 - **埋め込み動画の音**: 詳細を閉じたときに中身（iframe）を消して、再生を止めるようにした

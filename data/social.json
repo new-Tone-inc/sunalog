@@ -3,11 +3,11 @@
     "platform": "Instagram",
     "handle": "@simple_suna",
     "url": "https://www.instagram.com/simple_suna/",
-    "followers": 41000,
+    "followers": 41558,
     "goal": 50000,
     "asOf": "2026-10-28",
     "featured": true,
-    "note": "メインで発信中。プロフィール表示は4.1万（概数）"
+    "note": "メインで発信中。実数はInstagramの自アカウントのプロフィールデータ（follower_count）から"
   },
   {
     "platform": "TikTok",
@@ -31,7 +31,7 @@
     "handle": "@simple_suna",
     "url": "https://www.threads.com/@simple_suna",
     "followers": 14684,
-    "goal": null,
+    "goal": 20000,
     "asOf": "2026-10-28"
   }
 ]
