@@ -159,9 +159,28 @@
   }
 
   // ---- render: modal ----
-  function openModal(id) {
+  // 関連動画: 「同じブランド」と「同じカテゴリ」で選ぶ（両方当てはまるものを先に、同点なら投稿日が近い順）
+  function relatedVideos(v, n = 6) {
+    const norm = (t) => (t || "").toLowerCase().replace(/[\s（）()・,、]/g, "");
+    const brands = new Set((v.items || []).map((it) => norm(it.brand)).filter(Boolean));
+    const t0 = v.postedDate ? Date.parse(v.postedDate) : 0;
+    return VIDEOS.filter((x) => x.id !== v.id).map((x) => {
+      let score = 0;
+      if ((x.items || []).some((it) => brands.has(norm(it.brand)))) score += 2;
+      if (x.category && x.category === v.category) score += 1;
+      if (score && t0 && x.postedDate) score -= Math.abs(Date.parse(x.postedDate) - t0) / 864e5 / 10000;
+      return { x, score };
+    }).filter((r) => r.score > 0).sort((a, b) => b.score - a.score).slice(0, n).map((r) => r.x);
+  }
+
+  // 戻る操作: モーダルを開くたびに履歴を1つ積み、ブラウザ/スマホの「戻る」で閉じられるようにする
+  function openModal(id, fromHistory) {
     const v = VIDEOS.find((x) => x.id === id);
     if (!v) return;
+    if (!fromHistory) {
+      const depth = (history.state && history.state.depth) || 0;
+      history.pushState({ modal: v.id, depth: depth + 1 }, "", `#${encodeURIComponent(v.id)}`);
+    }
     const body = $("#modal-body");
     body.innerHTML = `
       <div class="modal-cover" id="modal-cover">
@@ -195,17 +214,34 @@
             </li>`).join("")}</ul>` : `<p class="item-note">この動画はアイテム紹介ではありません。</p>`}
         </div>
         ${v.caption ? `<details class="caption"><summary>投稿のキャプションを見る</summary><pre>${esc(v.caption)}</pre></details>` : ""}
+        ${(() => { const rel = relatedVideos(v); return rel.length ? `
+        <div class="modal-section modal-related">
+          <h3>こちらもどうぞ</h3>
+          <div class="related-row">${rel.map((r) => `
+            <button class="related-card" data-open="${esc(r.id)}">
+              <span class="related-cover">${coverHtml(r)}</span>
+              <span class="related-title">${esc(r.title)}</span>
+              <span class="related-meta">${esc(r.category || "")}${(r.items || []).length ? ` · ${r.items.length}点` : ""}</span>
+            </button>`).join("")}</div>
+        </div>` : ""; })()}
+        <div class="modal-footer"><button class="btn btn-ghost" data-close>← 一覧に戻る</button></div>
       </div>`;
     $("#modal").hidden = false;
     document.body.classList.add("modal-open");
-    $(".modal-close").focus();
-    history.replaceState(null, "", `#${encodeURIComponent(v.id)}`);
+    $(".modal-panel").scrollTop = 0;
+    $(".modal-close").focus({ preventScroll: true });
   }
-  function closeModal() {
+  function closeModal(fromHistory) {
+    if (!fromHistory && history.state && history.state.depth > 0) { history.back(); return; } // popstateで閉じる
     $("#modal").hidden = true;
     document.body.classList.remove("modal-open");
-    history.replaceState(null, "", location.pathname + location.search);
+    if (!fromHistory) history.replaceState(null, "", location.pathname + location.search);
   }
+  window.addEventListener("popstate", () => {
+    const st = history.state;
+    if (st && st.modal) openModal(st.modal, true);
+    else if (!$("#modal").hidden) closeModal(true);
+  });
 
   // ---- render all ----
   function render() {
@@ -259,7 +295,11 @@
     $("#count-items").textContent = ITEMS.length;
     render();
     const hash = decodeURIComponent(location.hash.slice(1));
-    if (hash) openModal(hash);
+    if (hash && VIDEOS.some((v) => v.id === hash)) {
+      // 共有されたURLで直接開いたとき: 履歴は積まず、閉じるボタンで一覧へ戻る
+      history.replaceState({ modal: hash, depth: 0 }, "", `#${encodeURIComponent(hash)}`);
+      openModal(hash, true);
+    }
   }
   if (window.VIDEOS_DATA) {
     init(window.VIDEOS_DATA);
