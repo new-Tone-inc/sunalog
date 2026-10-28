@@ -58,6 +58,17 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && git status --sh
    - 下書きの形は `tools/add_videos.py` の冒頭コメントの通り。`coverUrl` は不要（自動で取る）
    - 同じ製品を以前も紹介している場合は、既存の `item.key` を調べて同じ `key` を付ける（`grep -n '"key"' data/videos.json`）。表記が完全に同じなら key 無しでもまとまる
 
+## 1b. 過去の投稿の取り込み（2024年分、毎朝5本ずつ）
+すなおの希望（2026-10-28）で、2024年の投稿（93本）を新しい順に少しずつサイトへ載せていく。`data/instagram/reels-list.json` に2024年のコードと投稿日はすでに入っているので、一覧の取り直しは不要。
+1. `python3 tools/backfill_targets.py --year 2024 --n 5` → まだ載せていない2024年の投稿が新しい順に5本出る（`remaining` が 0 なら「2024年分は完了」と報告して 2 へ。完了したら `--year 2023` に切り替えてよいが、その前にすなおへ一言確認する）
+2. 各投稿の本文・投稿日時の取り方、アイテム決め、リンク付け、`add_videos.py`・`item_images.py` の実行は 1 の 3〜6 と同じ。違いは次の点だけ:
+   - 本文に製品名が無く、動画の中だけでアイテムを紹介している投稿（ベストバイのランキング、カバンの中身、VLOG等）は hidden にせず、`status: "posted"`、`items: []`、`itemsPending: true` にする（サイトでは「アイテムは動画内で紹介」「一覧は準備中」と出る）。あとで本人からアイテムを聞いて埋める
+   - `itemsSource` は `2024年分の取り込み（YYYY-MM-DD）`。本文にアイテム名が無いときは末尾に `。本文にアイテム名なし（動画内のみ）` を足す
+   - 本文の `amzn.to/...` は `curl -sI` で展開してよい。展開先が `amazon.co.jp/shop/simple_suna/...`（本人のおすすめリスト）なら、そのURLを `links.amazon` にそのまま使う（`tag=simplesuna-22` が付いていること）
+   - 価格は本文にあるときだけ。キャンペーン価格は「○○円（△△キャンペーン価格・通常○○円・期限）」の形
+   - 古い投稿は Amazon で型番が変わっていることがある（後継品しか無い等）。その場合はリンクを付けず `note` に「Amazonでは同名の商品が見つからず（現行は○○）」と書く
+3. 取り込んだ本数と、`itemsPending` にした投稿・リンクを付けなかったアイテムを日次レポートに書く（本人がアイテムを教えてくれたら埋める）
+
 ## 2. インサイト（投稿ごと）
 1. `python3 tools/insights_targets.py --days 30 > /tmp/sunalog/targets.json`（日曜だけ `--days 365`）
 2. 各 `insightsUrl` を Chrome で開き3秒待ち、JS（`browser_batch` で 10件ずつ。2タブ並行でよい）:
@@ -80,7 +91,7 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && git status --sh
 
 ## 4. 検査・公開
 ```bash
-cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/validate.py && git add data/videos.json data/social.json data/instagram/reels-list.json assets/covers && git commit -q -m "自動更新 $(date +%Y-%m-%d): 新規○本・インサイト○本・フォロワー更新" && git push -q origin main && git log --oneline -1
+cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/validate.py && git add data/videos.json data/social.json data/instagram/reels-list.json data/instagram/image-sources.json assets/covers && git commit -q -m "自動更新 $(date +%Y-%m-%d): 新規○本・2024年分○本・インサイト○本・フォロワー更新" && git push -q origin main && git log --oneline -1
 ```
 - `validate.py` が `ok: false` なら push しない。原因を直せなければ `git checkout -- data assets` で戻し、報告に書く
 - push 後1〜2分で https://sunalog.newtone-inc.jp に反映される（`curl -s https://sunalog.newtone-inc.jp/data/videos.json | head -c 200` で確かめてよい）

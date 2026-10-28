@@ -45,6 +45,8 @@ for v in draft:
              "instagramUrl": f"https://www.instagram.com/reel/{code}/", "youtubeUrl": None, "cover": cover,
              "hook": v.get("hook") or (v.get("caption") or "").split("\n")[0], "caption": v.get("caption"), "hashtags": v.get("hashtags") or [],
              "category": v["category"], "pr": bool(v.get("pr")), "items": v.get("items", []), "itemsSource": v.get("itemsSource") or f"自動更新（{today()}）"}
+    if v.get("itemsPending"):
+        entry["itemsPending"] = True  # 本文にアイテム名が無く動画内だけで紹介 → サイトでは「準備中」と出す
     if v["status"] == "hidden":
         entry["hiddenReason"] = v.get("hiddenReason") or f"製品紹介でない投稿のため非表示（自動更新 {today()}）"
     videos.append(entry)

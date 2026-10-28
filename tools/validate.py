@@ -14,7 +14,7 @@ for v in videos:
         for it in v.get("items", []):
             if not it.get("name"): errors.append(f"{v['id']}: アイテム名が空")
             l = it.get("links") or {}
-            if l.get("amazon") and not re.match(r"https://(www\.amazon\.co\.jp/dp/[A-Z0-9]{10}\?tag=simplesuna-22|amzn\.to/)", l["amazon"]): errors.append(f"{v['id']}: Amazonリンクの形 {l['amazon'][:60]}")
+            if l.get("amazon") and not re.match(r"https://(www\.amazon\.co\.jp/dp/[A-Z0-9]{10}\?tag=simplesuna-22|www\.amazon\.co\.jp/shop/simple_suna/[^ ]*tag=simplesuna-22|amzn\.to/)", l["amazon"]): errors.append(f"{v['id']}: Amazonリンクの形 {l['amazon'][:60]}")
             if l.get("rakuten") and not re.match(r"https://(hb\.afl\.rakuten\.co\.jp/|a\.r10\.to/|bit\.ly/)", l["rakuten"]): errors.append(f"{v['id']}: 楽天リンクの形 {l['rakuten'][:60]}")
 for p in load(SOCIAL):
     if p.get("followers") is not None and not isinstance(p["followers"], int): errors.append(f"social {p['platform']}: followers")

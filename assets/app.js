@@ -164,7 +164,7 @@
           ${v.pr ? `<span class="badge-pr">PR</span>` : ""}
         </button>
         <h2 class="card-title">${esc(v.title)}</h2>
-        <p class="card-meta">${(v.items || []).length ? `アイテム ${v.items.length}点` : "アイテムなし"}</p>
+        <p class="card-meta">${(v.items || []).length ? `アイテム ${v.items.length}点` : (v.itemsPending ? "アイテムは動画内で紹介" : "アイテムなし")}</p>
         <div class="card-malls">${videoMalls(v).map((m) => `<span class="btn btn-sm ${m.cls}">${m.label}</span>`).join("")}</div>
       </article>`).join("");
   }
@@ -241,7 +241,7 @@
                 ${it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
                 <div class="item-links">${linkButtons(it, false)}</div>
               </div>
-            </li>`).join("")}</ul>` : `<p class="item-note">この動画はアイテム紹介ではありません。</p>`}
+            </li>`).join("")}</ul>` : (v.itemsPending ? `<p class="item-note">アイテムの一覧は準備中です。動画の中で紹介しています。</p>` : `<p class="item-note">この動画はアイテム紹介ではありません。</p>`)}
         </div>
         ${v.caption ? `<details class="caption"><summary>投稿のキャプションを見る</summary><pre>${esc(v.caption)}</pre></details>` : ""}
         ${(() => { const rel = relatedVideos(v); return rel.length ? `
