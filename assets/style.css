@@ -221,7 +221,13 @@ details.caption pre { white-space: pre-wrap; font: inherit; font-size: 13px; mar
 .social-title { margin: 0 0 6px; font-size: 17px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
 .social-asof { font-size: 12px; color: var(--text-sub); font-weight: 400; }
 .social-lead { margin: 0 0 16px; font-size: 13px; color: var(--text-sub); }
-.social-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.social-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.social-card.is-featured { grid-column: 1 / -1; padding: 22px 24px; border-width: 1px; border-top-width: 6px; }
+.social-card.is-featured .social-num strong { font-size: 40px; }
+.social-card.is-featured .social-bar { height: 12px; border-radius: 6px; }
+.social-card.is-featured .social-goal { font-size: 15px; }
+.social-main { margin-left: 8px; font-size: 11px; font-weight: 700; color: #fff; background: var(--red); border-radius: 4px; padding: 2px 6px; vertical-align: 2px; }
+@media (max-width: 640px) { .social-grid { grid-template-columns: 1fr; } }
 .social-card { display: grid; gap: 8px; padding: 16px; border-radius: 12px; background: var(--bg); border: 1px solid var(--line); color: var(--text); text-decoration: none; border-top: 4px solid var(--dark); }
 .social-card:hover { border-color: var(--gray); }
 .social-instagram { border-top-color: #e1306c; }

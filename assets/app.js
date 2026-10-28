@@ -307,12 +307,12 @@
       const pct = hasGoal ? Math.min(100, Math.round(p.followers / p.goal * 100)) : 0;
       const left = hasGoal ? Math.max(0, p.goal - p.followers) : 0;
       return `
-      <a class="social-card social-${esc(p.platform.toLowerCase())}" href="${esc(p.url || "#")}" target="_blank" rel="noopener">
-        <div class="social-head"><span class="social-name">${esc(p.platform)}</span><span class="social-handle">${esc(p.handle || "")}</span></div>
-        <div class="social-num"><strong>${fmt(p.followers)}</strong><span class="social-unit">フォロワー</span></div>
+      <a class="social-card social-${esc(p.platform.toLowerCase())}${p.featured ? " is-featured" : ""}" href="${esc(p.url || "#")}" target="_blank" rel="noopener">
+        <div class="social-head"><span class="social-name">${esc(p.platform)}${p.featured ? `<span class="social-main">メイン</span>` : ""}</span><span class="social-handle">${esc(p.handle || "")}</span></div>
+        <div class="social-num"><strong>${fmt(p.followers)}</strong><span class="social-unit">${esc(p.unit || "フォロワー")}</span></div>
         ${hasGoal ? `
         <div class="social-bar"><span style="width:${pct}%"></span></div>
-        <div class="social-goal">目標 ${fmt(p.goal)} まで <strong>あと ${fmt(left)}</strong>（${pct}%）</div>` : `<div class="social-goal">目標は設定中</div>`}
+        <div class="social-goal">目標 ${fmt(p.goal)} まで <strong>あと ${fmt(left)}</strong>（${pct}%）</div>` : `<div class="social-goal">目標は未設定</div>`}
         <div class="social-cta">フォローで応援する ↗</div>
       </a>`;
     }).join("");

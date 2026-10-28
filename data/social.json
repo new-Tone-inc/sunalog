@@ -5,30 +5,33 @@
     "url": "https://www.instagram.com/simple_suna/",
     "followers": 41000,
     "goal": 50000,
-    "asOf": "2026-10-28"
+    "asOf": "2026-10-28",
+    "featured": true,
+    "note": "メインで発信中。プロフィール表示は4.1万（概数）"
   },
   {
     "platform": "TikTok",
-    "handle": "",
-    "url": "",
-    "followers": null,
-    "goal": null,
-    "asOf": ""
+    "handle": "@simple_suna",
+    "url": "https://www.tiktok.com/@simple_suna",
+    "followers": 13400,
+    "goal": 20000,
+    "asOf": "2026-10-28"
   },
   {
     "platform": "YouTube",
-    "handle": "",
-    "url": "",
-    "followers": null,
-    "goal": null,
-    "asOf": ""
+    "handle": "@simple_suna",
+    "url": "https://www.youtube.com/@simple_suna",
+    "followers": 1280,
+    "goal": 10000,
+    "asOf": "2026-10-28",
+    "unit": "チャンネル登録者"
   },
   {
     "platform": "Threads",
-    "handle": "",
-    "url": "",
-    "followers": null,
+    "handle": "@simple_suna",
+    "url": "https://www.threads.com/@simple_suna",
+    "followers": 14684,
     "goal": null,
-    "asOf": ""
+    "asOf": "2026-10-28"
   }
 ]
