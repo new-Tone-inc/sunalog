@@ -1,5 +1,71 @@
 [
   {
+    "id": "macbook-pro-m6-silent",
+    "title": "またも夜中にサイレント発表…",
+    "status": "posted",
+    "postedDate": "2026-10-28",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfAqmOvhowJ/",
+    "youtubeUrl": null,
+    "cover": "macbook-pro-m6-silent.jpg",
+    "hook": "またも夜中にサイレント発表…🤫",
+    "caption": "またも夜中にサイレント発表…🤫\n\n大きさも重さも色も、前のM5と全部一緒なんよ。\nでも、中身は3つ変わった！\n\n【変わったこと】（14インチMacBook Pro・M6）\n①頭脳：CPU・GPUとも10 → 12コア（グラフィックはM5比 最大30%高速）\n②AI：AI専用の回路（Neural Engine）が2つに（M5比 最大1.9倍）\n③通信：Wi-Fi 6E → Wi-Fi 7／Bluetooth 5.3 → 6\n\n【変わらないこと】\n大きさ・重さ（1.55kg）・色／バッテリー 最大24時間／画面／ポート／16GB・1TB\n\n【M6のMac、どれ買う？】\nスタバで使う → MacBook Pro 339,800円〜（16GB・1TB）\n家族で使う → iMac 249,800円〜（10コア）\n家にモニターがある → Mac mini 149,800円〜（16GB・256GB）\n※Mac miniは9月から販売中。画面・キーボード・マウスは別\n※価格は税込（2026年10月28日時点・Apple公式）\n\n僕だったらLLMでAI使い倒したいんで、Mac mini買うかな🤔←\n\n【日程】\nMacBook Pro・iMac\n予約：10/29（木）〜\n発売：11/6（金）\n\nみんなはMac持ち歩く派？自宅に置いとく派？\nぜひコメントで教えてね！\n\nしたっけね〜👋\n\n※動画内の製品の画像はApple公式サイト（apple.com）から引用\n\n#MacBookPro #mac #Apple新製品 #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#MacBookPro",
+      "#mac",
+      "#Apple新製品",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple MacBook Pro 14インチ（M6）",
+        "brand": "Apple",
+        "price": "339,800円〜（16GB・1TB・税込・2026年10月28日時点・Apple公式）",
+        "officialUrl": "https://www.apple.com/jp/macbook-pro/",
+        "note": "予約 10/29（木）〜、発売 11/6（金）。Amazon・楽天は発売後に追加予定",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/macbook-pro/"
+        },
+        "image": "https://www.apple.com/v/macbook-pro/ay/images/meta/macbook-pro__difvbgz1plsi_og.png?202610261756",
+        "imageSource": "official"
+      },
+      {
+        "name": "Apple iMac（M6）",
+        "brand": "Apple",
+        "price": "249,800円〜（10コア・税込・2026年10月28日時点・Apple公式）",
+        "officialUrl": "https://www.apple.com/jp/imac/",
+        "note": "予約 10/29（木）〜、発売 11/6（金）。Amazon・楽天は発売後に追加予定",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/imac/"
+        },
+        "image": "https://www.apple.com/v/imac/x/images/meta/imac__kaqcgp2n4duu_og.png?202610261756",
+        "imageSource": "official"
+      },
+      {
+        "name": "Apple Mac mini（M6）",
+        "brand": "Apple",
+        "price": "149,800円〜（16GB・256GB・税込・2026年10月28日時点・Apple公式）",
+        "officialUrl": "https://www.apple.com/jp/mac-mini/",
+        "note": "9月から販売中。画面・キーボード・マウスは別",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0HGH1RV1L?tag=simplesuna-22",
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/mac-mini/"
+        },
+        "image": "https://www.apple.com/v/mac-mini/ab/images/meta/mac-mini__dvce2jrm11w2_og.jpg?202610241804",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "キャプション（自動更新の試運転 2026-10-28）"
+  },
+  {
     "id": "ipad-mini-2026-10-27",
     "title": "新型iPad mini悩ましい…",
     "status": "posted",
@@ -2191,7 +2257,9 @@
         "price": null,
         "officialUrl": "https://www.pgytech.com/ja/collections/onego/products/onego-2-backpack",
         "note": null,
-        "links": {}
+        "links": {},
+        "image": "http://www.pgytech.com/cdn/shop/files/onego-2-backpack-white-01.jpg?v=1779335019",
+        "imageSource": "official"
       },
       {
         "name": "DJI RS 4 Mini",
@@ -2412,7 +2480,9 @@
         "price": "¥69,300 -",
         "officialUrl": "https://objcts.io/",
         "note": null,
-        "links": {}
+        "links": {},
+        "image": "http://objcts.io/cdn/shop/files/megamenu_2-3_2edc28f7-d182-4395-b0d7-2ecf17486737.jpg?v=1765877231",
+        "imageSource": "official"
       },
       {
         "name": "Nillkin 折りたたみキーボード",
@@ -2859,7 +2929,9 @@
         "price": "¥69,300 -",
         "officialUrl": "https://objcts.io/",
         "note": null,
-        "links": {}
+        "links": {},
+        "image": "http://objcts.io/cdn/shop/files/megamenu_2-3_2edc28f7-d182-4395-b0d7-2ecf17486737.jpg?v=1765877231",
+        "imageSource": "official"
       },
       {
         "name": "Nillkin 折りたたみキーボード",
@@ -3070,7 +3142,9 @@
         "price": "¥69,300 -",
         "officialUrl": "https://objcts.io/",
         "note": null,
-        "links": {}
+        "links": {},
+        "image": "http://objcts.io/cdn/shop/files/megamenu_2-3_2edc28f7-d182-4395-b0d7-2ecf17486737.jpg?v=1765877231",
+        "imageSource": "official"
       },
       {
         "name": "Nillkin 折りたたみキーボード",
@@ -3359,7 +3433,9 @@
         "price": "¥69,300-",
         "officialUrl": "https://objcts.io/",
         "note": "提供品",
-        "links": {}
+        "links": {},
+        "image": "http://objcts.io/cdn/shop/files/megamenu_2-3_2edc28f7-d182-4395-b0d7-2ecf17486737.jpg?v=1765877231",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -3560,7 +3636,9 @@
         "price": "22,000円",
         "officialUrl": "https://tsuchiya-kaban.jp/products/attitu_leather-smartphone-shoulder-fastener",
         "note": "提供品。素材：BLADE NEO FSDX（特殊レザー）、ストラップ78-153cm調整可能",
-        "links": {}
+        "links": {},
+        "image": "http://tsuchiya-kaban.jp/cdn/shop/files/attitu_leather-smartphone-shoulder-fastener_blk10.png?v=1777594077",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -4668,7 +4746,9 @@
         "price": null,
         "officialUrl": "https://delsey.jp/",
         "note": null,
-        "links": {}
+        "links": {},
+        "image": "http://delsey.jp/cdn/shop/files/DELSEY_PARIS_-_RISING_SUN_-_WEB_-_2_db37538e-529a-4509-8dfd-a934c6ae99fe.png?v=1705405337",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -8892,14 +8972,18 @@
         "brand": "Apple",
         "price": "119,800円〜（Wi-Fi 128GB）※前作は78,800円〜／税込・2026年10月27日時点・Apple公式",
         "officialUrl": "https://www.apple.com/jp/ipad-mini/",
-        "note": "有機EL 8.5インチ・255g・IP67・予約10/29（木）〜、発売11/6（金）"
+        "note": "有機EL 8.5インチ・255g・IP67・予約10/29（木）〜、発売11/6（金）",
+        "image": "https://www.apple.com/v/ipad-mini/a/images/meta/ipad_mini__e7xl5m9es5ea_og.png?202610241803",
+        "imageSource": "official"
       },
       {
         "name": "iPhone Duo（比較対象）",
         "brand": "Apple",
         "price": "364,800円〜※税込・2026年10月27日時点・Apple公式",
         "officialUrl": "https://www.apple.com/jp/iphone-duo/",
-        "note": "開いた時7.6インチ・254g"
+        "note": "開いた時7.6インチ・254g",
+        "image": "https://www.apple.com/v/iphone-duo/e/images/meta/iphone-duo_overview__bmsaaq50eyaa_og.png?202610241804",
+        "imageSource": "official"
       }
     ]
   },
@@ -9004,7 +9088,9 @@
         "links": {
           "amazon": "https://www.amazon.co.jp/dp/B0DVCK4JPX?tag=simplesuna-22",
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
-        }
+        },
+        "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       }
     ]
   },

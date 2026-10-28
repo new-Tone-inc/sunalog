@@ -108,3 +108,9 @@ python3 -m http.server 8787
 - **ページ送り**: 動画もアイテムも10件ずつ。「← 前へ / 1 2 … / 次へ →」で切り替え。フィルタやタブを変えると1ページ目に戻る
 - **フォロワー数と目標**: 一覧の下の枠。`data/social.json` の `followers` が入っているSNSだけ表示する。`featured: true` のSNS（Instagram）を大きくメイン表示。目標: Instagram 50,000 / TikTok 20,000 / YouTube 10,000、Threads 20,000（すなお、2026-10-28）。`goal` を入れると目標までの残りと進み具合（%）が出る。数値は手で更新する（`asOf` も合わせて直す）
 - **埋め込み動画の音**: 詳細を閉じたときに中身（iframe）を消して、再生を止めるようにした
+
+## 毎朝5時の自動更新（2026-10-28〜）
+
+Claude Codeの定時タスク「サイト更新＋インサイト記録」が毎朝5時に [tools/DAILY_UPDATE.md](tools/DAILY_UPDATE.md) の手順で動く（Claudeアプリが開いていて、ChromeがInstagramにログインしている必要がある。閉じていれば次に開いたときに動く）。
+やること: 新しい投稿の追加（アイテム・リンク・カバー）→ 直近30日（日曜は1年）のいいね・保存数の取り直し → 4SNSのフォロワー数 → 検査 → push。結果は `Personal/Sunao/ガジェログ日次レポート/YYYY-MM-DD.md`。
+補助スクリプトは `tools/`（`new_reels.py` 未登録の投稿を出す / `add_videos.py` 下書きを追加しカバー保存 / `insights_targets.py` 取り直す投稿一覧 / `stats_merge.py` / `social_update.py` / `item_images.py` / `validate.py` 公開前検査）。
