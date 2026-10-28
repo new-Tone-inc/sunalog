@@ -63,7 +63,13 @@
         "imageSource": "official"
       }
     ],
-    "itemsSource": "キャプション（自動更新の試運転 2026-10-28）"
+    "itemsSource": "キャプション（自動更新の試運転 2026-10-28）",
+    "stats": {
+      "likes": 59,
+      "saves": 21,
+      "comments": 3,
+      "asOf": "2026-10-29"
+    }
   },
   {
     "id": "ipad-mini-2026-10-27",
@@ -109,10 +115,10 @@
       }
     ],
     "stats": {
-      "likes": 113,
-      "saves": 23,
-      "comments": 8,
-      "asOf": "2026-10-28"
+      "likes": 128,
+      "saves": 24,
+      "comments": 9,
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -162,10 +168,10 @@
       }
     ],
     "stats": {
-      "likes": 31,
+      "likes": 33,
       "saves": 13,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -203,10 +209,10 @@
       }
     ],
     "stats": {
-      "likes": 245,
-      "saves": 154,
+      "likes": 251,
+      "saves": 160,
       "comments": 2,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -245,10 +251,10 @@
       }
     ],
     "stats": {
-      "likes": 73,
+      "likes": 76,
       "saves": 21,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -410,10 +416,10 @@
       }
     ],
     "stats": {
-      "likes": 60,
-      "saves": 16,
+      "likes": 61,
+      "saves": 18,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -453,10 +459,10 @@
       }
     ],
     "stats": {
-      "likes": 88,
-      "saves": 55,
+      "likes": 89,
+      "saves": 56,
       "comments": 2,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -494,10 +500,10 @@
       }
     ],
     "stats": {
-      "likes": 31,
-      "saves": 18,
+      "likes": 32,
+      "saves": 20,
       "comments": 0,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -620,9 +626,9 @@
     ],
     "stats": {
       "likes": 93,
-      "saves": 26,
+      "saves": 27,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -661,10 +667,10 @@
       }
     ],
     "stats": {
-      "likes": 87,
+      "likes": 88,
       "saves": 35,
       "comments": 0,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -706,7 +712,7 @@
       "likes": 49,
       "saves": 18,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -745,10 +751,10 @@
       }
     ],
     "stats": {
-      "likes": 130,
+      "likes": 136,
       "saves": 51,
       "comments": 2,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -781,10 +787,10 @@
       }
     ],
     "stats": {
-      "likes": 513,
-      "saves": 1675,
+      "likes": 519,
+      "saves": 1682,
       "comments": 12,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -838,10 +844,10 @@
       }
     ],
     "stats": {
-      "likes": 56,
-      "saves": 16,
+      "likes": 57,
+      "saves": 17,
       "comments": 9,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -883,7 +889,7 @@
       "likes": 54,
       "saves": 23,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -940,7 +946,7 @@
       "likes": 70,
       "saves": 6,
       "comments": 1,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -982,7 +988,7 @@
       "likes": 42,
       "saves": 8,
       "comments": 0,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1021,10 +1027,10 @@
     ],
     "itemsSource": "video-footage",
     "stats": {
-      "likes": 66,
+      "likes": 67,
       "saves": 12,
       "comments": 0,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1258,7 +1264,7 @@
       "likes": 170,
       "saves": 115,
       "comments": 0,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1318,9 +1324,9 @@
     ],
     "stats": {
       "likes": 144,
-      "saves": 147,
+      "saves": 148,
       "comments": 2,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1363,7 +1369,7 @@
       "likes": 79,
       "saves": 19,
       "comments": 10,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1416,7 +1422,7 @@
       "likes": 72,
       "saves": 8,
       "comments": 2,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1479,7 +1485,7 @@
       "likes": 399,
       "saves": 346,
       "comments": 20,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -1518,10 +1524,10 @@
       }
     ],
     "stats": {
-      "likes": 149,
-      "saves": 52,
+      "likes": 150,
+      "saves": 54,
       "comments": 9,
-      "asOf": "2026-10-28"
+      "asOf": "2026-10-29"
     }
   },
   {
@@ -9333,6 +9339,221 @@
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-28）"
+  },
+  {
+    "id": "gravastar-k1-lite",
+    "title": "奇抜でかっこいい キーボード",
+    "status": "posted",
+    "postedDate": "2024-12-02",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DDEwYjXzpOa/",
+    "youtubeUrl": null,
+    "cover": "gravastar-k1-lite.jpg",
+    "hook": "奇抜でかっこいい⌨️✨",
+    "caption": "奇抜でかっこいい⌨️✨\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【GravaStar K1 Lite】\nをご紹介✨\n\nこのキーボード\n見た目が珍しく、かなり奇抜なんだけど\nキーストロークはかなり上質で\nコトコトと響く音がたまらない！！！\n\nそれでいて、\nRGBライトがカラフルに光ってかっこいい。\nなんならロゴもかっこいい。\n\nゲーミングだけど実用性も高いです🔥\nAmazonセールで15%OFFになるので\nぜひチェックしてください！！\n\nしたっけね〜👋️\n\n________________________\n\n#ガジェット#ガジェット好き #キーボード \n#keyboardasmr #タイピング #asmr\n#デスク周り #desksetup",
+    "hashtags": [
+      "#ガジェット",
+      "#ガジェット好き",
+      "#キーボード",
+      "#keyboardasmr",
+      "#タイピング",
+      "#asmr",
+      "#デスク周り",
+      "#desksetup"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "GravaStar Mercury K1 Lite",
+        "brand": "GravaStar",
+        "price": null,
+        "officialUrl": null,
+        "note": "本文の表記は「GravaStar K1 Lite」。色・配列は本文に記載なし（リンクは代表の1色）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0GSZM6D1B?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgravastar%2Fmercury-k1-lite-jp%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/gravastar/cabinet/keyboard/gs-k1-lite-xtal-jp/gsk1lite-xtal-jp_19.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "epilogue-gb-operator",
+    "title": "Macで出来るの嬉しい GB Operator",
+    "status": "posted",
+    "postedDate": "2024-11-22",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DCrCr6CzIbQ/",
+    "youtubeUrl": null,
+    "cover": "epilogue-gb-operator.jpg",
+    "hook": "Macで出来るの嬉しい☺️",
+    "caption": "Macで出来るの嬉しい☺️\n\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【Epilogue GB OPERATOR】\nをご紹介✨\n\nそもそも筐体がクリアなのもGOOD！！\n普通にゲームボーイアドバンスあるから\nMacでやる必要はないのだけど、大画面でやりたい時に\nめちゃくちゃいいわ…🥹✨✨✨\n\nしたっけね〜👋️\n\n________________________\n\n#ゲームボーイ #ゲームボーイアドバンス \n#gameboy #gameboyadvance #ポケモンクリスタル \n#ポケモン #pokemon #レトロゲーム #MacBook\n#ガジェット#ガジェット好き",
+    "hashtags": [
+      "#ゲームボーイ",
+      "#ゲームボーイアドバンス",
+      "#gameboy",
+      "#gameboyadvance",
+      "#ポケモンクリスタル",
+      "#ポケモン",
+      "#pokemon",
+      "#レトロゲーム",
+      "#MacBook",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Epilogue GB Operator",
+        "brand": "Epilogue",
+        "price": null,
+        "officialUrl": null,
+        "note": "ゲームボーイ／カラー／アドバンスのカセットをPC・Macで遊べる機器",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DXF6D6BR?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwmarket%2Fc2s2ij3mqppkdu7i7bvrtkwuty%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/wmarket/cabinet/11147090/46454620_1.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "macbook-pro-m4pro-unboxing",
+    "title": "DAY15 NEW MacBook開封",
+    "status": "posted",
+    "postedDate": "2024-11-16",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DCbXAOUukWo/",
+    "youtubeUrl": null,
+    "cover": "macbook-pro-m4pro-unboxing.jpg",
+    "hook": "DAY15 NEW MacBook開封",
+    "caption": "DAY15 NEW MacBook開封\n2024/11/15(金)\n雨のち曇り☔️☁️\n\n新しいMacBookを開封する時が来た！\nファーストインプレッションは\n「かっこいい！」\n※参考にならなくてすいません。笑\n\nというのは冗談で\nM3Proはメモリ18GB、ストレージ512GBだったのが\n同じ価格でメモリが24GB、ストレージ1TBにグレードアップできたのはめちゃくちゃ嬉しい。\n\nどんどん使い倒すぞー！！\n\n#morningroutine #asmr #unboxing #vlog \n#朝活 #朝活記録 #dayinmylife \n#macbook #macbookpro #m4pro \n#ガジェット好き #applemac",
+    "hashtags": [
+      "#morningroutine",
+      "#asmr",
+      "#unboxing",
+      "#vlog",
+      "#朝活",
+      "#朝活記録",
+      "#dayinmylife",
+      "#macbook",
+      "#macbookpro",
+      "#m4pro",
+      "#ガジェット好き",
+      "#applemac"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple MacBook Pro（M4 Pro）",
+        "key": "macbook-pro-m4pro",
+        "brand": "Apple",
+        "price": null,
+        "officialUrl": "https://www.apple.com/jp/macbook-pro/",
+        "note": "メモリ24GB・ストレージ1TBの構成。Amazonでは同名の商品が見つからず（現行はM5 Pro）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/macbook-pro/"
+        },
+        "image": "https://www.apple.com/v/macbook-pro/a/images/meta/mbp_splitter__c9bpyxdvy6eu_og.png?202610272106",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "soundcore-aerofit2",
+    "title": "Ankerのイヤホンが優勝だった",
+    "status": "posted",
+    "postedDate": "2024-11-15",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DCY-7OKIG4c/",
+    "youtubeUrl": null,
+    "cover": "soundcore-aerofit2.jpg",
+    "hook": "永遠につけてる……",
+    "caption": "永遠につけてる……\n他の投稿はこちら ⇢ @simple_suna \n\n今日は\n【Ankerのイヤホンが優勝だった】\nをご紹介✨\n\n提供：アンカー‧ジャパン株式会社\n@anker_jp \n@soundcore_jp \n\nオープンイヤー型のイヤホンに最近どハマりしているすなおです！\nこのイヤホン正直驚きを隠せません。\n\n何がすごいかというと\n低音が他のどのオープンイヤーイヤホンよりも響く！\nこれだけで満足度が高いんです！\nさらに、アプリでのカスタマイズも多くあり、\n個人的にはポッドキャストモードとジャズモードを多用しています😆\n\nなのに、価格が2万円を切るのは正直驚きです。\n\nまた。嬉しいLDAC対応もあるので\n音質も良い！\n\nカラーも5色展開なので是非チェックしてください！！！\n\nしたっけね〜👋️\n\n提供：アンカー・ジャパン株式会社\n\n________________________\n\n#PR #Anker #Soundcore #AeroFit2 #エアロフィット #イヤホン \n#オープンイヤー #ガジェット#ガジェット好き #ワイヤレスイヤホン",
+    "hashtags": [
+      "#PR",
+      "#Anker",
+      "#Soundcore",
+      "#AeroFit2",
+      "#エアロフィット",
+      "#イヤホン",
+      "#オープンイヤー",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#ワイヤレスイヤホン"
+    ],
+    "category": "オーディオ",
+    "pr": true,
+    "items": [
+      {
+        "name": "Anker Soundcore AeroFit 2",
+        "brand": "Anker",
+        "price": null,
+        "officialUrl": null,
+        "note": "本文では「2万円を切る」とだけ記載。オープンイヤー型・LDAC対応・5色展開",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0D7ZZCHFV?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa3874%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/anker/cabinet/tmb/a3/a3874_normal.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "macbook-pro-m4-announce",
+    "title": "新製品発表最終日 新型MacBook Pro",
+    "status": "posted",
+    "postedDate": "2024-10-31",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBxC28zIr6S/",
+    "youtubeUrl": null,
+    "cover": "macbook-pro-m4-announce.jpg",
+    "hook": "新製品発表最終日！",
+    "caption": "新製品発表最終日！\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【新型MacBook Pro】\nをご紹介✨\n\nさすがの最新型。\nモンスター級の進化を遂げた\nM4ラインナップを搭載したMacBook Pro💻\n正直メモリ増えて、価格据え置きは\n「買いなさい」って言ってるようにしか聞こえませんよ、ティム。\n\nどしよーーー。\n\n《製品の詳細》\n⚫︎M4／M4 Pro／Max 搭載\n⚫︎メモリはM4：16GB、M4Pro：24GB、M4Max：32GB　スタートと実質値下げ\n⚫︎カラバリはスペースブラックとシルバー\n⚫︎外観やボディーの形状は現行のM3搭載MacBook Proと同じ\n⚫︎M4はThunderbolt 4のポートを3基搭載\n⚫︎M4 Pro／Maxモデルは現行同様3基を搭載しているが、Thunderbolt 5ポート（最大毎秒120Gb）に対応\n⚫︎M4（10コアCPU、10コアGPU構成）チップ搭載のMacBook Proは、M1チップ搭載の13インチ MacBook Proに比べて、\n画像編集ソフト「Affinity Photo」における写真編集タスクが最大1.8倍、3DCGアニメーション制作ソフト「Blender」の3Dレンダリングといったタスクは最大3.4倍、\n動画編集ソフト「Adobe Premiere Pro」におけるシーン編集の検出は最大1.7倍のパフォーマンスを発揮。\n⚫︎M4 Pro（最大14コアCPU、20コアGPU構成）チップ搭載のMacBook Proは、M1 Pro搭載の16インチ MacBook Proに比べて、3Dレンダリングソフト「Maxon Redshift」のレンダリングが最大3倍、\n数学計算ソフトウェア「MathWorks MATLAB」のシミュレーションが最大2.2倍、\nDNA分析関連ソフトウェア「Oxford Nanopore MinKNOW」を使った塩基配列の読み出し（ベースコール）は最大1.8倍のパフォーマンスを発揮するという。\n⚫︎M4 Max（最大16コアCPU、40コアGPU構成）チップ搭載のMacBook Proは、M1 Max搭載の16インチ MacBook Proに比べて、3Dレンダリングソフト「Maxon Redshift」のレンダリングが最大3.5倍、Xcodeにおいてコードをコンパイルするビルドのパフォーマンスが最大2.2倍、AI動画編集ソフトウェア「Topaz Video AI」のビデオ処理は最大2.2倍のパフォーマンスを発揮するという。\n⚫︎メモリとストレージはM4が最大32GB／2TBまで、M4 Pro／Maxモデルは最大128GB／8TBまで搭載できる。\n⚫︎バッテリーは、14インチのM4モデルおよび16インチのM4 ProモデルがMac史上最長として最大24時間のビデオストリーミング再生が可能\n⚫︎14インチのM4 Proモデルは最大22時間、M4 Maxモデルは最大18時間で、16インチのM4 Maxモデルは最大21時間となっている。\n⚫︎約30分で50％まで充電できる高速充電に対応\n⚫︎「Liquid Retina XDRディスプレイ」は、SDRの輝度が最大600ニトから最大1000ニトに。HDRは1600ニトで前モデル踏襲\n⚫︎全モデルでディスプレイに低反射処理が施されたのNano-textureガラスをオプション可能\n⚫︎「12MPセンターフレームカメラ」\n⚫︎Wi-Fi 6EとBluetooth 5.3に対応している。\n⚫︎本日予約開始、11月8日発売\n⚫︎価格はM4が24万8800円から、M4 Pro／Maxが32万8800円から。\n\nしたっけね〜👋️\n\n________________________\n\n#macbook #macbookpro #m4macbookpro \n#マックブック #apple好き #apple \n#ガジェット#ガジェット好き",
+    "hashtags": [
+      "#macbook",
+      "#macbookpro",
+      "#m4macbookpro",
+      "#マックブック",
+      "#apple好き",
+      "#apple",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple MacBook Pro（M4／M4 Pro／M4 Max）",
+        "brand": "Apple",
+        "price": "248,800円から（M4・2024年10月31日時点。M4 Pro／Maxは328,800円から）",
+        "officialUrl": "https://www.apple.com/jp/macbook-pro/",
+        "note": "2024年11月8日発売の発表時点の情報。Amazonでは同名の商品が見つからず（現行はM5／M6）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/macbook-pro/"
+        },
+        "image": "https://www.apple.com/v/macbook-pro/a/images/meta/mbp_splitter__c9bpyxdvy6eu_og.png?202610272106",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
   },
   {
     "id": "ipad-mini-no-promotion",
