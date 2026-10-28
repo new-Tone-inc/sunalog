@@ -9,6 +9,7 @@
   --line: #e6e8ea;
   --text: #3f4a52;
   --text-sub: #7d868d;
+  --chip-line: #cfd4d8;
   --radius: 10px;
   --shadow: 0 1px 2px rgba(63,74,82,.06), 0 8px 24px rgba(63,74,82,.08);
   --font: "Noto Sans JP", system-ui, -apple-system, "Hiragino Sans", sans-serif;
@@ -16,12 +17,12 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #2f373d; --bg-soft: #3f4a52; --line: #4b565e;
-    --text: #ffffff; --text-sub: #a7a7a7;
+    --text: #ffffff; --text-sub: #a7a7a7; --chip-line: #6b767e;
   }
 }
 :root[data-theme="dark"] {
   --bg: #2f373d; --bg-soft: #3f4a52; --line: #4b565e;
-  --text: #ffffff; --text-sub: #a7a7a7;
+  --text: #ffffff; --text-sub: #a7a7a7; --chip-line: #6b767e;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -78,11 +79,11 @@ img { display: block; max-width: 100%; }
 .chips-sub { padding-left: 10px; border-left: 2px solid var(--line); }
 .chips-sub .chip { font-size: 12px; padding: 5px 10px; }
 .chip {
-  border: 1px solid var(--line); background: var(--bg); border-radius: 999px;
-  padding: 4px 12px; font-size: 13px; color: var(--text); line-height: 1.5;
+  border: 1px solid var(--chip-line); background: var(--bg); border-radius: 999px;
+  padding: 5px 13px; font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.5;
 }
 .chip:hover { border-color: var(--gray); }
-.chip.is-active { background: var(--dark); border-color: var(--dark); color: #fff; }
+.chip.is-active { background: var(--red); border-color: var(--red); color: #fff; }
 .search {
   width: 100%; max-width: 360px; border: 1px solid var(--line); background: var(--bg);
   border-radius: 8px; padding: 7px 12px; font: inherit; color: var(--text);
@@ -91,8 +92,10 @@ img { display: block; max-width: 100%; }
 @media (max-width: 640px) {
   .filter-row { grid-template-columns: 1fr; gap: 4px; }
   .filter-label { padding-top: 0; }
-  .chips { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  /* 横スクロールにせず、折り返して全部見せる */
+  .chips { gap: 8px 6px; }
   .chip { white-space: nowrap; }
+  .filter-label { font-weight: 500; color: var(--text); }
 }
 
 .result-count { margin: 18px 0 10px; font-size: 13px; color: var(--text-sub); }
