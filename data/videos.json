@@ -38,9 +38,16 @@
         "note": "iPad miniとの比較対象。画面7.6インチ（開いた時）・255g",
         "links": {},
         "image": "https://www.apple.com/v/iphone-duo/e/images/meta/iphone-duo_overview__bmsaaq50eyaa_og.png?202610241804",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "iphone-duo"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 113,
+      "saves": 23,
+      "comments": 8,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "fitbit-air-band",
@@ -87,7 +94,13 @@
         "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 31,
+      "saves": 13,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "fitbit-air-screenless",
@@ -122,7 +135,13 @@
         "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 245,
+      "saves": 154,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "instax-pal-2-son",
@@ -158,7 +177,13 @@
         "image": "https://shop.r10s.jp/uriurishop/cabinet/4/4547410573268.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 73,
+      "saves": 21,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-emerald-rainy",
@@ -201,7 +226,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoodhammond%2Fni_a_049%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/goodhammond/cabinet/12923559/ni_a_049_00_0915.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nillkin-folding-keyboard"
       },
       {
         "name": "Ulanzi MA60 スマホ三脚",
@@ -214,7 +240,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fs025-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182549_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-ma60"
       },
       {
         "name": "MATECH PowerNano Watch 5000",
@@ -233,7 +260,8 @@
         "brand": "Nintendo",
         "price": null,
         "officialUrl": null,
-        "note": "販売終了"
+        "note": "販売終了",
+        "key": "gameboy-advance-sp"
       },
       {
         "name": "FUJIFILM instax Pal 2",
@@ -259,7 +287,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "Nothing Ear (3)",
@@ -284,7 +313,8 @@
           "amazon": "https://www.amazon.co.jp/dp/B097RT2241?tag=simplesuna-22"
         },
         "image": "https://m.media-amazon.com/images/I/61ffMY7HiJL._AC_SX679_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "muji-double-ring-note"
       },
       {
         "name": "Nothing Phone (4a)",
@@ -312,7 +342,13 @@
         "image": "https://shop.r10s.jp/aulumu/cabinet/13141089/20260623.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 60,
+      "saves": 16,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "sony-55mm-za",
@@ -346,9 +382,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftopcamera%2F10360448%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/topcamera/cabinet/newsony/newsonylens/4905524934755.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "sony-55mm-za"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 88,
+      "saves": 55,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "matech-powernano-watch",
@@ -383,7 +426,13 @@
         "image": "https://m.media-amazon.com/images/I/71F+sosGm5L._AC_SY879_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 31,
+      "saves": 18,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-starbucks-komoru",
@@ -429,7 +478,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nothing-headphone-1"
       },
       {
         "name": "Nothing Ear (3)",
@@ -475,7 +525,8 @@
         "brand": "Nintendo",
         "price": null,
         "officialUrl": null,
-        "note": "販売終了"
+        "note": "販売終了",
+        "key": "gameboy-advance-sp"
       },
       {
         "name": "nähe ハードシェルケース",
@@ -487,7 +538,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://hightide.itembox.cloud/product/054/000000005458/000000005458-19.jpg?size=xxl&w=MTUwMA&t=20241107111219",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "nahe-hardshell"
       },
       {
         "name": "MacBook Pro 14インチ（M4 Pro）",
@@ -496,9 +548,16 @@
         "officialUrl": "https://www.apple.com/jp/macbook-pro/",
         "note": "現在は販売終了",
         "image": "https://www.apple.com/v/macbook-pro/ay/images/meta/macbook-pro__difvbgz1plsi_og.png?202610261756",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "macbook-pro-m4pro"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 93,
+      "saves": 26,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "instax-pal-2",
@@ -534,7 +593,13 @@
         "image": "https://shop.r10s.jp/uriurishop/cabinet/4/4547410573268.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 87,
+      "saves": 35,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "anker-powerbank-25000",
@@ -567,9 +632,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa1695%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/anker/cabinet/tmb/a1/a1695_normal.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "anker-powerbank-25000"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 49,
+      "saves": 18,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "cmf-speaker-s",
@@ -605,7 +677,13 @@
         "image": "https://shop.r10s.jp/nothingagent/cabinet/13990146/cmfspeakers_main.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 130,
+      "saves": 51,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "panasonic-drum-recall",
@@ -635,7 +713,13 @@
         "officialUrl": "https://www.panasonic.com/jp/about/product_information/c/2610.html",
         "note": "2026年10月15日発表のリコール的な無償点検・修理。対象品番はキャプション参照"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 513,
+      "saves": 1675,
+      "comments": 12,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "osmo-pocket-3-under-50k",
@@ -669,7 +753,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6941565969873%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565969873_t2506.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "dji-osmo-pocket3"
       },
       {
         "name": "DJI Osmo Nano（スタンダードコンボ 64GB）",
@@ -682,9 +767,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6937224115453v%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6937224115453v_t3.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "dji-osmo-nano"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 56,
+      "saves": 16,
+      "comments": 9,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "viture-luma-gift",
@@ -720,7 +812,13 @@
         "image": "https://shop.r10s.jp/trend-tech/cabinet/item/18/4571344151513_c0.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 54,
+      "saves": 23,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "apple-homeview",
@@ -771,7 +869,13 @@
         "officialUrl": "https://www.apple.com/jp/homeview/",
         "note": "日本：未発売"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 70,
+      "saves": 6,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "raybanmeta-complaints",
@@ -804,9 +908,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglassmania%2Frayban-meta-sg%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/glassmania/cabinet/00804161/meta/rw4011601s87_0.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "rayban-meta-gen2"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 42,
+      "saves": 8,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "gr3x-regret",
@@ -842,7 +953,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 66,
+      "saves": 12,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-starbucks-iku",
@@ -885,7 +1002,8 @@
         "officialUrl": "https://www.apple.com/jp/macbook-pro/",
         "note": "現在は販売終了",
         "image": "https://www.apple.com/v/macbook-pro/ay/images/meta/macbook-pro__difvbgz1plsi_og.png?202610261756",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "macbook-pro-m4pro"
       },
       {
         "name": "Ray-Ban Meta（Gen 2・透明フレーム）",
@@ -898,7 +1016,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglassmania%2Frayban-meta-sg%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/glassmania/cabinet/00804161/meta/rw4011601s87_0.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "rayban-meta-gen2"
       },
       {
         "name": "無印良品 ダブルリングノート",
@@ -910,7 +1029,8 @@
           "amazon": "https://www.amazon.co.jp/dp/B097RT2241?tag=simplesuna-22"
         },
         "image": "https://m.media-amazon.com/images/I/61ffMY7HiJL._AC_SX679_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "muji-double-ring-note"
       },
       {
         "name": "LAMY safari JETSTREAM INSIDE",
@@ -923,14 +1043,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "ゲームボーイアドバンスSP",
         "brand": "Nintendo",
         "price": null,
         "officialUrl": null,
-        "note": "販売終了"
+        "note": "販売終了",
+        "key": "gameboy-advance-sp"
       },
       {
         "name": "nähe ハードシェルケース",
@@ -942,7 +1064,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://hightide.itembox.cloud/product/054/000000005458/000000005458-19.jpg?size=xxl&w=MTUwMA&t=20241107111219",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "nahe-hardshell"
       },
       {
         "name": "CIO NovaPort SOLOⅡ 100W",
@@ -955,7 +1078,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus Free2Pull 100W",
@@ -1007,7 +1131,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nothing-headphone-1"
       },
       {
         "name": "SanDisk エクストリーム ポータブルSSD V2",
@@ -1032,7 +1157,8 @@
           "amazon": "https://www.amazon.co.jp/dp/B0FQG1QPLW?tag=simplesuna-22"
         },
         "image": "https://www.apple.com/v/iphone-air/j/images/meta/iphone-air_overview__dwhg6l117yqa_og.png?202610241804",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "iphone-air"
       },
       {
         "name": "TORRAS OmniRing",
@@ -1045,7 +1171,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftorraslife%2Fts-ring01%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/torraslife/cabinet/12439984/imgrc0110966581.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "torras-omniring"
       },
       {
         "name": "Arc Pulse",
@@ -1060,7 +1187,13 @@
         "image": "https://shop.r10s.jp/abbinewyork/cabinet/iphone17/ac20044_th2.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 170,
+      "saves": 115,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "claude-code-remotion",
@@ -1113,9 +1246,16 @@
         "officialUrl": "https://www.apple.com/jp/iphone-duo/",
         "note": "Apple初の折りたたみiPhone。発売：2026年10月23日（予約は10月16日21時〜）。7.6インチ（開）／5.4インチ（閉）・A20 Pro",
         "image": "https://www.apple.com/v/iphone-duo/e/images/meta/iphone-duo_overview__bmsaaq50eyaa_og.png?202610241804",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "iphone-duo"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 144,
+      "saves": 147,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "iphone-air-lightweight",
@@ -1149,9 +1289,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 79,
+      "saves": 19,
+      "comments": 10,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "pokemon-starbucks",
@@ -1198,7 +1345,13 @@
         "note": null,
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 72,
+      "saves": 8,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "no-tesla-roadbike",
@@ -1252,9 +1405,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglassmania%2Frayban-meta-sg%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/glassmania/cabinet/00804161/meta/rw4011601s87_0.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "rayban-meta-gen2"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 399,
+      "saves": 346,
+      "comments": 20,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "dji-osmo-nano-papa-camera",
@@ -1287,9 +1447,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6937224115453v%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6937224115453v_t3.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "dji-osmo-nano"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 149,
+      "saves": 52,
+      "comments": 9,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "nothing-prime-day-2026",
@@ -1387,10 +1554,17 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nothing-headphone-1"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 90,
+      "saves": 28,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "huawei-watch-fit5-pro",
@@ -1426,7 +1600,13 @@
         "image": "https://shop.r10s.jp/huawei-official/cabinet/13329315/13329317/fit5white-kumura1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 67,
+      "saves": 7,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "worldcup-thank-you-japan",
@@ -1576,7 +1756,13 @@
         "image": "https://shop.r10s.jp/takuminowaza/cabinet/sku/tu/imgrc0133132702.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 853,
+      "saves": 346,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best-buy-2026-06",
@@ -1610,7 +1796,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglassmania%2Frayban-meta-sg%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/glassmania/cabinet/00804161/meta/rw4011601s87_0.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "rayban-meta-gen2"
       },
       {
         "name": "DJI OSMO nano",
@@ -1672,7 +1859,13 @@
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 83,
+      "saves": 50,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "spice-cafe-neem-vlog",
@@ -1752,7 +1945,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fglassmania%2Frayban-meta-sg%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/glassmania/cabinet/00804161/meta/rw4011601s87_0.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "rayban-meta-gen2"
       },
       {
         "name": "ATTITU NYLON BACKPACK BC M 005",
@@ -1803,7 +1997,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus 巻き取り式ケーブル",
@@ -1829,7 +2024,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/51wWS+ramCL._AC_SX695_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "nahe-hardshell"
       },
       {
         "name": "LAMY safari ジェットストリーム",
@@ -1842,7 +2038,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "無印良品 メモ帳",
@@ -1881,7 +2078,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsamsungonline%2Fsmp_zfold7%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "galaxy-z-fold7"
       },
       {
         "name": "Nintendo GAMEBOY ADVANCE SP",
@@ -1889,9 +2087,16 @@
         "price": null,
         "officialUrl": null,
         "note": null,
-        "links": {}
+        "links": {},
+        "key": "gameboy-advance-sp"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 75,
+      "saves": 13,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "shooting-day-gear",
@@ -1950,7 +2155,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6941565969873%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565969873_t2506.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "dji-osmo-pocket3"
       },
       {
         "name": "DJI OSMO nano",
@@ -1976,7 +2182,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsystem5%2Fn_1209928%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/system5/cabinet/design/12124939/imgrc0133746069.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "hollyland-lark-max2"
       },
       {
         "name": "pgyteck OneGo 2",
@@ -1999,7 +2206,13 @@
         "image": "https://shop.r10s.jp/dji-shop/cabinet/bnr/6941565991959v_thum.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 53,
+      "saves": 7,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-contents-weekday",
@@ -2043,7 +2256,8 @@
         "note": null,
         "links": {},
         "image": "https://www.apple.com/v/macbook-pro/ay/images/meta/macbook-pro__difvbgz1plsi_og.png?202610261756",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "macbook-pro-m4pro"
       },
       {
         "name": "IL BISONTE ウォレット54",
@@ -2069,7 +2283,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus 巻き取り式ケーブル",
@@ -2095,7 +2310,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/51wWS+ramCL._AC_SX695_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "nahe-hardshell"
       },
       {
         "name": "LAMY safari ジェットストリーム",
@@ -2108,7 +2324,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "無印良品 メモ帳",
@@ -2134,7 +2351,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nothing-headphone-1"
       },
       {
         "name": "Galaxy Z Fold 7",
@@ -2147,7 +2365,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsamsungonline%2Fsmp_zfold7%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "galaxy-z-fold7"
       },
       {
         "name": "Nintendo DS lite",
@@ -2155,9 +2374,16 @@
         "price": null,
         "officialUrl": null,
         "note": null,
-        "links": {}
+        "links": {},
+        "key": "nintendo-ds-lite"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 121,
+      "saves": 50,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-contents-pokemon-kogei",
@@ -2212,7 +2438,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fs025-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182549_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-ma60"
       },
       {
         "name": "ProGrade Digital ダブルスロットカードリーダー",
@@ -2225,7 +2452,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flovelonestar%2F20260620184431_119%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/lovelonestar/cabinet/r_1598620054/20260620184431_119_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "prograde-card-reader"
       },
       {
         "name": "Canon EOS R50 V",
@@ -2264,7 +2492,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "無印良品 メモ帳",
@@ -2303,7 +2532,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       },
       {
         "name": "Nintendo GAMEBOY ADVANCE SP",
@@ -2311,9 +2541,16 @@
         "price": null,
         "officialUrl": null,
         "note": null,
-        "links": {}
+        "links": {},
+        "key": "gameboy-advance-sp"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 80,
+      "saves": 7,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "running-10km",
@@ -2372,7 +2609,13 @@
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6937224115453v_t3.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 71,
+      "saves": 8,
+      "comments": 10,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-contents-jozankei",
@@ -2444,7 +2687,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus 巻き取り式ケーブル",
@@ -2470,7 +2714,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/51wWS+ramCL._AC_SX695_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "nahe-hardshell"
       },
       {
         "name": "LAMY safari ジェットストリーム",
@@ -2483,7 +2728,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "無印良品 メモ帳",
@@ -2509,7 +2755,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nothing-headphone-1"
       },
       {
         "name": "Galaxy Z Fold 7",
@@ -2522,7 +2769,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsamsungonline%2Fsmp_zfold7%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "galaxy-z-fold7"
       },
       {
         "name": "ロジクール MX MASTER 4",
@@ -2548,7 +2796,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourdsports%2Fgr-e9zk2vrxr0%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/gourdsports/cabinet/g/0/e9zk2vrxr0-4.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "laptomo-dual"
       },
       {
         "name": "HUAWEI Freeclip",
@@ -2576,7 +2825,13 @@
         "image": "https://shop.r10s.jp/aftershokz-official/cabinet/12049295/12049298/imgrc0126943543.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 59,
+      "saves": 10,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-contents-no-holiday",
@@ -2630,7 +2885,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fs025-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182549_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-ma60"
       },
       {
         "name": "ProGrade Digital ダブルスロットカードリーダー",
@@ -2643,7 +2899,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flovelonestar%2F20260620184431_119%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/lovelonestar/cabinet/r_1598620054/20260620184431_119_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "prograde-card-reader"
       },
       {
         "name": "Canon EOS R50 V",
@@ -2682,7 +2939,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus 巻き取り式ケーブル",
@@ -2708,7 +2966,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/51wWS+ramCL._AC_SX695_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "nahe-hardshell"
       },
       {
         "name": "LAMY safari ジェットストリーム",
@@ -2721,7 +2980,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "無印良品 メモ帳",
@@ -2760,7 +3020,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       },
       {
         "name": "Fellow Carter Move Mug",
@@ -2775,7 +3036,13 @@
         "image": "https://shop.r10s.jp/kigu-coffee/cabinet/biiino/item/main-image/20260604203528_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 47,
+      "saves": 4,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "bag-contents-holiday",
@@ -2829,7 +3096,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fs025-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182549_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-ma60"
       },
       {
         "name": "ProGrade Digital ダブルスロットカードリーダー",
@@ -2842,7 +3110,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flovelonestar%2F20260620184431_119%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/lovelonestar/cabinet/r_1598620054/20260620184431_119_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "prograde-card-reader"
       },
       {
         "name": "Canon EOS R50 V",
@@ -2881,7 +3150,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus 巻き取り式ケーブル",
@@ -2907,7 +3177,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/51wWS+ramCL._AC_SX695_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "nahe-hardshell"
       },
       {
         "name": "LAMY safari ジェットストリーム",
@@ -2920,7 +3191,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fogawahan%2F10001136%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ogawahan/cabinet/pen/04924828/imgrc0171878221.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "lamy-safari-jetstream"
       },
       {
         "name": "無印良品 メモ帳",
@@ -2959,9 +3231,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 97,
+      "saves": 24,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "cp-plus-speaker",
@@ -2997,7 +3276,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 106,
+      "saves": 5,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "torao-bt22",
@@ -3033,7 +3318,13 @@
         "image": "https://static.hhocool.com/images/7sgood/7sGood-logo.png",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 142,
+      "saves": 74,
+      "comments": 7,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "objctsio-camera-bag",
@@ -3070,7 +3361,13 @@
         "note": "提供品",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 128,
+      "saves": 41,
+      "comments": 6,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "regza-z770r",
@@ -3109,7 +3406,13 @@
         "image": "https://shop.r10s.jp/ksdenki/cabinet/images/n0000000019/4570177940615_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 226,
+      "saves": 77,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "eos-r50v-reel-event",
@@ -3155,7 +3458,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finsight-shop%2Frf-s14-30-bk%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/insight-shop/cabinet/canon/11758254/imgrc0122591059.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "canon-rfs14-30"
       },
       {
         "name": "Canon RF35mm F1.8 MACRO IS STM",
@@ -3170,7 +3474,13 @@
         "image": "https://shop.r10s.jp/camera-no-ohbayashi/cabinet/13889559/4549292115727-1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 857,
+      "saves": 38,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "marshall-acton3-midnight-blue",
@@ -3210,7 +3520,13 @@
         "image": "https://shop.r10s.jp/marks/cabinet/item-robotnew2/acton3btmb-a.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 165,
+      "saves": 82,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "attitu-smartphone-shoulder",
@@ -3246,7 +3562,13 @@
         "note": "提供品。素材：BLADE NEO FSDX（特殊レザー）、ストラップ78-153cm調整可能",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 1234,
+      "saves": 1020,
+      "comments": 8,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best-buy-2025-09",
@@ -3286,7 +3608,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       },
       {
         "name": "Apple AirPods Pro3",
@@ -3312,7 +3635,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fs025-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182549_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-ma60"
       },
       {
         "name": "PFU HHKB Studio",
@@ -3361,7 +3685,13 @@
         "note": "実家発掘",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 303,
+      "saves": 253,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "hollyland-lark-max2",
@@ -3399,9 +3729,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsystem5%2Fn_1209928%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/system5/cabinet/design/12124939/imgrc0133746069.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "hollyland-lark-max2"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 73,
+      "saves": 29,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "esr-cryoboost",
@@ -3443,7 +3780,13 @@
         "image": "https://m.media-amazon.com/images/I/713wNodZtSL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 116,
+      "saves": 91,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "iflytek-ainote2",
@@ -3483,7 +3826,13 @@
         "image": "https://shop.r10s.jp/iflytek/cabinet/13405973/imgrc0154550723.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 170,
+      "saves": 170,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "hhkb-studio",
@@ -3522,7 +3871,13 @@
         "image": "https://shop.r10s.jp/pfudirect/cabinet/kb/hhkb/pd-id120b.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 105,
+      "saves": 30,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-tt23-t168",
@@ -3558,7 +3913,13 @@
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/12410887/imgrc0103948218.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 186,
+      "saves": 220,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "airpods-pro3-compare",
@@ -3598,7 +3959,13 @@
         "image": "https://shop.r10s.jp/rakutenmobile-store/cabinet/item/apple-rm2509012/main_2606.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 125,
+      "saves": 30,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "broski-rover2",
@@ -3643,7 +4010,13 @@
         "image": "https://shop.r10s.jp/offer1999/cabinet/gazou057/doi0408top01a.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 90,
+      "saves": 58,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "iphone-air-calm",
@@ -3677,9 +4050,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 189,
+      "saves": 32,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "iphone-air-first-impression",
@@ -3713,9 +4093,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4549995647532%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/auc-worldichi/cabinet/13/4549995647532.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "iphone-air"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 122,
+      "saves": 10,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "galaxy-zfold7-camera",
@@ -3752,7 +4139,13 @@
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 74,
+      "saves": 7,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "iphone17-preorder-vlog",
@@ -3784,7 +4177,13 @@
         "image": "https://www.apple.com/v/iphone/home/cl/images/meta/iphone__sgu02z38g362_og.png?202610221553",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 73,
+      "saves": 3,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "osmo-pocket3-accessories",
@@ -3820,7 +4219,13 @@
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565969873_t2506.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 148,
+      "saves": 98,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "yamada-labi-ikebukuro",
@@ -3888,7 +4293,8 @@
         "note": null,
         "links": {},
         "image": "https://www.apple.com/v/iphone-air/j/images/meta/iphone-air_overview__dwhg6l117yqa_og.png?202610241804",
-        "imageSource": "official"
+        "imageSource": "official",
+        "key": "iphone-air"
       },
       {
         "name": "Apple iPhone17 Pro / Pro Max",
@@ -3900,7 +4306,13 @@
         "image": "https://www.apple.com/v/iphone/home/cl/images/meta/iphone__sgu02z38g362_og.png?202610221553",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 372,
+      "saves": 164,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "airpods-pro3-apple-event",
@@ -3977,7 +4389,13 @@
         "image": "https://shop.r10s.jp/rakutenmobile-store/cabinet/product/apple-watch-ultra-3/zkst2531bk/01.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 121,
+      "saves": 33,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "gacha-lumix-s9-3rd",
@@ -4037,7 +4455,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsamsungonline%2Fsmp_zfold7%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "galaxy-z-fold7"
       },
       {
         "name": "Galaxy Watch 8",
@@ -4091,7 +4510,13 @@
         "image": "https://shop.r10s.jp/anker/cabinet/tmb/a9/a91c8_normal.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 1337,
+      "saves": 1584,
+      "comments": 8,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "nothing-headphone",
@@ -4129,9 +4554,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nothing-headphone-1"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 91,
+      "saves": 33,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ecovacs-deebot-t80",
@@ -4174,7 +4606,13 @@
         "image": "https://shop.r10s.jp/store-ecovacs-japan/cabinet/campaign/261023/dex68-21ee.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 44,
+      "saves": 25,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "lumix-gacha-revenge",
@@ -4232,7 +4670,13 @@
         "note": null,
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 163,
+      "saves": 130,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "lumix-gacha-roadside",
@@ -4291,9 +4735,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgoodhammond%2Fni_a_049%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/goodhammond/cabinet/12923559/ni_a_049_00_0915.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "nillkin-folding-keyboard"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 289,
+      "saves": 348,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-mini-flash",
@@ -4334,7 +4785,13 @@
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251216105105_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 111,
+      "saves": 82,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "canon-eos-r50v",
@@ -4385,7 +4842,13 @@
         "image": "https://shop.r10s.jp/ksdenki/cabinet/images/n0000000047/4549292157956_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 502,
+      "saves": 53,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-tt88",
@@ -4420,9 +4883,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Ft111-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182749_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-tt88"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 230,
+      "saves": 263,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "insta360-ace-pro2-kid",
@@ -4459,7 +4929,13 @@
         "image": "https://shop.r10s.jp/insta360-shop2/cabinet/12177189/12177192/20260319-140247.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 280,
+      "saves": 21,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "anker-nano-charging-station",
@@ -4495,7 +4971,13 @@
         "image": "https://shop.r10s.jp/anker/cabinet/tmb/a9/a91c8_normal.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 147,
+      "saves": 117,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "macbookpro-carry-5",
@@ -4545,7 +5027,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmachinoomise%2Fcio-g100w1c-n2%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/machinoomise/cabinet/charger/cio-g100w1c-n2/cio-g100w1c-n2-1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "cio-novaport-solo2"
       },
       {
         "name": "Baseus Free2Pull 100W",
@@ -4571,7 +5054,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flovelonestar%2F20260620184431_119%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/lovelonestar/cabinet/r_1598620054/20260620184431_119_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "prograde-card-reader"
       },
       {
         "name": "無印良品 縦型クッションPCケース",
@@ -4587,7 +5071,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 109,
+      "saves": 124,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "torras-phone-ring",
@@ -4622,9 +5112,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftorraslife%2Fts-ring01%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/torraslife/cabinet/12439984/imgrc0110966581.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "torras-omniring"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 72,
+      "saves": 39,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "smartphone-new-law",
@@ -4685,9 +5182,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finsight-shop%2Fe-m10-mk4-bd-bk%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/insight-shop/cabinet/olympus/e-m10mk4/e-m10-mk4-bd-bk_n24.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "olympus-em10"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 97,
+      "saves": 25,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "favorite-earphones-headphones",
@@ -4723,7 +5227,13 @@
         "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 74,
+      "saves": 22,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best5-first-half-2025",
@@ -4756,7 +5266,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa1695%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/anker/cabinet/tmb/a1/a1695_normal.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "anker-powerbank-25000"
       },
       {
         "name": "SHURE SM7B & MVX2U",
@@ -4809,7 +5320,13 @@
         "image": "https://shop.r10s.jp/ils-web/cabinet/lms/aer/lms0039017-0010/lms0039017-0010_img2.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 229,
+      "saves": 177,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "galaxy-zfold7-purchased",
@@ -4846,7 +5363,13 @@
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 99,
+      "saves": 12,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best-buy-10-6-first-half-2025",
@@ -4877,7 +5400,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fc039-c043-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20260812182934_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-pocket3-tripod-base"
       },
       {
         "name": "Panasonic LUMIX S9",
@@ -4890,7 +5414,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmitsuba%2Fpanasonic-dc-s9n%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/71KZge1uu9L._AC_SX679_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "lumix-s9"
       },
       {
         "name": "CIO Nova Port SOLO Ⅱ 100W",
@@ -4916,7 +5441,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flaflife%2F2528-00487%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/laflife/cabinet/biiino/item/main-image/1701406581652_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "sony-55mm-za"
       },
       {
         "name": "Canon EOS R50 V",
@@ -4931,7 +5457,13 @@
         "image": "https://shop.r10s.jp/ebest/cabinet/475/4549292241587.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 218,
+      "saves": 173,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "nwm-dots",
@@ -4967,7 +5499,13 @@
         "image": "https://shop.r10s.jp/nwm-official/cabinet/item/mbe002_thum_05.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 57,
+      "saves": 18,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "airpods-max-mac-sound",
@@ -5003,7 +5541,13 @@
         "image": "https://shop.r10s.jp/gizmo/cabinet/10848264/camera_audio/4549995552089.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 136,
+      "saves": 58,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "galaxy-z-fold7-silver",
@@ -5036,9 +5580,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsamsungonline%2Fsmp_zfold7%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "galaxy-z-fold7"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 65,
+      "saves": 5,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best-buy-no15-no11",
@@ -5081,7 +5632,8 @@
           "amazon": "https://www.amazon.co.jp/dp/B0H3C1WB2C?tag=simplesuna-22"
         },
         "image": "https://m.media-amazon.com/images/I/71omWqsoTwL._AC_SY879_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "matech-magon-qi2"
       },
       {
         "name": "Laptomo Z1 14インチ",
@@ -5120,9 +5672,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhtdd%2Fgb278%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/51wWS+ramCL._AC_SX695_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "nahe-hardshell"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 971,
+      "saves": 868,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "magne-suitcase",
@@ -5158,7 +5717,13 @@
         "image": "https://m.media-amazon.com/images/I/61qH70y+LcL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 83,
+      "saves": 41,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "candoo-keyboard-keyholder",
@@ -5190,7 +5755,13 @@
         "note": "キャンドゥ3店舗回ってやっと見つけた",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 367,
+      "saves": 102,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "canon-eos-r50v-daycamp",
@@ -5251,7 +5822,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finsight-shop%2Frf-s14-30-bk%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/insight-shop/cabinet/canon/11758254/imgrc0122591059.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "canon-rfs14-30"
       },
       {
         "name": "Canon RF16mm F2.8",
@@ -5292,7 +5864,13 @@
         "image": "https://shop.r10s.jp/r-kojima/cabinet/n0000001919/4549292181623_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 179,
+      "saves": 29,
+      "comments": 6,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "desk-tour-08tatami",
@@ -5512,7 +6090,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 287,
+      "saves": 191,
+      "comments": 11,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ergofinite-tokyo-techpack-air",
@@ -5548,7 +6132,13 @@
         "image": "https://cdn.shopify.com/s/files/1/0082/0641/7991/files/TTA-BLK-001.png?v=1782895367",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 87,
+      "saves": 69,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "heisei-retro",
@@ -5582,7 +6172,8 @@
         "price": null,
         "officialUrl": null,
         "note": "販売終了",
-        "links": {}
+        "links": {},
+        "key": "gameboy-advance-sp"
       },
       {
         "name": "Nintendo DS Lite（スケルトン）",
@@ -5590,10 +6181,17 @@
         "price": null,
         "officialUrl": null,
         "note": "販売終了",
-        "links": {}
+        "links": {},
+        "key": "nintendo-ds-lite"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 211,
+      "saves": 39,
+      "comments": 10,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "thule-aion-travel-backpack",
@@ -5632,7 +6230,13 @@
         "image": "https://shop.r10s.jp/field-seven/cabinet/thule/imgrc0124957541.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 102,
+      "saves": 117,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-prime-day-10",
@@ -5679,7 +6283,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fm051-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/11964394/12134808/9801.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-sk20"
       },
       {
         "name": "Ulanzi MA30 スマートフォン用三脚",
@@ -5705,7 +6310,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Ft111-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251024182749_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-tt88"
       },
       {
         "name": "Ulanzi SL02 ミニカメラフラッシュ",
@@ -5782,9 +6388,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fc039-c043-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20260812182934_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-pocket3-tripod-base"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 143,
+      "saves": 106,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "galaxy-z-fold7-launch",
@@ -5821,9 +6434,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsamsungonline%2Fsmp_zfold7%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/samsungonline/cabinet/prd/smp_zfold7/zfold7.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "galaxy-z-fold7"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 80,
+      "saves": 30,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best-buy-5-2025-07",
@@ -5859,7 +6479,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flaflife%2F2528-00487%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/laflife/cabinet/biiino/item/main-image/1701406581652_1.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "sony-55mm-za"
       },
       {
         "name": "SONY FE20-70mm f4 G",
@@ -5885,7 +6506,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa1695%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/anker/cabinet/tmb/a1/a1695_normal.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "anker-powerbank-25000"
       },
       {
         "name": "Western Digital WD Blue 内蔵HDD 8TB",
@@ -5911,9 +6533,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finsight-shop%2Fe-m10-mk4-bd-bk%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/insight-shop/cabinet/olympus/e-m10mk4/e-m10-mk4-bd-bk_n24.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "olympus-em10"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 139,
+      "saves": 58,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-qt03-dock",
@@ -5950,7 +6579,13 @@
         "image": "https://m.media-amazon.com/images/I/61F7AA6yJ9L._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 202,
+      "saves": 164,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "pinkoi-papershoot",
@@ -5987,7 +6622,13 @@
         "image": "http://www.papershoot.com/cdn/shop/files/BW_ENGLogo-01_3778607f-dc47-4c49-bf50-140cea5e6a85.png?v=1692844474",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 141,
+      "saves": 52,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "canon-eos-r50v-lens-kit",
@@ -6038,7 +6679,13 @@
         "image": "https://shop.r10s.jp/ksdenki/cabinet/images/n0000000047/4549292157956_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 347,
+      "saves": 49,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-sk20-stand",
@@ -6073,9 +6720,16 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fm051-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/11964394/12134808/9801.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "ulanzi-sk20"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 116,
+      "saves": 93,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "soundcore-liberty5",
@@ -6119,7 +6773,13 @@
         "image": "https://shop.r10s.jp/anker/cabinet/tmb/a3/a3957_normal.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 118,
+      "saves": 59,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-th04",
@@ -6156,7 +6816,13 @@
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251231120723_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 165,
+      "saves": 95,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "regza-event-experience",
@@ -6197,7 +6863,13 @@
         "note": "REGZA初。6畳の部屋で120インチ投影、天井投影も可",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 68,
+      "saves": 8,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-mini-flash-sl01-sl02",
@@ -6238,7 +6910,13 @@
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/biiino/item/main-image/20251216105105_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 102,
+      "saves": 51,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ulanzi-video-light-40w",
@@ -6284,7 +6962,13 @@
         "image": "https://shop.r10s.jp/ulanzidirect/cabinet/12347317/11.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 111,
+      "saves": 20,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "lumix-s9-kamakura",
@@ -6322,7 +7006,13 @@
         "image": "https://m.media-amazon.com/images/I/71POI1RLcqL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 105,
+      "saves": 18,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "osmo-pocket3-vlog",
@@ -6358,7 +7048,13 @@
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565969873_t2506.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 74,
+      "saves": 11,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "apple-intelligence-japanese",
@@ -6416,7 +7112,13 @@
         "image": "http://jp.hollyland.com/cdn/shop/files/GDP-Main-6302-jp.png?v=1774865389",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 96,
+      "saves": 36,
+      "comments": 11,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "insta360-ace-pro2-cleaning",
@@ -6455,7 +7157,13 @@
         "image": "https://shop.r10s.jp/insta360-shop2/cabinet/12177189/12177192/20260319-140247.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 118,
+      "saves": 12,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "iphone-home-screen",
@@ -6521,7 +7229,13 @@
         "image": "https://shop.r10s.jp/hoverair/cabinet/11085860/imgrc0117938774.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 99,
+      "saves": 65,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "insta360-x4",
@@ -6559,7 +7273,13 @@
         "image": "https://shop.r10s.jp/insta360-shop2/cabinet/12177189/12177192/imgrc0095754281.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 72,
+      "saves": 18,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "columbia-panacea-crossover-26l",
@@ -6597,7 +7317,13 @@
         "image": "https://shop.r10s.jp/himaraya/cabinet/0000001252a/0000001252121_r1_01.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 359,
+      "saves": 522,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "mobile-display",
@@ -6637,10 +7363,17 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgourdsports%2Fgr-e9zk2vrxr0%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://shop.r10s.jp/gourdsports/cabinet/g/0/e9zk2vrxr0-4.jpg?_ex=300x300",
-        "imageSource": "rakuten"
+        "imageSource": "rakuten",
+        "key": "laptomo-dual"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 163,
+      "saves": 111,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "birthday-31",
@@ -6704,7 +7437,13 @@
         "image": "https://m.media-amazon.com/images/I/51Lf-53l9eL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 185,
+      "saves": 111,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "macbook-air-m4",
@@ -6747,7 +7486,13 @@
         "image": "https://www.apple.com/v/mac-studio/o/images/meta/mac-studio_overview__eedzbosm1t26_og.png?202610241804",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 81,
+      "saves": 16,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "chou-mercari-ichi",
@@ -6814,7 +7559,13 @@
         "image": "https://www.apple.com/v/ipad-air/ah/images/meta/ipad-air_overview__bc2fd15uec0y_og.png?202609141556",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 102,
+      "saves": 17,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "jbl-tune-beam2",
@@ -6852,7 +7603,13 @@
         "image": "https://shop.r10s.jp/jblstore/cabinet/tws/tune-beam2/01_v2.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 63,
+      "saves": 29,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "mac-apps-3",
@@ -6907,7 +7664,13 @@
         "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a3/89/98/a38998f1-8b0f-8ab3-6df0-2b98e0f0ac3a/Placeholder.mill/1200x630wa.jpg",
         "imageSource": "official"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 254,
+      "saves": 388,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "best-buy-5-2025-02",
@@ -6946,7 +7709,8 @@
           "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmitsuba%2Fpanasonic-dc-s9n%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
         },
         "image": "https://m.media-amazon.com/images/I/71KZge1uu9L._AC_SX679_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "lumix-s9"
       },
       {
         "name": "Aer TechSling3 X -pac",
@@ -6996,7 +7760,8 @@
           "amazon": "https://www.amazon.co.jp/dp/B0GWMRRG93?tag=simplesuna-22"
         },
         "image": "https://m.media-amazon.com/images/I/71uJvhzkkjL._AC_SY879_.jpg",
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "key": "matech-magon-qi2"
       },
       {
         "name": "Manfrotto Element トラベル三脚",
@@ -7011,7 +7776,13 @@
         "image": "https://shop.r10s.jp/md-kk/cabinet/07240831/11316011/12051832/imgrc0100717119.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 784,
+      "saves": 876,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "belkin-qi2-travel-pad",
@@ -7049,7 +7820,13 @@
         "image": "https://shop.r10s.jp/r-kojima/cabinet/n0000001275/0745883868971_1.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 92,
+      "saves": 62,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "sapporo-snow-festival-dji",
@@ -7104,7 +7881,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 45,
+      "saves": 14,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "dji-mic-mini",
@@ -7142,7 +7925,13 @@
         "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565991430_thum.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 87,
+      "saves": 38,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "balmuda-toaster-pro",
@@ -7181,7 +7970,13 @@
         "image": "https://shop.r10s.jp/plywood/cabinet/504/14949104.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 315,
+      "saves": 104,
+      "comments": 6,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "aer-techsling3",
@@ -7222,7 +8017,13 @@
         "image": "https://shop.r10s.jp/ils-web/cabinet/lms/aer/lms0039017-0010/lms0039017-0010_img2.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 273,
+      "saves": 208,
+      "comments": 10,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "schick-projista",
@@ -7337,7 +8138,13 @@
         "image": "https://m.media-amazon.com/images/I/51-pWectpGL._AC_SX679_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 107,
+      "saves": 65,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "samsung-vs-apple-eraser",
@@ -7378,7 +8185,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 106,
+      "saves": 15,
+      "comments": 8,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "grams28-171-laptop-sling",
@@ -7413,7 +8226,13 @@
         "note": "提供品。イタリアレザー使用",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 220,
+      "saves": 215,
+      "comments": 1,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "mac-voice-shortcut",
@@ -7474,7 +8293,13 @@
         "image": "https://shop.r10s.jp/insta360-shop2/cabinet/12177189/12177192/20260319-140247.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 172,
+      "saves": 70,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "marshall-willen2",
@@ -7527,7 +8352,13 @@
         "image": "https://shop.r10s.jp/marshall-official/cabinet/home_speakers/stanmore3/imgrc0101554713.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 163,
+      "saves": 105,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "packing-2n3d",
@@ -7561,7 +8392,13 @@
         "note": null,
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 113,
+      "saves": 52,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "airpods-max-honest-review",
@@ -7598,7 +8435,13 @@
         "image": "https://shop.r10s.jp/gizmo/cabinet/10848264/camera_audio/4549995552089.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 160,
+      "saves": 39,
+      "comments": 6,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "laifen-electric-toothbrush",
@@ -7638,7 +8481,13 @@
         "image": "https://shop.r10s.jp/48and100store/cabinet/health/healthothers/lftb01as-00.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 901,
+      "saves": 808,
+      "comments": 13,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "insta360-flow2-pro",
@@ -7678,7 +8527,13 @@
         "image": "https://shop.r10s.jp/insta360-shop2/cabinet/12177189/12177192/imgrc0095754259.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 1842,
+      "saves": 2196,
+      "comments": 23,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "mac-menubar-apps",
@@ -7711,7 +8566,13 @@
         "note": "メモアプリに日本語入力すると若干バグあり（2025/01/15現在）",
         "links": {}
       }
-    ]
+    ],
+    "stats": {
+      "likes": 348,
+      "saves": 476,
+      "comments": 138,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ugreen-power-bank",
@@ -7748,7 +8609,13 @@
         "image": "https://shop.r10s.jp/ugreen-gear/cabinet/11871349/25188-01.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 83,
+      "saves": 32,
+      "comments": 2,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "sleepy-tofu-inari",
@@ -7783,7 +8650,13 @@
         "image": "https://m.media-amazon.com/images/I/41IM6CAW1NL._AC_SY879_.jpg",
         "imageSource": "amazon"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 87,
+      "saves": 49,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "macbook-case-3000",
@@ -7820,7 +8693,13 @@
         "imageSource": "amazon"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 396,
+      "saves": 474,
+      "comments": 3,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "shure-sm7b-mvx2u",
@@ -7884,7 +8763,13 @@
         "image": "https://shop.r10s.jp/logicool/cabinet/prd/blue/bm400bk/bm400bk_01_r2.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 78,
+      "saves": 39,
+      "comments": 4,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "amazon-hatsuuri-2025",
@@ -7928,7 +8813,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "video-footage"
+    "itemsSource": "video-footage",
+    "stats": {
+      "likes": 109,
+      "saves": 58,
+      "comments": 5,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "apple-hatsuuri-2025",
@@ -7968,7 +8859,13 @@
         "image": "https://shop.r10s.jp/gizmo/cabinet/10848264/camera_audio/4549995552089.jpg?_ex=300x300",
         "imageSource": "rakuten"
       }
-    ]
+    ],
+    "stats": {
+      "likes": 207,
+      "saves": 131,
+      "comments": 0,
+      "asOf": "2026-10-28"
+    }
   },
   {
     "id": "ipad-mini-no-promotion",

@@ -1,0 +1,34 @@
+[
+  {
+    "platform": "Instagram",
+    "handle": "@simple_suna",
+    "url": "https://www.instagram.com/simple_suna/",
+    "followers": 41000,
+    "goal": 50000,
+    "asOf": "2026-10-28"
+  },
+  {
+    "platform": "TikTok",
+    "handle": "",
+    "url": "",
+    "followers": null,
+    "goal": null,
+    "asOf": ""
+  },
+  {
+    "platform": "YouTube",
+    "handle": "",
+    "url": "",
+    "followers": null,
+    "goal": null,
+    "asOf": ""
+  },
+  {
+    "platform": "Threads",
+    "handle": "",
+    "url": "",
+    "followers": null,
+    "goal": null,
+    "asOf": ""
+  }
+]

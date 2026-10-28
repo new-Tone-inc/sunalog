@@ -37,11 +37,12 @@
     <button class="tab" role="tab" data-view="items">アイテムを探す <span class="count" id="count-items"></span></button>
   </div>
 
+  <section class="popular" id="popular" hidden>
+    <h2 class="popular-title">人気の動画 <span class="popular-sub">直近1年・いいね＋保存の多い順</span></h2>
+    <div class="related-row" id="popular-row"></div>
+  </section>
+
   <section class="filters">
-    <div class="filter-row">
-      <div class="filter-label">紹介した月</div>
-      <div class="chips" id="chips-month"></div>
-    </div>
     <div class="filter-row">
       <div class="filter-label">カテゴリ</div>
       <div class="chips" id="chips-category"></div>
@@ -51,8 +52,15 @@
       <div class="chips" id="chips-mall"></div>
     </div>
     <div class="filter-row">
+      <div class="filter-label">紹介した年</div>
+      <div class="chips-stack">
+        <div class="chips" id="chips-year"></div>
+        <div class="chips chips-sub" id="chips-month" hidden></div>
+      </div>
+    </div>
+    <div class="filter-row">
       <div class="filter-label">検索</div>
-      <input class="search" id="search" type="search" placeholder="動画名・アイテム名で検索" autocomplete="off">
+      <input class="search" id="search" type="search" autocomplete="off">
     </div>
   </section>
 
@@ -62,6 +70,14 @@
   <section id="view-items" class="grid grid-items" hidden></section>
 
   <p class="empty" id="empty" hidden>該当するものがありません。</p>
+
+  <nav class="pager" id="pager" aria-label="ページ送り" hidden></nav>
+
+  <section class="social" id="social" hidden>
+    <h2 class="social-title">フォローで応援してもらえると嬉しいです <span class="social-asof" id="social-asof"></span></h2>
+    <p class="social-lead">各SNSのフォロワー数と目標です。目標に届いたら、このサイトでお知らせします。</p>
+    <div class="social-grid" id="social-grid"></div>
+  </section>
 </main>
 
 <footer class="site-footer">

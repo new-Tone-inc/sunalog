@@ -12,7 +12,8 @@
 
   // claude.ai のプレビュー上は外部サイトの埋め込みがCSPで止められるため、再生ボタンを出さない（自分のドメインに置けば動く）
   const EMBED_OK = !/(^|\.)claude\.ai$/.test(location.hostname);
-  const state = { view: "videos", month: "all", category: "all", mall: "all", q: "" };
+  const state = { view: "videos", year: "all", month: "all", category: "all", mall: "all", q: "", page: 1 };
+  const PAGE_SIZE = 10;
   let VIDEOS = [];
   let ITEMS = [];
 
@@ -55,6 +56,7 @@
 
   function filteredVideos() {
     return VIDEOS.filter((v) => {
+      if (state.year !== "all" && !(v.postedDate || "").startsWith(state.year)) return false;
       if (state.month !== "all" && monthKey(v) !== state.month) return false;
       if (state.category !== "all" && v.category !== state.category) return false;
       if (state.mall !== "all" && !videoMalls(v).some((m) => m.key === state.mall)) return false;
@@ -62,13 +64,34 @@
       return matchesQuery(text);
     });
   }
+  // 同じアイテムは一つにまとめ、紹介した動画を複数ぶら下げる。
+  // まとめる単位は item.key（データで明示）か、無ければ「ブランド+名前」の表記ゆれを除いた文字列
+  function itemKey(it) {
+    if (it.key) return it.key;
+    const n = (t) => (t || "").toLowerCase().replace(/[\s（）()・,、/／\-‐－]/g, "");
+    return `${n(it.brand)}|${n(it.name)}`;
+  }
+  function buildItems() {
+    const map = new Map();
+    VIDEOS.forEach((v) => (v.items || []).forEach((it) => { // VIDEOSは新しい順
+      const k = itemKey(it);
+      if (!map.has(k)) { map.set(k, Object.assign({}, it, { links: Object.assign({}, itemLinks(it)), video: v, videos: [v] })); return; }
+      const g = map.get(k);
+      g.videos.push(v);
+      // 新しい動画の情報を優先しつつ、空いている項目は古い動画から補う
+      ["price", "note", "image", "imageSource", "officialUrl", "brand"].forEach((f) => { if (!g[f] && it[f]) g[f] = it[f]; });
+      Object.entries(itemLinks(it)).forEach(([m, u]) => { if (u && !g.links[m]) g.links[m] = u; });
+    }));
+    return [...map.values()];
+  }
   function filteredItems() {
     return ITEMS.filter((it) => {
-      const v = it.video;
-      if (state.month !== "all" && monthKey(v) !== state.month) return false;
-      if (state.category !== "all" && v.category !== state.category) return false;
+      const vs = it.videos || [it.video];
+      if (state.year !== "all" && !vs.some((v) => (v.postedDate || "").startsWith(state.year))) return false;
+      if (state.month !== "all" && !vs.some((v) => monthKey(v) === state.month)) return false;
+      if (state.category !== "all" && !vs.some((v) => v.category === state.category)) return false;
       if (state.mall !== "all" && !itemLinks(it)[state.mall]) return false;
-      return matchesQuery(`${it.brand || ""} ${it.name} ${v.title}`);
+      return matchesQuery(`${it.brand || ""} ${it.name} ${vs.map((v) => v.title).join(" ")}`);
     });
   }
 
@@ -89,14 +112,21 @@
     });
   }
   function renderFilters() {
-    const months = [...new Set(VIDEOS.map(monthKey).filter(Boolean))].sort().reverse();
-    renderChips($("#chips-month"), months.map((m) => ({ value: m, label: monthLabel(m) })), state.month, (v) => { state.month = v; render(); });
+    // 紹介した年 → 年を選ぶと、その年の月が下に出る
+    const years = [...new Set(VIDEOS.map((v) => (v.postedDate || "").slice(0, 4)).filter(Boolean))].sort().reverse();
+    renderChips($("#chips-year"), years.map((y) => ({ value: y, label: `${y}年` })), state.year, (v) => { state.year = v; state.month = "all"; state.page = 1; render(); });
+    const monthBox = $("#chips-month");
+    monthBox.hidden = state.year === "all";
+    if (state.year !== "all") {
+      const months = [...new Set(VIDEOS.map(monthKey).filter((m) => m && m.startsWith(state.year)))].sort().reverse();
+      renderChips(monthBox, months.map((m) => ({ value: m, label: `${Number(m.split("-")[1])}月` })), state.month, (v) => { state.month = v; state.page = 1; render(); });
+    }
 
     const cats = CATEGORY_ORDER.filter((c) => VIDEOS.some((v) => v.category === c));
-    renderChips($("#chips-category"), cats.map((c) => ({ value: c, label: c })), state.category, (v) => { state.category = v; render(); });
+    renderChips($("#chips-category"), cats.map((c) => ({ value: c, label: c })), state.category, (v) => { state.category = v; state.page = 1; render(); });
 
     const mallsUsed = MALLS.filter((m) => VIDEOS.some((v) => videoMalls(v).some((x) => x.key === m.key)));
-    renderChips($("#chips-mall"), mallsUsed.map((m) => ({ value: m.key, label: m.label })), state.mall, (v) => { state.mall = v; render(); });
+    renderChips($("#chips-mall"), mallsUsed.map((m) => ({ value: m.key, label: m.label })), state.mall, (v) => { state.mall = v; state.page = 1; render(); });
     $("#chips-mall").closest(".filter-row").hidden = mallsUsed.length === 0;
   }
 
@@ -154,7 +184,7 @@
             <div class="item-links">${linkButtons(it, true)}</div>
           </div>
         </div>
-        <div class="item-from">紹介した動画: <button data-open="${esc(it.video.id)}">${esc(it.video.title)}</button></div>
+        <div class="item-from">紹介した動画${(it.videos || []).length > 1 ? `（${it.videos.length}本）` : ""}: ${(it.videos || [it.video]).map((v) => `<button data-open="${esc(v.id)}">${esc(v.title)}</button>`).join("")}</div>
       </article>`).join("");
   }
 
@@ -235,6 +265,7 @@
     if (!fromHistory && history.state && history.state.depth > 0) { history.back(); return; } // popstateで閉じる
     $("#modal").hidden = true;
     document.body.classList.remove("modal-open");
+    $("#modal-body").innerHTML = ""; // 埋め込み動画（iframe）を取り除いて再生を止める。hiddenにするだけでは音が鳴り続ける
     if (!fromHistory) history.replaceState(null, "", location.pathname + location.search);
   }
   window.addEventListener("popstate", () => {
@@ -243,6 +274,52 @@
     else if (!$("#modal").hidden) closeModal(true);
   });
 
+  // ---- render: 人気の動画（直近1年・いいね+保存の合計が多い順。stats が入っている動画だけ） ----
+  function popularVideos(n = 8) {
+    const since = Date.now() - 365 * 864e5;
+    return VIDEOS.filter((v) => v.stats && v.postedDate && Date.parse(v.postedDate) >= since)
+      .map((v) => ({ v, score: (v.stats.likes || 0) + (v.stats.saves || 0) }))
+      .filter((r) => r.score > 0).sort((a, b) => b.score - a.score).slice(0, n).map((r) => r.v);
+  }
+  function renderPopular() {
+    const box = $("#popular");
+    if (!box) return;
+    const list = popularVideos();
+    box.hidden = list.length === 0;
+    if (!list.length) return;
+    $("#popular-row").innerHTML = list.map((v, i) => `
+      <button class="related-card" data-open="${esc(v.id)}">
+        <span class="related-cover">${coverHtml(v)}<span class="rank">${i + 1}</span></span>
+        <span class="related-title">${esc(v.title)}</span>
+        <span class="related-meta">${esc(v.category || "")}${v.postedDate ? ` · ${esc(fmtDate(v.postedDate))}` : ""}</span>
+      </button>`).join("");
+  }
+
+  // ---- render: フォロワー数と目標（data/social.json。followers が入っているものだけ出す） ----
+  function renderSocial(list) {
+    const box = $("#social");
+    const rows = (list || []).filter((p) => typeof p.followers === "number");
+    box.hidden = rows.length === 0;
+    if (!rows.length) return;
+    const fmt = (n) => n.toLocaleString("ja-JP");
+    $("#social-grid").innerHTML = rows.map((p) => {
+      const hasGoal = typeof p.goal === "number" && p.goal > 0;
+      const pct = hasGoal ? Math.min(100, Math.round(p.followers / p.goal * 100)) : 0;
+      const left = hasGoal ? Math.max(0, p.goal - p.followers) : 0;
+      return `
+      <a class="social-card social-${esc(p.platform.toLowerCase())}" href="${esc(p.url || "#")}" target="_blank" rel="noopener">
+        <div class="social-head"><span class="social-name">${esc(p.platform)}</span><span class="social-handle">${esc(p.handle || "")}</span></div>
+        <div class="social-num"><strong>${fmt(p.followers)}</strong><span class="social-unit">フォロワー</span></div>
+        ${hasGoal ? `
+        <div class="social-bar"><span style="width:${pct}%"></span></div>
+        <div class="social-goal">目標 ${fmt(p.goal)} まで <strong>あと ${fmt(left)}</strong>（${pct}%）</div>` : `<div class="social-goal">目標は設定中</div>`}
+        <div class="social-cta">フォローで応援する ↗</div>
+      </a>`;
+    }).join("");
+    const asOf = rows.map((p) => p.asOf).filter(Boolean).sort().pop();
+    $("#social-asof").textContent = asOf ? `${fmtDate(asOf)} 時点` : "";
+  }
+
   // ---- render all ----
   function render() {
     renderFilters();
@@ -250,15 +327,38 @@
     const items = filteredItems();
     $("#view-videos").hidden = state.view !== "videos";
     $("#view-items").hidden = state.view !== "items";
+    const list = state.view === "videos" ? vids : items;
+    const pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+    state.page = Math.min(Math.max(1, state.page), pages);
+    const slice = list.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
     if (state.view === "videos") {
-      renderVideos(vids);
-      $("#result-count").textContent = `${vids.length} 本の動画`;
-      $("#empty").hidden = vids.length > 0;
+      renderVideos(slice);
+      $("#result-count").textContent = `${vids.length} 本の動画${pages > 1 ? `（${state.page} / ${pages} ページ）` : ""}`;
     } else {
-      renderItems(items);
-      $("#result-count").textContent = `${items.length} 点のアイテム`;
-      $("#empty").hidden = items.length > 0;
+      renderItems(slice);
+      $("#result-count").textContent = `${items.length} 点のアイテム${pages > 1 ? `（${state.page} / ${pages} ページ）` : ""}`;
     }
+    $("#empty").hidden = list.length > 0;
+    renderPager(pages);
+  }
+  // ---- render: ページ送り（10件ずつ。「前へ / 1 2 3 … / 次へ」） ----
+  function renderPager(pages) {
+    const el = $("#pager");
+    el.hidden = pages <= 1;
+    if (pages <= 1) { el.innerHTML = ""; return; }
+    const cur = state.page;
+    const nums = new Set([1, pages, cur - 1, cur, cur + 1].filter((n) => n >= 1 && n <= pages));
+    const parts = [];
+    let prev = 0;
+    [...nums].sort((a, b) => a - b).forEach((n) => {
+      if (n - prev > 1) parts.push(`<span class="pager-gap">…</span>`);
+      parts.push(`<button class="pager-btn${n === cur ? " is-active" : ""}" data-page="${n}" ${n === cur ? 'aria-current="page"' : ""}>${n}</button>`);
+      prev = n;
+    });
+    el.innerHTML = `
+      <button class="pager-btn pager-nav" data-page="${cur - 1}" ${cur <= 1 ? "disabled" : ""}>← 前へ</button>
+      ${parts.join("")}
+      <button class="pager-btn pager-nav" data-page="${cur + 1}" ${cur >= pages ? "disabled" : ""}>次へ →</button>`;
   }
 
   // ---- events ----
@@ -272,28 +372,37 @@
       box.innerHTML = `<iframe src="${esc(url)}" title="Instagramの動画" allow="autoplay; encrypted-media" allowtransparency="true" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
       return;
     }
+    const pg = e.target.closest("[data-page]");
+    if (pg && !pg.disabled) {
+      state.page = Number(pg.dataset.page);
+      render();
+      $("#result-count").scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
     const open = e.target.closest("[data-open]");
     if (open) { openModal(open.getAttribute("data-open")); return; }
     if (e.target.closest("[data-close]")) closeModal();
     const tab = e.target.closest(".tab");
     if (tab) {
       state.view = tab.dataset.view;
+      state.page = 1;
       document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("is-active", t === tab));
       render();
     }
   });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#modal").hidden) closeModal(); });
-  $("#search").addEventListener("input", (e) => { state.q = e.target.value.trim(); render(); });
+  $("#search").addEventListener("input", (e) => { state.q = e.target.value.trim(); state.page = 1; render(); });
 
   // ---- load ----
   function init(data) {
     // 公開するのは投稿済み（status: "posted"）だけ。未投稿はデータに残しておいても表示しない
     VIDEOS = (data || []).filter((v) => !v.status || v.status === "posted").sort((a, b) => (b.postedDate || "").localeCompare(a.postedDate || ""));
-    ITEMS = [];
-    VIDEOS.forEach((v) => (v.items || []).forEach((it) => ITEMS.push(Object.assign({}, it, { video: v }))));
+    ITEMS = buildItems();
     $("#count-videos").textContent = VIDEOS.length;
     $("#count-items").textContent = ITEMS.length;
+    renderPopular();
     render();
+    fetch("data/social.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : []).then(renderSocial).catch(() => {});
     const hash = decodeURIComponent(location.hash.slice(1));
     if (hash && VIDEOS.some((v) => v.id === hash)) {
       // 共有されたURLで直接開いたとき: 履歴は積まず、閉じるボタンで一覧へ戻る
