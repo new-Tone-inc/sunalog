@@ -9556,6 +9556,724 @@
     "itemsSource": "2024年分の取り込み（2026-10-29）"
   },
   {
+    "id": "mac-mini-m4-announced",
+    "title": "新型Mac mini（M4）発表まとめ",
+    "status": "posted",
+    "postedDate": "2024-10-30",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBud6TAISfM/",
+    "youtubeUrl": null,
+    "cover": "mac-mini-m4-announced.jpg",
+    "hook": "寝起き第二弾！",
+    "caption": "寝起き第二弾！\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【新型Mac mini】\nをご紹介✨\n\nこれは正直\n買い替えしてもいいレベルで\n検討してもいいな🤔\n持ち歩かない人のPCの最適解すぎる…\nMac studioとの兼ね合いが気になるなぁ\n\n《発表内容まとめ》\n\n⚫︎「M4」「M4 Pro」チップを搭載\n⚫︎サイズが12.7cm×12.7cmの手のひらサイズにコンパクトに\n⚫︎重量も670g（M4）、730g（M4 Pro）と軽量化\n⚫︎11月8日に発売予定。\n⚫︎M4 10コアCPU／10コアGPU、最大メモリは32GB\n⚫︎M4 Pro 12コアCPU／16コアGPUと、14コアCPU／20コアGPUの2種類展開、最大メモリは64GB\n⚫︎SSDの最大容量M4最大2TB、M4 Pro最大8TB\n⚫︎前面にUSB-Cポート×2、ヘッドフォンジャック\n⚫︎背面にThunderbolt 4対応のUSB-Cポート×3、ギガビットEthernet（オプションで10ギガビットに変更可能）、HDMIポートを搭載。\n⚫︎最大3台までのディスプレイ出力可能\n⚫︎M4 Proのみ、背面USB-Cポートは最大120Gbpsで転送可能なThunderbolt 5をサポート\n⚫︎Appleintelligence\n⚫︎最小メモリが8GB→16GBに\n⚫︎M4価格は16GBメモリ、256GBストレージで9万4800円から。\n⚫︎M4 Pro 12コアCPU／16コアGPU仕様、24GBメモリ、512GBストレージで21万8800円から。\n\nしたっけね〜👋️\n\n________________________\n\n#apple発表会 #apple #macmini #マックミニ \n#ガジェット#ガジェット好き",
+    "hashtags": [
+      "#apple発表会",
+      "#apple",
+      "#macmini",
+      "#マックミニ",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple Mac mini（M4）",
+        "brand": "Apple",
+        "price": "94,800円から（M4・16GB・256GB・発表時点）。M4 Proは218,800円から",
+        "officialUrl": "https://www.apple.com/jp/mac-mini/",
+        "note": "2024年10月発表・11月8日発売。手のひらサイズ（12.7cm角）。Amazonは現行のM6モデルしか無いためリンクは公式のみ",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/mac-mini/"
+        },
+        "image": "https://www.apple.com/v/mac-mini/ab/images/meta/mac-mini__dvce2jrm11w2_og.jpg?202610241804",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "imac-m4-announced",
+    "title": "新型iMac（M4）発表",
+    "status": "posted",
+    "postedDate": "2024-10-29",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBr5ISooUNI/",
+    "youtubeUrl": null,
+    "cover": "imac-m4-announced.jpg",
+    "hook": "寝起きご容赦ください笑",
+    "caption": "寝起きご容赦ください笑\n\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【新型iMac！！】\nをご紹介✨\n\niPad miniはしれっと発表だったけど\nMacはちゃっかり発表動画が上がるっていう🤔笑\n明日以降も楽しみやね〜！\n\nしたっけね〜👋️\n\n________________________\n\n#apple #imac #macbook #マックブック \n#ガジェット#ガジェット好き",
+    "hashtags": [
+      "#apple",
+      "#imac",
+      "#macbook",
+      "#マックブック",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple iMac（M4）",
+        "brand": "Apple",
+        "officialUrl": "https://www.apple.com/jp/imac/",
+        "note": "2024年10月発表。価格・仕様は本文に記載なし。Amazonは現行のM6モデルしか無いためリンクは公式のみ",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/imac/"
+        },
+        "price": null,
+        "image": "https://www.apple.com/v/imac/x/images/meta/imac__kaqcgp2n4duu_og.png?202610272106",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "gshock-skeleton",
+    "title": "スケルトンなG-SHOCK",
+    "status": "posted",
+    "postedDate": "2024-10-26",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBlhk-FIvaD/",
+    "youtubeUrl": null,
+    "cover": "gshock-skeleton.jpg",
+    "hook": "スケルトンが好きすぎる😶‍🌫️",
+    "caption": "スケルトンが好きすぎる😶‍🌫️\n他の投稿はこちら ⇢ @simple_suna \n\nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【スケルトンなG-SHOCK】\nをご紹介✨\n\nこちら、仲良くしてくださってる\nフォロワーさんから\n「すなおさん好きそう！」とおすすめしていただいた\n時計なんですけど、ドンピシャすぎて即決しました⌚️\n\n気になった方はぜひチェックしてくださいね〜！\nしたっけね〜👋️\n\n________________________\n\n#スケルトン #gshock #gshockwatch \n#腕時計 #ジーショック \n#ガジェット#ガジェット好き",
+    "hashtags": [
+      "#スケルトン",
+      "#gshock",
+      "#gshockwatch",
+      "#腕時計",
+      "#ジーショック",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "ウェアラブル",
+    "pr": false,
+    "items": [
+      {
+        "name": "G-SHOCK スケルトンモデル",
+        "brand": "CASIO",
+        "note": "フォロワーさんのおすすめで購入。型番は本文に記載がないためリンクは未設定",
+        "price": null,
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "anker-pokemon-pouch",
+    "title": "Anker×ポケモンのコラボポーチ",
+    "status": "posted",
+    "postedDate": "2024-10-24",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBgWcuZo6Rn/",
+    "youtubeUrl": null,
+    "cover": "anker-pokemon-pouch.jpg",
+    "hook": "みんなもゲットじゃぞ〜",
+    "caption": "みんなもゲットじゃぞ〜\n\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【Anker×ポケモンのコラボポーチ】\nをご紹介✨\n\n価格:1990円\n\nピカチュウコラボだけど\nさりげないピカチュウで可愛さとかっこよさを\n兼ね備えたポーチ🤤⚡️\nこれはお妻さんとお揃いで使おうと思います！\n\nしたっけね〜👋️\n\n________________________\n\n#ガジェットポーチ #Anker #アンカー \n#ポケモン #ポケモンコラボ #ピカチュウ \n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#ガジェットポーチ",
+      "#Anker",
+      "#アンカー",
+      "#ポケモン",
+      "#ポケモンコラボ",
+      "#ピカチュウ",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "バッグ・小物",
+    "pr": false,
+    "items": [
+      {
+        "name": "Anker コンパクトポーチ ピカチュウモデル",
+        "brand": "Anker",
+        "price": "1,990円（紹介時点）",
+        "note": "さりげないピカチュウ柄のガジェットポーチ",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DBVKMTB3?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "casetify-sapporo-souvenir",
+    "title": "Casetifyさんからお土産もらった",
+    "status": "posted",
+    "postedDate": "2024-10-22",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBbPXghIkRg/",
+    "youtubeUrl": null,
+    "cover": "casetify-sapporo-souvenir.jpg",
+    "hook": "気づいた人いるかな？XX",
+    "caption": "気づいた人いるかな？XX\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【Casetifyさんからお土産もらった】\nをお届けします！\n\n普通に気に入って使ってるし、\n今までiPhoneはケース無し派だったけど\nいろんなケースつけて気分変えるのも悪くないなぁ\nなんで最近は思ってます🤤\n\nしたっけね〜👋️\n\n________________________\n\n#casetify #casetifysapporo #ケースティファイ \n#iphoneケース #スマホケース #スマホショルダー \n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#casetify",
+      "#casetifysapporo",
+      "#ケースティファイ",
+      "#iphoneケース",
+      "#スマホケース",
+      "#スマホショルダー",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "スマホ・タブレット",
+    "pr": false,
+    "items": [
+      {
+        "name": "CASETiFY iPhoneケース・スマホショルダー",
+        "brand": "CASETiFY",
+        "note": "CASETiFY札幌PARCO店からのお土産。製品名は本文に記載がないためリンクは未設定",
+        "price": null,
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "ergofinite-tokyo-techpack-pouch-2024",
+    "title": "Ergofinite THE TOKYO TECHPACK POUCH",
+    "status": "posted",
+    "postedDate": "2024-10-18",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBQ8vzHoQKp/",
+    "youtubeUrl": null,
+    "cover": "ergofinite-tokyo-techpack-pouch-2024.jpg",
+    "hook": "最後に紹介した使い方が最高……😶‍🌫️",
+    "caption": "最後に紹介した使い方が最高……😶‍🌫️ \n\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n提供: @casefinitejapan \nあのミニマルデザインで有名な\nCasefiniteさんから出ているブランドの\nErgofiniteからガジェットポーチ\n\nTHE TOKYO TECHPACK POUCH\n価格:9,850円\n\nが本日登場✨\n控えめに言って最高のポーチでした！\nというのももし自分がガジェットポーチ作るなら\nショルダーバッグとしても使えるものを作ろうとしていたので、これはかなりいいなと思ってます🫢\n\nぜひチェックしてみてくださいね！！！\nしたっけね〜👋️\n\n________________________\n\n#ergofinite #thetokyotechpackpouch \n#ガジェットポーチ #ショルダーバッグ \n#ポーチの中身 #ミニマルデザイン \n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#ergofinite",
+      "#thetokyotechpackpouch",
+      "#ガジェットポーチ",
+      "#ショルダーバッグ",
+      "#ポーチの中身",
+      "#ミニマルデザイン",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "バッグ・小物",
+    "pr": true,
+    "items": [
+      {
+        "name": "CASEFINITE The Tokyo Techpack Pouch",
+        "brand": "CASEFINITE",
+        "price": "9,850円（発売時点）",
+        "officialUrl": "https://www.casefinite.jp/products/the-tokyo-techpack-pouch",
+        "note": "Casefiniteのブランド Ergofinite のガジェットポーチ。ショルダーバッグとしても使える。発売日（2024年10月18日）に紹介",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.casefinite.jp/products/the-tokyo-techpack-pouch"
+        },
+        "image": "https://cdn.shopify.com/s/files/1/0082/0641/7991/files/TTP-BLK-001_e1cb3d56-c636-4c90-928d-b63a57a0e7f4.png?v=1782895687",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "casetify-sapporo-parco-vlog",
+    "title": "CASETiFY札幌PARCO店に潜入してみた",
+    "status": "posted",
+    "postedDate": "2024-10-16",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBL4R7NIUew/",
+    "youtubeUrl": null,
+    "cover": "casetify-sapporo-parco-vlog.jpg",
+    "hook": "サッポロビールコラボ最高🍺",
+    "caption": "サッポロビールコラボ最高🍺\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【CASTiFY札幌PARCO店に潜入してみた】\nをVLOG風にお届けします✨\n\nあらためて\n10月17日(木)にオープンしますので\nみなさんぜひ足を運んでくださいね💨\nサッポロビールのケース欲しい人は\nぜひ手に入れてください🍺\n\n\nしたっけね〜👋️\n\n________________________\n\n#CASETiFY／#PR／#CASETiFYSAPPORO/#ShowYourColors\n#ガジェット#ガジェット好き #スマホケース \n#iphoneケース \n#札幌parco #サッポロビール #サッポロビールクラシック",
+    "hashtags": [
+      "#CASETiFY",
+      "#PR",
+      "#CASETiFYSAPPORO",
+      "#ShowYourColors",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#スマホケース",
+      "#iphoneケース",
+      "#札幌parco",
+      "#サッポロビール",
+      "#サッポロビールクラシック"
+    ],
+    "category": "日常・Vlog",
+    "pr": true,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-10-29）。本文にアイテム名なし（動画内のみ）",
+    "itemsPending": true
+  },
+  {
+    "id": "benq-ma-series-monitor",
+    "title": "BenQのMacBookに合う最高のモニター",
+    "status": "posted",
+    "postedDate": "2024-10-14",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DBGqhkUIlaE/",
+    "youtubeUrl": null,
+    "cover": "benq-ma-series-monitor.jpg",
+    "hook": "MacBookとの相性抜群💥",
+    "caption": "MacBookとの相性抜群💥\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【BenQのMacBookに合う最高のモニター】\nをご紹介✨\n\n提供: @benq.lighting.jp \n\nこのモニターのいいところは\nとにかくMacBookに近いデザインと色味。\n純正のモニターか？と思うほどに美しく、色表現も\n日常使いでなんら問題ない🤔✨\n\n正直、MacBookと使うなら\n最有力候補のモニターかも🙌\n\nしたっけね〜👋️\n\n________________________\n\n#benq #モニター #デスクトップ \n#macbook #macbookpro #macbookair \n#マックブック #デスクセットアップ \n#ガジェット#ガジェット好き #desksetup",
+    "hashtags": [
+      "#benq",
+      "#モニター",
+      "#デスクトップ",
+      "#macbook",
+      "#macbookpro",
+      "#macbookair",
+      "#マックブック",
+      "#デスクセットアップ",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#desksetup"
+    ],
+    "category": "PC・周辺機器",
+    "pr": true,
+    "items": [
+      {
+        "name": "BenQ MAシリーズ Mac向けモニター",
+        "brand": "BenQ",
+        "note": "MacBookに近いデザインと色味のMac向け4Kモニター。型番は本文に記載なし。リンクは27型のMA270U（31.5型のMA320Uもあり）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DJLHMSCB?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "price": null,
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "nothing-ear-open",
+    "title": "おしゃれなスケルトン開放型イヤホン",
+    "status": "posted",
+    "postedDate": "2024-10-08",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DA3Ot7wIQry/",
+    "youtubeUrl": null,
+    "cover": "nothing-ear-open.jpg",
+    "hook": "これは良いぞ…！",
+    "caption": "これは良いぞ…！\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【おしゃれなスケルトン開放型イヤホン】\nをご紹介✨\n\nこちらは\nnothing Ear （open）\nあのnothingの新作イヤホンです✨\n\nぜひチェックしてくださいね👌\n\nしたっけね〜👋️\n\n________________________\n\n#nothing #nothingearopen #オープンイヤー \n#ガジェット#ガジェット好き #便利アイテム\n#ワイヤレスイヤホン #イヤホン",
+    "hashtags": [
+      "#nothing",
+      "#nothingearopen",
+      "#オープンイヤー",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム",
+      "#ワイヤレスイヤホン",
+      "#イヤホン"
+    ],
+    "category": "オーディオ",
+    "pr": false,
+    "items": [
+      {
+        "name": "Nothing Ear (open)",
+        "brand": "Nothing",
+        "note": "耳を塞がないオープンイヤー型。スケルトンデザイン",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DBJ2CRV4?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "price": null,
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "skeleton-gadgets-9",
+    "title": "買ってよかったスケルトンガジェット9選",
+    "status": "posted",
+    "postedDate": "2024-10-06",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DAyDtgMoDun/",
+    "youtubeUrl": null,
+    "cover": "skeleton-gadgets-9.jpg",
+    "hook": "エモない？🤔",
+    "caption": "エモない？🤔\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【買ってよかったスケルトンガジェット9選】\nをご紹介✨\n\n《紹介したもの》\n\n①任天堂 ゲームボーイアドバンスSP\n購入時：20,000円（メルカリ）\nIPS液晶化しているゲームボーイアドバンスSP\n画面の明るさや鮮明さが通常のものとは全然違う！\nかつ、折りたたみでめちゃくちゃコンパクトに。\n懐かしいソフトたちで遊ぶのだ。\n\n②Beats Studio Buds＋\n価格：20,770（ヨドバシカメラ）\n昨年購入したイヤホンだけど、今でもバリバリ使ってる。\n非常にバランスのいいイヤホン。\n音質もノイキャンも平均点以上の実力。\nデザイン買いでも後悔しません！\n\n③3COINS クリアモバイルバッテリー\n価格：2,200円\n5000mAh、Type-C端子内蔵型\nLEDライト付き\n\n④3COINS クリアマウス\n価格：1,320円\nBluetooth接続、USBレシーバー接続\n最大3台まで切り替え可能\n\n⑤3COINS 30W PD対応 クリアアダプター\n価格：2,200円\n最大出力30W、高速充電対応\nType-Cポート×1ポート\n\n⑥3COINS Type-C60W PDケーブル\n価格：550円\n最大出力60W\n長さ約1m、Type-C to Type-C\n\n⑦3COINS クリアゲームコントローラー\n価格：3,300円\nカラー：グリーン（WEB限定）\n無線、有線接続対応\nLEDランプ付き\nターボ連射機能、ジャイロセンサー\n64を思い出すデザインだよね！\n\n⑧MONDO BY DEFUNC モンドオーバーイヤー\n価格：33,126（Amazon）\nトランスペアレントモデル\nBluetooth5.2\n連続再生時間：最大約45時間\n充電時間：約1.5時間\n重量：約275g\nIPX4\nこのスケルトンがたまらんです。\n音質は低音がしっかり響く系で自分好み！\n気に入りすぎて毎日使ってます！\n⚠️ただし、電源が勝手に付くことがある\n\n⑨任天堂 DS light\n価格：7,800円（メルカリ）\nType-C充電カスタム\nDSはイヤホンが使えるので外出時のゲームは\nSPよりこっちの方が良さそう！\nさらにDSのソフトとアドバンスのソフト両方できるのが\nお得感もあって良いよね！\n\nしたっけね〜👋️\n\n________________________\n\n#スケルトン #クリアガジェット #買ってよかった\n#レトロゲーム #レトロゲーム好き \n#ポケモン #pokémon #ゲームボーイ #ゲームボーイアドバンス #dslite \n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#スケルトン",
+      "#クリアガジェット",
+      "#買ってよかった",
+      "#レトロゲーム",
+      "#レトロゲーム好き",
+      "#ポケモン",
+      "#pokémon",
+      "#ゲームボーイ",
+      "#ゲームボーイアドバンス",
+      "#dslite",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "その他",
+    "pr": false,
+    "items": [
+      {
+        "name": "ゲームボーイアドバンスSP",
+        "brand": "Nintendo",
+        "price": "20,000円（メルカリ・購入時）",
+        "note": "IPS液晶化したカスタム品。販売終了",
+        "key": "gameboy-advance-sp",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Beats Studio Buds +",
+        "brand": "Beats",
+        "price": "20,770円（ヨドバシカメラ・購入時）",
+        "note": "トランスペアレント（スケルトン）モデル。バランスのいい音質とノイキャン",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0C31R9VKW?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "3COINS クリアモバイルバッテリー",
+        "brand": "3COINS",
+        "price": "2,200円",
+        "note": "5000mAh、Type-C端子内蔵、LEDライト付き。3COINSの店舗・公式通販のみのためリンクなし",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "3COINS クリアマウス",
+        "brand": "3COINS",
+        "price": "1,320円",
+        "note": "Bluetooth・USBレシーバー接続、最大3台切り替え。3COINSの店舗・公式通販のみのためリンクなし",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "3COINS 30W PD対応 クリアアダプター",
+        "brand": "3COINS",
+        "price": "2,200円",
+        "note": "最大出力30W、Type-C×1。3COINSの店舗・公式通販のみのためリンクなし",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "3COINS Type-C 60W PDケーブル",
+        "brand": "3COINS",
+        "price": "550円",
+        "note": "約1m、Type-C to Type-C。3COINSの店舗・公式通販のみのためリンクなし",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "3COINS クリアゲームコントローラー",
+        "brand": "3COINS",
+        "price": "3,300円",
+        "note": "グリーン（WEB限定）。無線・有線対応、ジャイロセンサー付き。3COINSの店舗・公式通販のみのためリンクなし",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "MONDO by Defunk Over Ear Headphones トランスペアレント",
+        "brand": "MONDO by Defunk",
+        "price": "33,126円（Amazon・購入時）",
+        "note": "Bluetooth 5.2、最大約45時間再生、約275g、IPX4。低音がしっかり響く",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CZ34WXNN?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "Nintendo DS Lite",
+        "brand": "Nintendo",
+        "price": "7,800円（メルカリ・購入時）",
+        "note": "Type-C充電カスタム品。販売終了",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "dji-vs-gopro-2024",
+    "title": "DJIとGoPro禁断の比較",
+    "status": "posted",
+    "postedDate": "2024-10-05",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DAveSGLIIaq/",
+    "youtubeUrl": null,
+    "cover": "dji-vs-gopro-2024.jpg",
+    "hook": "これは圧倒的に……",
+    "caption": "これは圧倒的に……\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【DJIとGoPro禁断の比較】\nをご紹介✨\n\nこのために\n２つのアクションカメラを\n購入し、実際に検証してみました👌\n\n最後に簡易的な比較表を載せたので\nぜひチェックしてみてくださいね✨\n\n\nしたっけね〜👋️\n\n________________________\n\n#アクションカメラ #gopro #gopro13black \n#アクションカム #dji #djiosmoaction5pro \n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#アクションカメラ",
+      "#gopro",
+      "#gopro13black",
+      "#アクションカム",
+      "#dji",
+      "#djiosmoaction5pro",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "カメラ・映像",
+    "pr": false,
+    "items": [
+      {
+        "name": "DJI Osmo Action 5 Pro",
+        "brand": "DJI",
+        "note": "リンクはスタンダードコンボ",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0D1YH4B2R?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "key": "dji-osmo-action-5-pro",
+        "price": null,
+        "officialUrl": null
+      },
+      {
+        "name": "GoPro HERO13 Black",
+        "brand": "GoPro",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DRCQTXFF?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "price": null,
+        "officialUrl": null,
+        "note": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "victor-ha-fx550t",
+    "title": "Victor HA-FX550T",
+    "status": "posted",
+    "postedDate": "2024-10-01",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DAlHUepIUy8/",
+    "youtubeUrl": null,
+    "cover": "victor-ha-fx550t.jpg",
+    "hook": "今回紹介したイヤホンはこちら👇",
+    "caption": "今回紹介したイヤホンはこちら👇\n\nVictor\nHA-FX550T\n@victor_sound_jp \n\n老舗オーディオブランドが出した\n究極の一品と言えるハイエンドイヤホンで聴く\nクラシックや特に女性アーティストの曲が本当に心地よくて、耳がとろける……\n\nビクターは歴史あるオーディオメーカー。\nそんなビクターが自信を持ってオススメするイヤホンがどんなもんかと、\n恐る恐る手を伸ばしたら音質とノイキャン機能がすごかった！\n\nしかも、嬉しいのがコンパクトであること。\nコンパクトなガジェットは正義だと思っているので\nこれは本当にありがたい✨\n\nこのアイテムがおすすめな人は\n・とにかく良い音で音楽を聴きたい人！\n・ノイキャンがしっかり効くイヤホンが欲しい人！\n\nまたね～👋\n________________________\n\n#pr #hafx550t #victor #ビクター #ビクターのある暮らし\n#ワイヤレスイヤホン #イヤホン #高音質イヤホン #music\n#ガジェット#ガジェット好き #ガジェット紹介",
+    "hashtags": [
+      "#pr",
+      "#hafx550t",
+      "#victor",
+      "#ビクター",
+      "#ビクターのある暮らし",
+      "#ワイヤレスイヤホン",
+      "#イヤホン",
+      "#高音質イヤホン",
+      "#music",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#ガジェット紹介"
+    ],
+    "category": "オーディオ",
+    "pr": true,
+    "items": [
+      {
+        "name": "Victor HA-FX550T",
+        "brand": "Victor（JVCケンウッド）",
+        "note": "ハイエンドの完全ワイヤレスイヤホン。音質とノイキャンが強く、コンパクト。リンクはゴールド（-N）、ブラック（-B）もあり",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0D3HMP2YL?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "price": null,
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "dji-osmo-action-5-pro",
+    "title": "DJI ACTION 5 Pro 先行レビュー",
+    "status": "posted",
+    "postedDate": "2024-09-24",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DATPMRaokEX/",
+    "youtubeUrl": null,
+    "cover": "dji-osmo-action-5-pro.jpg",
+    "hook": "アクションカメラいいな🤔✨",
+    "caption": "アクションカメラいいな🤔✨\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【DJI ACTION 5Pro】\nをご紹介✨\n\n提供　@dji_japan \n#pr\n\n今回、こちらを先行レビューという形で\nご提供いただき、実際にいろんなシーンで\n使い倒してみました！\n\n非の打ち所がほぼない、そんなカメラに\n仕上がってるなと個人的に思ってます🔥\nポケットにマイクとラフに突っ込んで\n持ち歩く、そんな運用が合ってそう！\n\nというのもOSMO Pocket3は\n物理ジンバルがかなり繊細で\n結構気を使う……（なんなら落として壊しました泣）\n\nあとはここに1インチセンサー（OSMO Pocket3と一緒の）\n積んだら敵なしって感じね😉✨\n\n\nしたっけね〜👋️\n\n________________________\n\n#dji #djiaction5pro #djiaction \n#アクションカメラ#カメラのある生活 \n#ガジェット#ガジェット好き #子供の記録",
+    "hashtags": [
+      "#pr",
+      "#dji",
+      "#djiaction5pro",
+      "#djiaction",
+      "#アクションカメラ",
+      "#カメラのある生活",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#子供の記録"
+    ],
+    "category": "カメラ・映像",
+    "pr": true,
+    "items": [
+      {
+        "name": "DJI Osmo Action 5 Pro",
+        "brand": "DJI",
+        "note": "先行レビューで提供。リンクはスタンダードコンボ",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0D1YH4B2R?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "key": "dji-osmo-action-5-pro",
+        "price": null,
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "casefinite-iphone16pro-cases",
+    "title": "iPhone16Pro お洒落なケース",
+    "status": "posted",
+    "postedDate": "2024-09-22",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DAN-q4eIt7A/",
+    "youtubeUrl": null,
+    "cover": "casefinite-iphone16pro-cases.jpg",
+    "hook": "薄くて、軽い。これ正義。",
+    "caption": "薄くて、軽い。これ正義。\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【iPhone16Pro お洒落なケース】\nをご紹介✨\n\n\n①THE FROST AIR ULTRA\nアイスホワイト／スモークブラック\n価格：5,999円\n《特徴》\n・半透明で美しい佇まい\n・触り心地がサラサラで気持ちいい。\n・指紋つきにくい\n・薄く軽いのに耐久性ある\n\n②THE INVISIBLE AIR\nクリスタルクリア／クリスタルブラック\n価格：5,999円\n《特徴》\n・完全クリアでiPhoneの美しさをそのままに\n・驚くほど薄く、軽い、のに耐久性あり\n・やや指紋は気になる\n・剛性があり、握り込み易い\n\n他のブランドにはない\nデザイン性や美しさがあるよね！！\nそれがCASEFINITEさんの魅力！！！！\n\n\nしたっけね〜👋️\n\n________________________\n\n#casefinite #ケースフィニット \n#iPhone16 #iPhone16pro #iPhoneケース\n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#casefinite",
+      "#ケースフィニット",
+      "#iPhone16",
+      "#iPhone16pro",
+      "#iPhoneケース",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "スマホ・タブレット",
+    "pr": false,
+    "items": [
+      {
+        "name": "CASEFINITE THE FROST AIR ULTRA（iPhone 16 Pro）",
+        "brand": "CASEFINITE",
+        "price": "5,999円（紹介時点）",
+        "note": "アイスホワイト／スモークブラック。半透明でサラサラの手触り、指紋がつきにくい。公式ページは現行機種向け",
+        "officialUrl": "https://www.casefinite.jp/products/frostairultra",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.casefinite.jp/products/frostairultra"
+        },
+        "image": "https://cdn.shopify.com/s/files/1/0082/0641/7991/files/FAUM18P63W_en_hero_rmuf8okqf-7rpmvb_original.png?v=1790236659",
+        "imageSource": "official"
+      },
+      {
+        "name": "CASEFINITE THE INVISIBLE AIR（iPhone 16 Pro）",
+        "brand": "CASEFINITE",
+        "price": "5,999円（紹介時点）",
+        "note": "クリスタルクリア／クリスタルブラック。完全クリアで薄く軽い。公式ページは現行機種向け",
+        "officialUrl": "https://www.casefinite.jp/products/the-invisible-air",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.casefinite.jp/products/the-invisible-air"
+        },
+        "image": "https://cdn.shopify.com/s/files/1/0082/0641/7991/files/INVM18P63C_en_hero_rmudq6rwq-dclrns_original.png?v=1790145129",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
+    "id": "iphone-16-pro-unboxing",
+    "title": "iPhone16Pro 開封してみた",
+    "status": "posted",
+    "postedDate": "2024-09-20",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DAI-pJpoNSS/",
+    "youtubeUrl": null,
+    "cover": "iphone-16-pro-unboxing.jpg",
+    "hook": "興奮している30歳……😇🙏",
+    "caption": "興奮している30歳……😇🙏\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【iPhone16Pro 開封してみた】\nをご紹介✨\n\nただただ開封にワクワクしている\nおじさんの様子を撮っただけなので\n見たい人だけどうぞ🤣笑\n\n\nしたっけね〜👋️\n\n________________________\n\n#iphone16pro #iPhone16\n#ガジェット#ガジェット好き #便利アイテム",
+    "hashtags": [
+      "#iphone16pro",
+      "#iPhone16",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム"
+    ],
+    "category": "スマホ・タブレット",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple iPhone 16 Pro",
+        "brand": "Apple",
+        "officialUrl": "https://support.apple.com/ja-jp/121031",
+        "note": "開封動画。Apple公式の販売ページは終了しているため、リンクは公式の仕様ページ",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://support.apple.com/ja-jp/121031"
+        },
+        "price": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-29）"
+  },
+  {
     "id": "ipad-mini-no-promotion",
     "title": "新しいiPad mini、またProMotionなしか",
     "status": "finished",
