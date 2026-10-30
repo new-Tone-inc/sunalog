@@ -3,9 +3,9 @@
     "platform": "Instagram",
     "handle": "@simple_suna",
     "url": "https://www.instagram.com/simple_suna/",
-    "followers": 41559,
+    "followers": 41549,
     "goal": 50000,
-    "asOf": "2026-10-30",
+    "asOf": "2026-10-31",
     "featured": true,
     "note": "メインで発信中。実数はInstagramの自アカウントのプロフィールデータ（follower_count）から"
   },
@@ -23,7 +23,7 @@
     "url": "https://www.youtube.com/@simple_suna",
     "followers": 1280,
     "goal": 10000,
-    "asOf": "2026-10-30",
+    "asOf": "2026-10-31",
     "unit": "チャンネル登録者"
   },
   {
@@ -32,6 +32,6 @@
     "url": "https://www.threads.com/@simple_suna",
     "followers": 14684,
     "goal": 20000,
-    "asOf": "2026-10-30"
+    "asOf": "2026-10-31"
   }
 ]
