@@ -1,5 +1,159 @@
 [
   {
+    "id": "best-buy-2026-10",
+    "title": "10月に買ってよかったもの",
+    "status": "posted",
+    "postedDate": "2026-11-01",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfMYoT0Ir91/",
+    "youtubeUrl": null,
+    "cover": "best-buy-2026-10.jpg",
+    "hook": "特に最後のやつ気に入ってる🥹",
+    "caption": "特に最後のやつ気に入ってる🥹\n\n【10月に買ってよかったもの】※価格は2026年10月時点\n① CMF Speaker S：9,800円（公式）\n② MATECH PowerNano Watch 5000：4,590円（定価）\n③ AULUMU G09 Ghost：6,400円（通常価格）\n④ Pokémon + STARBUCKS ステンレスボトル 473ml（ヒトカゲ）：6,600円（公式）\n　 スタッキングマグ 355ml コーヒーコネクション／コーヒーアドベンチャー：各3,800円（公式）\n⑤ LEGO Game Boy™（#72046）：9,980円（レゴ公式）\n　 ※コストコ店頭では6,998円でした（2026年10月12日時点）\n⑥ FUJIFILM instax Pal 2：オープン価格（店頭想定価格 25,300円）\n⑦ Nothing Phone (4a)：58,800円〜（8GB+128GB・公式）\n　 ※Nothingから提供していただきました\n⑧ Google Fitbit Air：16,800円（Googleストア）\n\n※ポケモン×スタバはオンラインストア限定・なくなり次第終了。\nマグ2種は2026年10月31日時点で在庫なしの表示でした\n※Fitbit Airは2026年10月31日時点のGoogleストアで、Obsidian・Fog・Berryが在庫切れ（入荷通知あり）、Lavenderは購入できる表示でした\n\nみんなは10月、何買った？\nぜひコメントで教えてね！\n\nしたっけね〜👋\n\n#買ってよかったもの  #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#買ってよかったもの",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "その他",
+    "pr": true,
+    "items": [
+      {
+        "name": "CMF Speaker S（CMF by Nothing）",
+        "brand": "CMF by Nothing",
+        "price": "9,800円（公式・2026年10月時点）",
+        "officialUrl": "https://jp.nothing.tech/products/cmf-speaker-s",
+        "note": "出力10W RMS・IP68・334g・Bluetooth 6・Auracast・最大18時間（AAC再生時・公式値）。Instagram公式 @cmf.tech",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0HDYM4KS3?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fcmfspeakers%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "imageSource": "rakuten",
+        "image": "https://shop.r10s.jp/nothingagent/cabinet/13990146/cmfspeakers_main.jpg?_ex=300x300"
+      },
+      {
+        "name": "MATECH PowerNano Watch 5000",
+        "brand": "MATECH",
+        "price": "4,590円（定価・2026年10月時点）",
+        "officialUrl": null,
+        "note": "シルバー・5,000mAh・約113g・Apple Watch充電対応（最大2.5W）・最大4台同時充電。Instagram公式 @matechjapan",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0H3BVTDG9?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "imageSource": "amazon"
+      },
+      {
+        "name": "AULUMU G09 Ghost",
+        "brand": "Aulumu",
+        "price": "6,400円（通常価格・2026年10月時点）",
+        "officialUrl": null,
+        "note": null,
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0H1PYRCMG?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faulumu%2Fg09t%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "imageSource": "rakuten",
+        "image": "https://shop.r10s.jp/aulumu/cabinet/13141089/20260623.jpg?_ex=300x300"
+      },
+      {
+        "name": "Pokémon + STARBUCKS ステンレスボトル 473ml（ヒトカゲ）",
+        "brand": "STARBUCKS",
+        "price": "6,600円（公式・2026年10月時点）",
+        "officialUrl": null,
+        "note": "オンラインストア限定・なくなり次第終了",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Pokémon + STARBUCKS スタッキングマグ コーヒーコネクション 355ml",
+        "brand": "STARBUCKS",
+        "price": "3,800円（公式・2026年10月時点）",
+        "officialUrl": null,
+        "note": "オンラインストア限定・なくなり次第終了。2026年10月31日時点で在庫なしの表示",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Pokémon + STARBUCKS スタッキングマグ コーヒーアドベンチャー 355ml",
+        "brand": "STARBUCKS",
+        "price": "3,800円（公式・2026年10月時点）",
+        "officialUrl": null,
+        "note": "オンラインストア限定・なくなり次第終了。2026年10月31日時点で在庫なしの表示",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "LEGO® Game Boy™（#72046）",
+        "brand": "LEGO",
+        "price": "9,980円（レゴ公式・2026年10月時点）",
+        "officialUrl": "https://www.lego.com/ja-jp/product/game-boy-72046",
+        "note": "コストコ店頭では6,998円（2026年10月12日時点）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DWDGVHM6?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F5702017816616%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "imageSource": "rakuten",
+        "image": "https://image.rakuten.co.jp/biccamera/cabinet/product/13667/00000014241032_a01.jpg?_ex=300x300"
+      },
+      {
+        "name": "FUJIFILM instax Pal 2",
+        "brand": "FUJIFILM",
+        "price": "オープン価格（店頭想定価格 25,300円・2026年10月時点）",
+        "officialUrl": "https://www.fujifilm.com/jp/ja/consumer/instax/cameras/pal2",
+        "note": "約87g・内蔵メモリー約100枚。本体ではプリント不可",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0HLD4M82N?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Furiurishop%2F4547410573268%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "imageSource": "rakuten",
+        "image": "https://shop.r10s.jp/uriurishop/cabinet/4/4547410573268.jpg?_ex=300x300"
+      },
+      {
+        "name": "Nothing Phone (4a)",
+        "brand": "Nothing",
+        "officialUrl": "https://jp.nothing.tech/products/phone-4a",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0GR8YBXM8?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftokka-com%2F6974434227750%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "price": "58,800円〜（8GB+128GB・公式・2026年10月時点）",
+        "note": "Nothingから提供",
+        "imageSource": "rakuten",
+        "image": "https://shop.r10s.jp/tokka-com/cabinet/10045/6974434227750.jpg?_ex=300x300"
+      },
+      {
+        "name": "Google Fitbit Air",
+        "brand": "Google",
+        "price": "16,800円（Googleストア・2026年10月時点）",
+        "officialUrl": null,
+        "note": "2026年10月31日時点のGoogleストアでObsidian・Fog・Berryが在庫切れ（入荷通知あり）、Lavenderは購入できる表示",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0GYP3RP99?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "imageSource": "amazon"
+      }
+    ],
+    "itemsSource": "投稿本文（2026-11-01）"
+  },
+  {
     "id": "gameboy-lego",
     "title": "ゲームボーイのレゴ",
     "status": "posted",
