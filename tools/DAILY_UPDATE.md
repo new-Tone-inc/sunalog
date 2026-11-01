@@ -57,6 +57,11 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && git status --sh
 6. 下書きを `/tmp/sunalog/draft.json`（配列）に書き、`python3 tools/add_videos.py /tmp/sunalog/draft.json` を実行（カバー画像も自動で保存される）。続けて `python3 tools/item_images.py`（商品画像）
    - 下書きの形は `tools/add_videos.py` の冒頭コメントの通り。`coverUrl` は不要（自動で取る）
    - 同じ製品を以前も紹介している場合は、既存の `item.key` を調べて同じ `key` を付ける（`grep -n '"key"' data/videos.json`）。表記が完全に同じなら key 無しでもまとまる
+   - **6b. Amazonリンクだけのアイテムの画像**（2026-11-01追加）: `item_images.py` は楽天・公式の og:image は取れるが、Amazonは curl を弾くので取れない（実行後に「Amazonリンクだけで画像が取れなかったアイテム」として一覧が出る）。その一覧の各ASINについて Chrome で `https://www.amazon.co.jp/dp/{ASIN}` を開き3秒待ち、JS:
+     ```js
+     (()=>{const i=document.querySelector('#landingImage')||document.querySelector('#imgTagWrapperId img');return JSON.stringify({img:i&&(i.dataset.oldHires||i.src),title:(document.querySelector('#productTitle')||{}).innerText?.trim().slice(0,60)})})()
+     ```
+     で取れた `img` を、そのアイテムの `image` に、`imageSource` を `"amazon"` にして `data/videos.json` へ書く（`python3` で該当アイテムを探して入れる）。題名がその製品と違えば入れない。同じ製品を前にも紹介していて画像があれば、`item_images.py` が自動で使い回すので何もしなくてよい
 
 ## 1b. 過去の投稿の取り込み（2024年分、毎朝10本ずつ）
 すなおの希望（2026-10-28）で、2024年の投稿（93本）を新しい順に少しずつサイトへ載せていく。`data/instagram/reels-list.json` に2024年のコードと投稿日はすでに入っているので、一覧の取り直しは不要。

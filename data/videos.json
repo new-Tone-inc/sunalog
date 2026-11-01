@@ -43,7 +43,8 @@
           "rakuten": null,
           "official": null
         },
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "image": "https://m.media-amazon.com/images/I/71F+sosGm5L._AC_SY879_.jpg"
       },
       {
         "name": "AULUMU G09 Ghost",
@@ -148,7 +149,8 @@
           "rakuten": null,
           "official": null
         },
-        "imageSource": "amazon"
+        "imageSource": "amazon",
+        "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg"
       }
     ],
     "itemsSource": "投稿本文（2026-11-01）"
@@ -9471,7 +9473,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61ZboQ8e7oL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-28）"
@@ -9510,7 +9514,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61E3ulsCx4L._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Blueair Classic Pro",
@@ -9522,7 +9528,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/71r7HW4nktL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Blueair ComfortPure 3-in-1",
@@ -9534,7 +9542,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61NtOvzUVwL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-28）"
@@ -9649,7 +9659,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61rH93NJx0L._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-28）"
@@ -10020,7 +10032,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/41IjCVm3KLL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10174,7 +10188,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61-52vYUdxL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10213,7 +10229,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://shop.r10s.jp/nothingagent/cabinet/11272781/earopen_main_202607.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10270,7 +10288,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/51x0uuu9WML._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "3COINS クリアモバイルバッテリー",
@@ -10342,7 +10362,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://shop.r10s.jp/e-earphone/cabinet/mondo_by_defunc/imgrc0097611520.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       },
       {
         "name": "Nintendo DS Lite",
@@ -10395,7 +10417,9 @@
         },
         "key": "dji-osmo-action-5-pro",
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565981066_2405.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       },
       {
         "name": "GoPro HERO13 Black",
@@ -10407,7 +10431,9 @@
         },
         "price": null,
         "officialUrl": null,
-        "note": null
+        "note": null,
+        "image": "https://m.media-amazon.com/images/I/41bUBCq81cL._AC_SL1280_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10450,7 +10476,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61ltVVw-+pL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10491,7 +10519,9 @@
         },
         "key": "dji-osmo-action-5-pro",
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6941565981066_2405.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10660,7 +10690,9 @@
           "amazon": "https://www.amazon.co.jp/dp/B0C4NJ4C2Z?tag=simplesuna-22",
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://m.media-amazon.com/images/I/518I491dQ4L._AC_SL1000_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Anker Prime Charger（100W, 3 Ports, GaN）",
@@ -10672,7 +10704,9 @@
           "amazon": "https://www.amazon.co.jp/dp/B0D73JBJ56?tag=simplesuna-22",
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://m.media-amazon.com/images/I/51itDaLo7BL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "MONDO by Defunk Over Ear Headphones トランスペアレント",
@@ -10684,7 +10718,9 @@
           "amazon": "https://www.amazon.co.jp/dp/B0CZ34WXNN?tag=simplesuna-22",
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://shop.r10s.jp/e-earphone/cabinet/mondo_by_defunc/imgrc0097611520.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       },
       {
         "name": "3COINS クリアマウス",
@@ -10844,7 +10880,9 @@
           "amazon": "https://www.amazon.co.jp/dp/B0CZ34WXNN?tag=simplesuna-22",
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://shop.r10s.jp/e-earphone/cabinet/mondo_by_defunc/imgrc0097611520.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-30）"
@@ -10978,7 +11016,9 @@
           "amazon": "https://www.amazon.co.jp/dp/B0CRV4C6T7?tag=simplesuna-22",
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://m.media-amazon.com/images/I/51cQ-XZrdjL._AC_SL1321_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-30）"
@@ -11434,7 +11474,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61q2kDFa-dL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-01）"
@@ -11516,7 +11558,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61kHDUQ8ILL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-01）"
@@ -11606,7 +11650,9 @@
           "rakuten": null,
           "official": null
         },
-        "price": null
+        "price": null,
+        "image": "https://m.media-amazon.com/images/I/61kbZWLhS7L._AC_SX679_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-01）"
@@ -11720,7 +11766,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/51DmEkiCFuL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Elgato Wave Neo",
@@ -11732,7 +11780,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/518oJ-D7zkL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Elgato Stream Deck Neo",
@@ -11744,7 +11794,9 @@
           "rakuten": null,
           "official": null
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/51R5PMJFwEL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-01）"
@@ -11882,7 +11934,9 @@
         "brand": "Nothing",
         "price": "19,800円（公式）",
         "officialUrl": null,
-        "note": "14.2mmドライバー・最大30時間（ケース併用）・IP54・片耳約8.1g。Instagram公式 @nothing"
+        "note": "14.2mmドライバー・最大30時間（ケース併用）・IP54・片耳約8.1g。Instagram公式 @nothing",
+        "image": "https://shop.r10s.jp/nothingagent/cabinet/11272781/earopen_main_202607.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       }
     ]
   },

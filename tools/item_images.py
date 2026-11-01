@@ -12,6 +12,19 @@ def amz(h):
     m = re.search(r'"hiRes":"(https://m\.media-amazon\.com/images/I/[^"]+)"', h) or re.search(r'"large":"(https://m\.media-amazon\.com/images/I/[^"]+)"', h) or re.search(r'id="landingImage"[^>]+src="(https://m\.media-amazon\.com/images/I/[^"]+)"', h)
     return m.group(1) if m else None
 videos = load(VIDEOS)
+# 0) 同じ製品（key か、空白・括弧を除いた名前が同じ）をすでに紹介していて画像があれば、それを使い回す（2026-11-01追加）
+def _norm(s): return re.sub(r"[\s（）()®™]+", "", s or "").lower()
+have = {}
+for v in videos:
+    for it in v.get("items", []):
+        if it.get("image"):
+            for k in filter(None, [it.get("key"), _norm(it.get("name"))]): have.setdefault(k, (it["image"], it.get("imageSource")))
+reused = 0
+for v in videos:
+    for it in v.get("items", []):
+        if it.get("image"): continue
+        s = have.get(it.get("key")) or have.get(_norm(it.get("name")))
+        if s: it["image"], it["imageSource"] = s; reused += 1
 jobs = []
 for v in videos:
     for it in v.get("items", []):
@@ -38,4 +51,8 @@ with cf.ThreadPoolExecutor(8) as ex:
     for it, kind, img in ex.map(work, jobs):
         if img: it["image"] = img; it["imageSource"] = kind; n += 1
 save(VIDEOS, videos)
-print(f"画像を付けた: {n} / 対象 {len(jobs)}")
+print(f"画像を付けた: {n} / 対象 {len(jobs)}（同じ製品から使い回し: {reused}）")
+left = [(v["id"], it["name"], (it.get("links") or {}).get("amazon")) for v in videos for it in v.get("items", []) if not it.get("image") and (it.get("links") or {}).get("amazon")]
+if left:
+    print("Amazonリンクだけで画像が取れなかったアイテム（curlはAmazonに弾かれる。Chromeで商品ページを開き #landingImage の src を image に入れる。手順は DAILY_UPDATE.md 1-6b）:")
+    for x in left: print("  ", x)
