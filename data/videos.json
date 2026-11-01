@@ -153,7 +153,13 @@
         "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg"
       }
     ],
-    "itemsSource": "投稿本文（2026-11-01）"
+    "itemsSource": "投稿本文（2026-11-01）",
+    "stats": {
+      "likes": 66,
+      "saves": 29,
+      "comments": 1,
+      "asOf": "2026-11-02"
+    }
   },
   {
     "id": "gameboy-lego",
@@ -193,10 +199,10 @@
     "pr": false,
     "itemsSource": "新しい投稿（自動更新 2026-11-01）",
     "stats": {
-      "likes": 87,
-      "saves": 13,
-      "comments": 0,
-      "asOf": "2026-11-01"
+      "likes": 408,
+      "saves": 53,
+      "comments": 4,
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -265,10 +271,10 @@
     ],
     "itemsSource": "自動更新（2026-10-31）",
     "stats": {
-      "likes": 40,
-      "saves": 17,
+      "likes": 44,
+      "saves": 26,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -309,10 +315,10 @@
     ],
     "itemsSource": "新しい投稿（自動更新 2026-10-30）",
     "stats": {
-      "likes": 171,
+      "likes": 173,
       "saves": 31,
-      "comments": 3,
-      "asOf": "2026-11-01"
+      "comments": 4,
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -381,10 +387,10 @@
     ],
     "itemsSource": "キャプション（自動更新の試運転 2026-10-28）",
     "stats": {
-      "likes": 65,
-      "saves": 24,
-      "comments": 3,
-      "asOf": "2026-11-01"
+      "likes": 66,
+      "saves": 25,
+      "comments": 4,
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -431,10 +437,10 @@
       }
     ],
     "stats": {
-      "likes": 138,
+      "likes": 139,
       "saves": 24,
-      "comments": 9,
-      "asOf": "2026-11-01"
+      "comments": 10,
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -485,9 +491,9 @@
     ],
     "stats": {
       "likes": 36,
-      "saves": 15,
+      "saves": 16,
       "comments": 1,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -525,10 +531,10 @@
       }
     ],
     "stats": {
-      "likes": 261,
-      "saves": 170,
-      "comments": 2,
-      "asOf": "2026-11-01"
+      "likes": 267,
+      "saves": 176,
+      "comments": 3,
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -567,10 +573,10 @@
       }
     ],
     "stats": {
-      "likes": 82,
+      "likes": 83,
       "saves": 23,
-      "comments": 1,
-      "asOf": "2026-11-01"
+      "comments": 3,
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -735,7 +741,7 @@
       "likes": 62,
       "saves": 21,
       "comments": 1,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -775,10 +781,10 @@
       }
     ],
     "stats": {
-      "likes": 96,
-      "saves": 62,
+      "likes": 104,
+      "saves": 66,
       "comments": 2,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -819,7 +825,7 @@
       "likes": 33,
       "saves": 20,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -944,7 +950,7 @@
       "likes": 95,
       "saves": 28,
       "comments": 1,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -983,10 +989,10 @@
       }
     ],
     "stats": {
-      "likes": 100,
-      "saves": 42,
+      "likes": 102,
+      "saves": 47,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1026,9 +1032,9 @@
     ],
     "stats": {
       "likes": 49,
-      "saves": 18,
+      "saves": 19,
       "comments": 1,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1070,7 +1076,7 @@
       "likes": 139,
       "saves": 54,
       "comments": 2,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1103,10 +1109,10 @@
       }
     ],
     "stats": {
-      "likes": 522,
-      "saves": 1683,
+      "likes": 525,
+      "saves": 1681,
       "comments": 12,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1160,10 +1166,10 @@
       }
     ],
     "stats": {
-      "likes": 58,
+      "likes": 59,
       "saves": 18,
       "comments": 9,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1205,7 +1211,7 @@
       "likes": 54,
       "saves": 23,
       "comments": 1,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1262,7 +1268,7 @@
       "likes": 70,
       "saves": 6,
       "comments": 1,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1304,7 +1310,7 @@
       "likes": 42,
       "saves": 8,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1343,10 +1349,10 @@
     ],
     "itemsSource": "video-footage",
     "stats": {
-      "likes": 68,
+      "likes": 69,
       "saves": 13,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1580,7 +1586,7 @@
       "likes": 171,
       "saves": 115,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1640,9 +1646,9 @@
     ],
     "stats": {
       "likes": 145,
-      "saves": 149,
+      "saves": 150,
       "comments": 2,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1685,7 +1691,7 @@
       "likes": 79,
       "saves": 19,
       "comments": 10,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1738,7 +1744,7 @@
       "likes": 72,
       "saves": 8,
       "comments": 2,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1798,10 +1804,10 @@
       }
     ],
     "stats": {
-      "likes": 400,
-      "saves": 346,
+      "likes": 403,
+      "saves": 347,
       "comments": 20,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -1840,10 +1846,10 @@
       }
     ],
     "stats": {
-      "likes": 152,
+      "likes": 154,
       "saves": 57,
       "comments": 9,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-02"
     }
   },
   {
@@ -11860,6 +11866,417 @@
     "pr": false,
     "items": [],
     "itemsSource": "2024年分の取り込み（2026-11-01）。本文にアイテム名なし（動画内のみ）",
+    "itemsPending": true
+  },
+  {
+    "id": "mac-in-pocket-parsec-2024",
+    "title": "ポッケにMac入れちゃお？",
+    "status": "hidden",
+    "postedDate": "2024-07-04",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C9AByPOywty/",
+    "youtubeUrl": null,
+    "cover": "mac-in-pocket-parsec-2024.jpg",
+    "hook": "ポッケにMac入れちゃお？",
+    "caption": "ポッケにMac入れちゃお？\n他の投稿はこちら ⇢ @simple_suna \n\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n今日はポケットにMacBookを入れて\n持ち歩ける裏技をご紹介します👨🏻‍💻🫧\n\nこれが意外と実用性あって\n休日の外出中に、急にMacを触りたくなる\nそんな瞬間にも対応できます👍✨\n※Macをスリープさせないアプリ等が必要です！\n\nぜひ使ってみてね🙋🏻‍♂️✨\nしたっけね〜👋️\n\n________________________\n\n#macbook #macbookpro #macbookair \n#parsec #リモートデスクトップ #遠隔操作\n#ミニマリスト #ミニマリストの持ち物 \n#ガジェット#ガジェット好き #便利アプリ",
+    "hashtags": [
+      "#macbook",
+      "#macbookpro",
+      "#macbookair",
+      "#parsec",
+      "#リモートデスクトップ",
+      "#遠隔操作",
+      "#ミニマリスト",
+      "#ミニマリストの持ち物",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アプリ"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-02）",
+    "hiddenReason": "リモートデスクトップの使い方紹介で製品紹介でない投稿のため非表示（自動更新 2026-11-02）"
+  },
+  {
+    "id": "belkin-7in1-usbc-hub-2024",
+    "title": "一家に一つ必要です",
+    "status": "posted",
+    "postedDate": "2024-06-30",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C81u3bRSv0o/",
+    "youtubeUrl": null,
+    "cover": "belkin-7in1-usbc-hub-2024.jpg",
+    "hook": "一家に一つ必要です💨",
+    "caption": "一家に一つ必要です💨\n他の投稿はこちら ⇢ @simple_suna \n\n\n提供：Belkin\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n本日は、Apple公認でお馴染みのBelkinさんの\n「Belkin 7-in-1 USB-C ハブ」をご紹介いたします！\n\nこちらは軽量コンパクトながら\nMacユーザーだけじゃなくiPadユーザー、iPhoneユーザー\n私のようにGalaxyスマホでも活用することができます✨\n\n特にスマホやiPadはポートの数が少ないので\nこういったハブを１つ持ち歩いておくと何気に便利ですよ😉\n\n7-in-1 USBハブは3.5mmオーディオジャックがあり、オーディオポートを搭載していない、\n2020年以降のiPadのヘッドホンの接続や、マイクなど音声収録の場合にも役に立ちます！\n\nぜひチェックしてくださいね！\nしたっけね〜👋️\n\n________________________\n\n#belkin #ベルキン #USBハブ\n#ガジェット #ガジェット好き #便利アイテム\n#MacBook #MacBookair #MacBookpro",
+    "hashtags": [
+      "#belkin",
+      "#ベルキン",
+      "#USBハブ",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro"
+    ],
+    "category": "PC・周辺機器",
+    "pr": true,
+    "items": [
+      {
+        "name": "Belkin 7-in-1 USB-C ハブ",
+        "brand": "Belkin",
+        "note": "3.5mmオーディオジャック付き。Mac・iPad・iPhone・Galaxyでも使える（提供品）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B08XNG4ZKN?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "price": null,
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61JX70MEATL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-02）"
+  },
+  {
+    "id": "ee-smart-ring-2024",
+    "title": "冗談抜きで毎日つけてます",
+    "status": "posted",
+    "postedDate": "2024-06-17",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C8UMrFxSiIE/",
+    "youtubeUrl": null,
+    "cover": "ee-smart-ring-2024.jpg",
+    "hook": "冗談抜きで毎日つけてます💍",
+    "caption": "冗談抜きで毎日つけてます💍\n\n提供：株式会社イーストエンドカンパニー\n（ @ee_smartring_official ）\n他の投稿はこちら ⇢ @simple_suna \n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n数年前から健康管理のために\nスマートウォッチをつけながら寝る習慣\nになったんだけど……\n\n寝るときに時計つけているのは\nいまだに違和感がすごい……\n\nそんな方にお勧めしたいのが\nご提供いただいたEeスマートリング。\n軽くて扱いやすく負担を感じません！\n\nアプリもiPhone、Android両方対応してて\n個人的には嬉しい💻✨\n\nぜひチェックしてね💨\n\n商品：Eeスマートリング\nカラー：シルバー、ブラック\nサイズ：13、15、17、19、22、24号\n価格：15,800円\n\nEe スマートリング20％OFFクーポン\nクーポンコード：simplesuna\n有効期限：2024年8月31日 23：59まで\n\n\nしたっけね〜👋️\n\n________________________\n\n\n#おすすめグッズ #スマートリング  #eeスマートリング\n#eesmartring #ガジェット#ガジェット好き #便利アイテム\n#pr",
+    "hashtags": [
+      "#おすすめグッズ",
+      "#スマートリング",
+      "#eeスマートリング",
+      "#eesmartring",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム",
+      "#pr"
+    ],
+    "category": "ウェアラブル",
+    "pr": true,
+    "items": [
+      {
+        "name": "Ee スマートリング",
+        "brand": "イーストエンドカンパニー",
+        "price": "15,800円（紹介時点・2024年6月）",
+        "note": "シルバー・ブラック、13〜24号。iPhone・Android両対応（提供品）。Amazon・楽天では同名の商品が見つからず、リンクは付けていない",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-02）"
+  },
+  {
+    "id": "bobby-wagon-replica-2024",
+    "title": "今日はリスペクトを込めた動画",
+    "status": "posted",
+    "postedDate": "2024-06-10",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C8CKFv1PsSH/",
+    "youtubeUrl": null,
+    "cover": "bobby-wagon-replica-2024.jpg",
+    "hook": "今日はリスペクトを込めた動画🎥",
+    "caption": "今日はリスペクトを込めた動画🎥\n他の投稿はこちら ⇢ @simple_suna \n\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n今日は最近ハマってる\n@ryotracks さんの動画風に\nリスペクトをこめて撮影してみました😳\nクセになる笑顔……\n僕にはまだ早かったようですが\n撮影は楽しかったので結果オーライ😉✨笑\n\nさて、今日ご紹介するのは\nボビーワゴンです！\n\nこちらはレプリカ品ではありますが\n品質はいいように感じてます！！\n\nあとは長期使ってみて、どうなるかを\n実際に検証していけたらなぁと思ってます😉✨\n\n\nしたっけね〜👋️\n\n________________________\n\n\n#ガジェット#ガジェット好き #便利アイテム\n#ツールワゴン #ボビーワゴン #デスク周り \n#デスク収納 #デスク環境 #インテリア",
+    "hashtags": [
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム",
+      "#ツールワゴン",
+      "#ボビーワゴン",
+      "#デスク周り",
+      "#デスク収納",
+      "#デスク環境",
+      "#インテリア"
+    ],
+    "category": "その他",
+    "pr": false,
+    "items": [
+      {
+        "name": "ボビーワゴン（レプリカ品）",
+        "brand": null,
+        "note": "デスク周りの収納ワゴン。レプリカ品のため販売元が分からず、リンクは付けていない",
+        "price": null,
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-02）"
+  },
+  {
+    "id": "nagie-setup-vlog-2024",
+    "title": "スティーブ・ジョブズに憧れて…",
+    "status": "posted",
+    "postedDate": "2024-06-06",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C737H4MPRjW/",
+    "youtubeUrl": null,
+    "cover": "nagie-setup-vlog-2024.jpg",
+    "hook": "スティーブ・ジョブズに憧れて…",
+    "caption": "スティーブ・ジョブズに憧れて…\n\n他の投稿はこちら ⇢ @simple_suna \n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n提供: @nagie.official \n\n今日はNagieさんから\n仕事も遊びもいけちゃう\nガジェット好きにはもってこいな服を\nご提供いただいたので\n\n仕事と遊びを100%頑張った日の\nVLOGを投稿します👔🎡\n\nお気に入りすぎて\n色違いorTシャツ＆ジャケット買うか迷う……\n（多分きっと買う。笑）\n\n【今回着ている服】\nセットシャツ（タックパンツ）\n¥28,050-\n6月1日から20%OFFのセール中😳\n\n\nしたっけね〜👋️\n\n________________________\n\n#nagie #服選び #タイパ #コスパ \n#ミニマリスト #ミニマリストの愛用品 \n#ガジェット#ガジェット好き #便利アイテム\n#仕事着 #普段着",
+    "hashtags": [
+      "#nagie",
+      "#服選び",
+      "#タイパ",
+      "#コスパ",
+      "#ミニマリスト",
+      "#ミニマリストの愛用品",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム",
+      "#仕事着",
+      "#普段着"
+    ],
+    "category": "日常・Vlog",
+    "pr": true,
+    "items": [
+      {
+        "name": "Nagie セットシャツ（タックパンツ）",
+        "brand": "Nagie",
+        "price": "28,050円（紹介時点・2024年6月。6月1日から20%OFFセール）",
+        "note": "仕事にも遊びにも着られるセットアップ（提供品）。本文に購入先のURLが無いため、リンクは付けていない",
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-02）"
+  },
+  {
+    "id": "mac-shortcut-tips-2024-05",
+    "title": "1番効果的なのは最後にあるよ",
+    "status": "hidden",
+    "postedDate": "2024-05-15",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C6_T2NVPn_b/",
+    "youtubeUrl": null,
+    "cover": "mac-shortcut-tips-2024-05.jpg",
+    "hook": "1番効果的なのは最後にあるよ🤫",
+    "caption": "1番効果的なのは最後にあるよ🤫\n他の投稿はこちら ⇢ @simple_suna \n\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\nしたっけね〜👋️\n\n________________________\n\n#macbook #macbookpro #macbookair \n#マックブック #マックブックプロ #マックブックエアー \n#ガジェット#ガジェット好き #ショートカットキー\n#mac初心者 #apple好き #Apple",
+    "hashtags": [
+      "#macbook",
+      "#macbookpro",
+      "#macbookair",
+      "#マックブック",
+      "#マックブックプロ",
+      "#マックブックエアー",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#ショートカットキー",
+      "#mac初心者",
+      "#apple好き",
+      "#Apple"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-02）",
+    "hiddenReason": "Macの使い方の紹介で製品紹介でない投稿のため非表示（自動更新 2026-11-02）"
+  },
+  {
+    "id": "old-compact-camera-ziploc-2024",
+    "title": "エモエモに撮影しちゃって",
+    "status": "hidden",
+    "postedDate": "2024-05-13",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C66NjOkPuJi/",
+    "youtubeUrl": null,
+    "cover": "old-compact-camera-ziploc-2024.jpg",
+    "hook": "エモエモに撮影しちゃって🤘🫧",
+    "caption": "エモエモに撮影しちゃって🤘🫧\n他の投稿はこちら ⇢ @simple_suna \n\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n今日は誰でも簡単にできる\nオールドコンデジ風の動画撮影方法を\nご紹介します📸\n\n必要なのは\n・お手持ちのスマホ\n・ジップロック\n\n以上👨🏻‍💻🫧\n\nぜひ、試してみてね〜✨✨✨\nしたっけね〜👋️\n\n________________________\n\n#オールドコンデジ #コンデジ \n#エモい動画 #ガジェット好きと繋がりたい \n#ガジェット#ガジェット好き #子供撮影 \n#レトロ風 #iphone写真 #iphone動画 #iphone便利術 #スマホ撮影",
+    "hashtags": [
+      "#オールドコンデジ",
+      "#コンデジ",
+      "#エモい動画",
+      "#ガジェット好きと繋がりたい",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#子供撮影",
+      "#レトロ風",
+      "#iphone写真",
+      "#iphone動画",
+      "#iphone便利術",
+      "#スマホ撮影"
+    ],
+    "category": "カメラ・映像",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-02）",
+    "hiddenReason": "スマホとジップロックで撮る撮影方法の紹介で製品紹介でない投稿のため非表示（自動更新 2026-11-02）"
+  },
+  {
+    "id": "ulanzi-40w-cob-light-2024",
+    "title": "ほんとカメラ撮影に欠かせないよね",
+    "status": "posted",
+    "postedDate": "2024-05-09",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C6vyA87vDhJ/",
+    "youtubeUrl": null,
+    "cover": "ulanzi-40w-cob-light-2024.jpg",
+    "hook": "ほんとカメラ撮影に欠かせないよね🤫",
+    "caption": "ほんとカメラ撮影に欠かせないよね🤫\n他の投稿はこちら ⇢ @simple_suna \n\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n今日ご紹介するのは\nUlanzi\n40W COBライト\n\n動画撮影やカメラ撮影をする上で\n欠かせないのが、ライティング。\n\nライティングを取り入れるだけで\n陰影を利用したり、空間の奥行きを表現したり\nいろいろと便利なんですよね😊✨\n\nぜひ、取り入れてみては\nいかがでしょうか👨🏻‍💻🫧\n\n\nしたっけね〜👋️\n\n________________________\n\n#ulanzi #照明 #カメラ撮影 #撮影機材 \n#動画撮影 #写真撮影 #ガジェット紹介 \n#ガジェット#ガジェット好き\n#ガジェットレビュー",
+    "hashtags": [
+      "#ulanzi",
+      "#照明",
+      "#カメラ撮影",
+      "#撮影機材",
+      "#動画撮影",
+      "#写真撮影",
+      "#ガジェット紹介",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#ガジェットレビュー"
+    ],
+    "category": "カメラ・映像",
+    "pr": false,
+    "items": [
+      {
+        "name": "Ulanzi 40W COBライト",
+        "brand": "Ulanzi",
+        "note": "撮影用ライト。Amazonに40Wの型が複数あり（40W PRO等）、どれか本文から決められないため、リンクは付けていない",
+        "price": null,
+        "officialUrl": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-02）"
+  },
+  {
+    "id": "apple-event-2024-05-ipad",
+    "title": "買う前に絶対読んで",
+    "status": "posted",
+    "postedDate": "2024-05-08",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C6retmySRqw/",
+    "youtubeUrl": null,
+    "cover": "apple-event-2024-05-ipad.jpg",
+    "hook": "買う前に絶対↓読んで🤫",
+    "caption": "買う前に絶対↓読んで🤫\n他の投稿はこちら ⇢ @simple_suna \n\n\nおはようございます！すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n昨夜あったAppleの新作発表会！\n案の定iPadの発表でしたね✨\n\n概要まとめてるので\n必ずチェックしてください⚠️\n\n①iPad Air\n・11インチに加え13インチが登場\n・M2チップ搭載\n・最大1TB\n・カラーは4色でピンクが廃止\n・98,800円〜\n・13インチは11インチの低音が2倍のステレオスピーカー搭載\n\nすでに予約開始、来週発売\n\n注意点\n※e-simのみ対応\n※Magic Keyboardのみ対応\n※Apple Pencil第二世代は使えない\n\n②iPad Pro\n・11インチに加え13インチが登場\n・iPod nanoより薄い史上最薄のApple製品\n11インチ：5.3mm、444g　13インチ：5.1mm、582g\n・Ultra Retina XDRディスプレイで高次元のディスプレイに\n・Nano-textureディスプレイガラスで反射を低減（1TB以上のモデル）\n・M4チップへ飛び級（AIを見据えた使用に）\n・カメラの向きが横向きに\n\n注意点\n※e-simのみ対応\n※iPad Pro（M4）用Magic Keyboardのみ対応\n※Apple Pencil第二世代は使えない\n※ストレージ1TBを境目に内蔵メモリ性能が変わる\n※超広角カメラ廃止\n※マイクが5つ→4つに\n\n③Apple Pencil Pro\n・スクイーズでパレットを表示\n・バレルロール機能で、ペンを回転して、ツールの形を変えたりできる\n・探す機能に対応\n\n※最新のiPad Pro、iPad Airでしか使えない\n\n④iPad Pro用Magic Keyboard\n・従来より軽く、薄くなった\n・ファンクションボタンが追加\n・ガラス製トラックパッドで精度アップ\n・価格据え置き\n\n※最新iPad Proでしか使えない\n\nまさか、iPad ProがAIRより薄くなっちゃうとはねぇ😂\nみなさんは何か買いますか👨🏻‍💻🫧？\nぜひコメントで教えてくださいね！\n\nしたっけね〜👋️\n\n________________________\n\n#appleevent #apple #apple好き \n#apple信者 #ipad #ipadpro #ipadair \n#アイパッド\n#ガジェット#ガジェット好き\n#アップル",
+    "hashtags": [
+      "#appleevent",
+      "#apple",
+      "#apple好き",
+      "#apple信者",
+      "#ipad",
+      "#ipadpro",
+      "#ipadair",
+      "#アイパッド",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#アップル"
+    ],
+    "category": "スマホ・タブレット",
+    "pr": false,
+    "items": [
+      {
+        "name": "Apple iPad Air（M2）",
+        "brand": "Apple",
+        "price": "98,800円から（発表時点・2024年5月）",
+        "officialUrl": "https://www.apple.com/jp/ipad-air/",
+        "note": "11インチに加え13インチが登場。2024年5月の発表時点の情報。Amazonでは同名の商品が見つからず（現行はM3以降）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/ipad-air/"
+        },
+        "image": "https://www.apple.com/v/ipad-air/ah/images/meta/ipad-air_overview__bc2fd15uec0y_og.png?202610272106",
+        "imageSource": "official"
+      },
+      {
+        "name": "Apple iPad Pro（M4）",
+        "brand": "Apple",
+        "officialUrl": "https://www.apple.com/jp/ipad-pro/",
+        "note": "11インチ5.3mm・13インチ5.1mm。2024年5月の発表時点の情報。Amazonでは同名の商品が見つからず（現行は新しいモデル）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/ipad-pro/"
+        },
+        "price": null,
+        "image": "https://www.apple.com/v/ipad-pro/aw/images/meta/ipad-pro_overview__bu4cql27diaa_og.png?202610272106",
+        "imageSource": "official"
+      },
+      {
+        "name": "Apple Pencil Pro",
+        "brand": "Apple",
+        "officialUrl": "https://www.apple.com/jp/apple-pencil/",
+        "note": "スクイーズ・バレルロール・探す機能に対応",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0D3J7MFTT?tag=simplesuna-22",
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/apple-pencil/"
+        },
+        "price": null,
+        "image": "https://www.apple.com/v/apple-pencil/ah/images/meta/apple-pencil__e54ff7ft4f0i_og.png?202610241803",
+        "imageSource": "official"
+      },
+      {
+        "name": "Apple iPad Pro（M4）用 Magic Keyboard",
+        "brand": "Apple",
+        "officialUrl": "https://www.apple.com/jp/ipad-keyboards/",
+        "note": "従来より軽く薄く、ファンクションキー追加。最新iPad Pro専用（発表時点）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/ipad-keyboards/"
+        },
+        "price": null,
+        "image": "https://www.apple.com/jp/ipad-keyboards/images/meta/ipad-keyboards__dntd36xyj5ea_og.png?202610241803",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-02）"
+  },
+  {
+    "id": "iphone-case-stand-2024",
+    "title": "みんなは裸派？ケース派？",
+    "status": "posted",
+    "postedDate": "2024-05-05",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C6lb-dGptV6/",
+    "youtubeUrl": null,
+    "cover": "iphone-case-stand-2024.jpg",
+    "hook": "みんなは裸派？ケース派？",
+    "caption": "みんなは裸派？ケース派？\n他の投稿はこちら ⇢ @simple_suna \n\n\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n\n\n今回はiPhoneケースとスタンドを\nご紹介いたします👨🏻‍💻🫧\n\nいろんなiPhoneケースを使わせてもらいましたが\n今の所1番気に入ってます✨\n\n触り心地、デザイン\nどれをとっても良い！好み🌿\n気になった方はプロフィールのリンクからチェック✨\n\n\nしたっけね〜👋️\n\n________________________\n\n#iphone15pro #iphoneケース #アイフォンケース \n#アイフォン #iphoneスタンド #カードケース \n#ガジェット#ガジェット好き #便利アイテム\n#ガジェット紹介",
+    "hashtags": [
+      "#iphone15pro",
+      "#iphoneケース",
+      "#アイフォンケース",
+      "#アイフォン",
+      "#iphoneスタンド",
+      "#カードケース",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#便利アイテム",
+      "#ガジェット紹介"
+    ],
+    "category": "スマホ・タブレット",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-02）。本文にアイテム名なし（動画内のみ）",
     "itemsPending": true
   },
   {
