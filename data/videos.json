@@ -148,12 +148,12 @@
         "name": "Google Fitbit Air",
         "brand": "Google",
         "price": "16,800円（Googleストア・2026年10月時点）",
-        "officialUrl": null,
+        "officialUrl": "https://store.google.com/jp/product/google_fitbit_air?hl=ja",
         "note": "2026年10月31日時点のGoogleストアでObsidian・Fog・Berryが在庫切れ（入荷通知あり）、Lavenderは購入できる表示",
         "links": {
           "amazon": "https://www.amazon.co.jp/dp/B0GYP3RP99?tag=simplesuna-22",
           "rakuten": null,
-          "official": null
+          "official": "https://store.google.com/jp/product/google_fitbit_air?hl=ja"
         },
         "imageSource": "amazon",
         "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg"
@@ -486,10 +486,11 @@
         "name": "Google Fitbit Air",
         "brand": "Google",
         "price": null,
-        "officialUrl": null,
+        "officialUrl": "https://store.google.com/jp/product/google_fitbit_air?hl=ja",
         "note": "防水：水深50mまで。お風呂・サウナでの着用はGoogle公式では非推奨",
         "links": {
-          "amazon": "https://www.amazon.co.jp/dp/B0GYP3RP99?tag=simplesuna-22"
+          "amazon": "https://www.amazon.co.jp/dp/B0GYP3RP99?tag=simplesuna-22",
+          "official": "https://store.google.com/jp/product/google_fitbit_air?hl=ja"
         },
         "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg",
         "imageSource": "amazon"
@@ -527,10 +528,11 @@
         "name": "Google Fitbit Air",
         "brand": "Google",
         "price": "16,800円（税込・Googleストア）",
-        "officialUrl": null,
+        "officialUrl": "https://store.google.com/jp/product/google_fitbit_air?hl=ja",
         "note": "画面なし・5.2g（バンド込み12g）・バッテリー最長7日間。2026年10月24日時点で4色とも在庫切れ。カラー：Obsidian／Lavender／Berry／Fog",
         "links": {
-          "amazon": "https://www.amazon.co.jp/dp/B0GYP3RP99?tag=simplesuna-22"
+          "amazon": "https://www.amazon.co.jp/dp/B0GYP3RP99?tag=simplesuna-22",
+          "official": "https://store.google.com/jp/product/google_fitbit_air?hl=ja"
         },
         "image": "https://m.media-amazon.com/images/I/51itd2cP0EL._AC_SX679_.jpg",
         "imageSource": "amazon"
