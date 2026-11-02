@@ -64,37 +64,43 @@
         "name": "Pokémon + STARBUCKS ステンレスボトル 473ml（ヒトカゲ）",
         "brand": "STARBUCKS",
         "price": "6,600円（公式・2026年10月時点）",
-        "officialUrl": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641273",
         "note": "オンラインストア限定・なくなり次第終了",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://menu.starbucks.co.jp/4524785641273"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641273/4524785641273_1_m.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Pokémon + STARBUCKS スタッキングマグ コーヒーコネクション 355ml",
         "brand": "STARBUCKS",
         "price": "3,800円（公式・2026年10月時点）",
-        "officialUrl": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641341",
         "note": "オンラインストア限定・なくなり次第終了。2026年10月31日時点で在庫なしの表示",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://menu.starbucks.co.jp/4524785641341"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641341/4524785641341_1_m.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Pokémon + STARBUCKS スタッキングマグ コーヒーアドベンチャー 355ml",
         "brand": "STARBUCKS",
         "price": "3,800円（公式・2026年10月時点）",
-        "officialUrl": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641358",
         "note": "オンラインストア限定・なくなり次第終了。2026年10月31日時点で在庫なしの表示",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://menu.starbucks.co.jp/4524785641358"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641358/4524785641358_1_m.jpg",
+        "imageSource": "official"
       },
       {
         "name": "LEGO® Game Boy™（#72046）",
@@ -655,7 +661,9 @@
         "price": null,
         "officialUrl": null,
         "note": "販売終了",
-        "key": "gameboy-advance-sp"
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       },
       {
         "name": "FUJIFILM instax Pal 2",
@@ -920,7 +928,9 @@
         "price": null,
         "officialUrl": null,
         "note": "販売終了",
-        "key": "gameboy-advance-sp"
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       },
       {
         "name": "nähe ハードシェルケース",
@@ -1261,7 +1271,9 @@
         "brand": "Apple",
         "price": "米国：299ドル（11/13発売）",
         "officialUrl": "https://www.apple.com/jp/homeview/",
-        "note": "日本：未発売"
+        "note": "日本：未発売",
+        "image": "https://www.apple.com/v/apple-homeview/b/images/meta/apple-homeview__lk7n65hb6bm2_og.png",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -1446,7 +1458,9 @@
         "price": null,
         "officialUrl": null,
         "note": "販売終了",
-        "key": "gameboy-advance-sp"
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       },
       {
         "name": "nähe ハードシェルケース",
@@ -1719,25 +1733,37 @@
         "name": "Pokémon + STARBUCKS ステンレスボトル 473ml（ヒトカゲ）",
         "brand": "STARBUCKS",
         "price": "6,600円（公式）",
-        "officialUrl": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641273",
         "note": null,
-        "links": {}
+        "links": {
+          "official": "https://menu.starbucks.co.jp/4524785641273"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641273/4524785641273_1_m.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Pokémon + STARBUCKS スタッキングマグ コーヒーコネクション 355ml",
         "brand": "STARBUCKS",
         "price": "3,800円（公式）",
-        "officialUrl": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641341",
         "note": null,
-        "links": {}
+        "links": {
+          "official": "https://menu.starbucks.co.jp/4524785641341"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641341/4524785641341_1_m.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Pokémon + STARBUCKS アクリルチャーム コーヒーコネクション",
         "brand": "STARBUCKS",
         "price": "1,500円（公式）",
-        "officialUrl": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641174",
         "note": null,
-        "links": {}
+        "links": {
+          "official": "https://menu.starbucks.co.jp/4524785641174"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641174/4524785641174_1_m.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -2482,7 +2508,9 @@
         "officialUrl": null,
         "note": null,
         "links": {},
-        "key": "gameboy-advance-sp"
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -2771,7 +2799,9 @@
         "officialUrl": null,
         "note": null,
         "links": {},
-        "key": "nintendo-ds-lite"
+        "key": "nintendo-ds-lite",
+        "image": "https://www.nintendo.co.jp/ds/series/dslite/img/dsl_001.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -2940,7 +2970,9 @@
         "officialUrl": null,
         "note": null,
         "links": {},
-        "key": "gameboy-advance-sp"
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -4089,7 +4121,9 @@
         "price": null,
         "officialUrl": null,
         "note": "実家発掘",
-        "links": {}
+        "links": {},
+        "image": "https://www.nintendo.co.jp/hardware/3dsseries/3ds/img/3ds-front.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -6159,9 +6193,13 @@
         "name": "キャンドゥ キーボードキーホルダー",
         "brand": "キャンドゥ",
         "price": null,
-        "officialUrl": null,
+        "officialUrl": "https://netshop.cando-web.co.jp/view/item/000000034044",
         "note": "キャンドゥ3店舗回ってやっと見つけた",
-        "links": {}
+        "links": {
+          "official": "https://netshop.cando-web.co.jp/view/item/000000034044"
+        },
+        "image": "https://makeshop-multi-images.akamaized.net/candonetshop/itemimages/000000034044_VBafEV3.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -6581,7 +6619,9 @@
         "officialUrl": null,
         "note": "販売終了",
         "links": {},
-        "key": "gameboy-advance-sp"
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Nintendo DS Lite（スケルトン）",
@@ -6590,7 +6630,9 @@
         "officialUrl": null,
         "note": "販売終了",
         "links": {},
-        "key": "nintendo-ds-lite"
+        "key": "nintendo-ds-lite",
+        "image": "https://www.nintendo.co.jp/ds/series/dslite/img/dsl_001.jpg",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "video-footage",
@@ -8060,7 +8102,9 @@
         "price": null,
         "officialUrl": "https://alt-tab-macos.netlify.app/",
         "note": "option＋tabでウインドウ単位の一覧を表示",
-        "links": {}
+        "links": {},
+        "image": "https://alt-tab.app/public/share/home.ja-9e5c7e7d.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Gestimer",
@@ -8630,9 +8674,13 @@
         "name": "GRAMS28 171 Laptop Sling",
         "brand": "GRAMS28",
         "price": null,
-        "officialUrl": null,
+        "officialUrl": "https://www.grams28.com/products/171-laptop-sling",
         "note": "提供品。イタリアレザー使用",
-        "links": {}
+        "links": {
+          "official": "https://www.grams28.com/products/171-laptop-sling"
+        },
+        "image": "https://www.grams28.com/cdn/shop/files/1_0d24f057-1533-4277-b905-8a0eaa645f25_600x.jpg",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -8970,9 +9018,13 @@
         "name": "NotchNook",
         "brand": null,
         "price": null,
-        "officialUrl": null,
+        "officialUrl": "https://getnotchnook.com/",
         "note": "メモアプリに日本語入力すると若干バグあり（2025/01/15現在）",
-        "links": {}
+        "links": {
+          "official": "https://getnotchnook.com/"
+        },
+        "image": "https://getnotchnook.com/img/og.png",
+        "imageSource": "official"
       }
     ],
     "stats": {
@@ -9588,7 +9640,9 @@
           "amazon": null,
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://backbone.com/cdn/shop/files/backbone-one-lightning.png",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-28）"
@@ -10282,7 +10336,9 @@
           "amazon": null,
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       },
       {
         "name": "Beats Studio Buds +",
@@ -10315,12 +10371,14 @@
         "brand": "3COINS",
         "price": "1,320円",
         "note": "Bluetooth・USBレシーバー接続、最大3台切り替え。3COINSの店舗・公式通販のみのためリンクなし",
-        "officialUrl": null,
+        "officialUrl": "https://www.palcloset.jp/display/item/2417-KRU02-24K-/",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://www.palcloset.jp/display/item/2417-KRU02-24K-/"
+        },
+        "image": "https://contents.palcloset.jp/static/images/item/620870_2643086_1.jpg",
+        "imageSource": "official"
       },
       {
         "name": "3COINS 30W PD対応 クリアアダプター",
@@ -10351,12 +10409,14 @@
         "brand": "3COINS",
         "price": "3,300円",
         "note": "グリーン（WEB限定）。無線・有線対応、ジャイロセンサー付き。3COINSの店舗・公式通販のみのためリンクなし",
-        "officialUrl": null,
+        "officialUrl": "https://www.palcloset.jp/display/item/2421-3C2M344-00/",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://www.palcloset.jp/display/item/2421-3C2M344-00/"
+        },
+        "image": "https://contents.palcloset.jp/static/images/item/581951_2540283_1.jpg",
+        "imageSource": "official"
       },
       {
         "name": "MONDO by Defunk Over Ear Headphones トランスペアレント",
@@ -10382,7 +10442,9 @@
           "amazon": null,
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://www.nintendo.co.jp/ds/series/dslite/img/dsl_001.jpg",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10618,7 +10680,9 @@
           "rakuten": null,
           "official": "https://support.apple.com/ja-jp/121031"
         },
-        "price": null
+        "price": null,
+        "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121031-iphone-16-pro.png",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-29）"
@@ -10650,13 +10714,15 @@
         "name": "Apple macOS Sequoia",
         "brand": "Apple",
         "price": null,
-        "officialUrl": null,
-        "note": "Macの無料OSアップデート（2024年9月）。機能の中身は動画内で紹介。Apple公式の紹介ページは現行のmacOSに置き換わっているためリンクなし",
+        "officialUrl": "https://www.apple.com/jp/newsroom/2024/09/macos-sequoia-is-available-today/",
+        "note": "Macの無料OSアップデート（2024年9月）。機能の中身は動画内で紹介。Apple公式の紹介ページは現行のmacOSに置き換わっているため、リンクは発表時のニュースルーム記事",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://www.apple.com/jp/newsroom/2024/09/macos-sequoia-is-available-today/"
+        },
+        "image": "https://www.apple.com/newsroom/images/2024/09/macos-sequoia-is-available-today/tile/Apple-macOS-Sequoia-hero-lp.jpg.og.jpg",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-30）"
@@ -10732,13 +10798,15 @@
         "name": "3COINS クリアマウス",
         "brand": "3COINS",
         "price": null,
-        "officialUrl": null,
+        "officialUrl": "https://www.palcloset.jp/display/item/2417-KRU02-24K-/",
         "note": "静音クリック・2台接続・Type-C。3COINSの店舗・公式通販のみのためリンクなし",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://www.palcloset.jp/display/item/2417-KRU02-24K-/"
+        },
+        "image": "https://contents.palcloset.jp/static/images/item/620870_2643086_1.jpg",
+        "imageSource": "official"
       },
       {
         "name": "ゲームボーイアドバンスSP",
@@ -10751,7 +10819,9 @@
           "amazon": null,
           "rakuten": null,
           "official": null
-        }
+        },
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-30）"
@@ -10805,7 +10875,9 @@
           "amazon": null,
           "rakuten": null,
           "official": "https://support.apple.com/ja-jp/121031"
-        }
+        },
+        "image": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121031-iphone-16-pro.png",
+        "imageSource": "official"
       },
       {
         "name": "Apple Watch Series 10",
@@ -10977,13 +11049,15 @@
         "name": "3COINS クリアマウス",
         "brand": "3COINS",
         "price": null,
-        "officialUrl": null,
+        "officialUrl": "https://www.palcloset.jp/display/item/2417-KRU02-24K-/",
         "note": "本文はハッシュタグ（#マウス）のみ。3COINSの店舗・公式通販のみのためリンクなし",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://www.palcloset.jp/display/item/2417-KRU02-24K-/"
+        },
+        "image": "https://contents.palcloset.jp/static/images/item/620870_2643086_1.jpg",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-30）"
@@ -11087,13 +11161,15 @@
         "name": "Y-Tag Limit Lite Pack",
         "brand": "Y-Tag",
         "price": null,
-        "officialUrl": null,
-        "note": "MacBookを持ち歩ける軽量バックパック。Instagram公式 @y_tag_official。リンクは未確認のため付けていない",
+        "officialUrl": "https://ytag.jp/products/limit-lite-pack",
+        "note": "MacBookを持ち歩ける軽量バックパック。Instagram公式 @y_tag_official",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://ytag.jp/products/limit-lite-pack"
+        },
+        "image": "https://ytag.jp/cdn/shop/files/13_8bb0bf0e-d006-44a5-accc-873be0a7c7c4.png",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-30）"
@@ -11360,13 +11436,15 @@
         "name": "NELL マットレス",
         "brand": "NELL",
         "price": null,
-        "officialUrl": null,
-        "note": "投稿時はクーポンコード「simplesuna」で全品10%OFF（期限は本文に記載なし）。120日間のトライアル・10年保証（本文より）。リンクは本文に無いため付けていない",
+        "officialUrl": "https://nell.life/",
+        "note": "投稿時はクーポンコード「simplesuna」で全品10%OFF（期限は本文に記載なし）。120日間のトライアル・10年保証（本文より）。リンクは公式サイト",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://nell.life/"
+        },
+        "image": "https://nell.life/ogp_image.png",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-10-31）"
@@ -11522,7 +11600,9 @@
           "official": null
         },
         "price": null,
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://static.makuake.com/upload/project/41643/main_41643.jpg?version=1723687204&width=690&height=388",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-01）"
@@ -11968,13 +12048,15 @@
         "name": "Ee スマートリング",
         "brand": "イーストエンドカンパニー",
         "price": "15,800円（紹介時点・2024年6月）",
-        "note": "シルバー・ブラック、13〜24号。iPhone・Android両対応（提供品）。Amazon・楽天では同名の商品が見つからず、リンクは付けていない",
-        "officialUrl": null,
+        "note": "シルバー・ブラック、13〜24号。iPhone・Android両対応（提供品）。Amazon・楽天では同名の商品が見つからず、リンクは公式ストア（製品名は「Ee スマートタッチリング」）",
+        "officialUrl": "https://eeproduct.net/products/ee-smarttouchring-silver-black-gold",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
-        }
+          "official": "https://eeproduct.net/products/ee-smarttouchring-silver-black-gold"
+        },
+        "image": "https://eeproduct.net/cdn/shop/files/1_2c228cb1-1b1b-49a1-b8b3-b65b680bf557.png",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-02）"
