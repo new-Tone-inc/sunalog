@@ -1,5 +1,50 @@
 [
   {
+    "id": "osmo-nano-toddler-pov",
+    "title": "今しか見れない、貴重なおミニ目線",
+    "status": "posted",
+    "postedDate": "2026-11-03",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfRynxKo5PW/",
+    "youtubeUrl": null,
+    "cover": "osmo-nano-toddler-pov.jpg",
+    "hook": "今しか見れない、貴重なおミニ目線…👀✨️",
+    "caption": "今しか見れない、貴重なおミニ目線…👀✨️\n\nDJI Osmo Nanoを2歳の娘の胸に付けて、\n「よろしくね」ってお願いしたら、コクッ。（可愛い）\n\n2歳児の目線って、こんなに低いんだよなぁ。\n最後は帰りの車でぐっすり😴←\n\n【スペック】※価格は2026年11月3日時点\nDJI Osmo Nano（スタンダードコンボ 64GB）\nセンサー：1/1.3インチ\n動画：最大4K/60fps\n防水：10m（カメラ単体）\n価格：43,890円（DJI公式）\n\n#OsmoNano #DJI #子どものいる生活 #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#OsmoNano",
+      "#DJI",
+      "#子どものいる生活",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "カメラ・映像",
+    "pr": false,
+    "items": [
+      {
+        "name": "DJI Osmo Nano（スタンダードコンボ 64GB）",
+        "brand": "DJI",
+        "price": "43,890円（DJI公式）※2026年11月3日時点",
+        "officialUrl": "https://store.dji.com/jp/product/osmo-nano",
+        "note": "1/1.3インチ・最大4K/60fps・防水10m（カメラ単体）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0FBFZM45S?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6937224115453v%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "key": "dji-osmo-nano",
+        "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6937224115453v_t3.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "新しい投稿（自動更新 2026-11-04）",
+    "stats": {
+      "likes": 30,
+      "saves": 9,
+      "comments": 4,
+      "asOf": "2026-11-04"
+    }
+  },
+  {
     "id": "tomtoc-aviator-t37",
     "title": "コンパクトなカバン、探してた",
     "status": "posted",
@@ -50,7 +95,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）"
+    "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
+    "stats": {
+      "likes": 31,
+      "saves": 8,
+      "comments": 0,
+      "asOf": "2026-11-04"
+    }
   },
   {
     "id": "kids-time-no-smartphone",
@@ -238,10 +289,10 @@
     ],
     "itemsSource": "投稿本文（2026-11-01）",
     "stats": {
-      "likes": 66,
-      "saves": 29,
+      "likes": 89,
+      "saves": 44,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -338,7 +389,13 @@
         "imageSource": "official"
       }
     ],
-    "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）"
+    "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
+    "stats": {
+      "likes": 115,
+      "saves": 33,
+      "comments": 41,
+      "asOf": "2026-11-04"
+    }
   },
   {
     "id": "gameboy-lego",
@@ -378,10 +435,10 @@
     "pr": false,
     "itemsSource": "新しい投稿（自動更新 2026-11-01）",
     "stats": {
-      "likes": 408,
-      "saves": 53,
-      "comments": 4,
-      "asOf": "2026-11-02"
+      "likes": 519,
+      "saves": 77,
+      "comments": 5,
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -450,10 +507,10 @@
     ],
     "itemsSource": "自動更新（2026-10-31）",
     "stats": {
-      "likes": 44,
-      "saves": 26,
+      "likes": 46,
+      "saves": 28,
       "comments": 0,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -494,10 +551,10 @@
     ],
     "itemsSource": "新しい投稿（自動更新 2026-10-30）",
     "stats": {
-      "likes": 173,
+      "likes": 175,
       "saves": 31,
-      "comments": 4,
-      "asOf": "2026-11-02"
+      "comments": 3,
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -569,7 +626,7 @@
       "likes": 66,
       "saves": 25,
       "comments": 4,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -616,10 +673,10 @@
       }
     ],
     "stats": {
-      "likes": 139,
+      "likes": 142,
       "saves": 24,
       "comments": 10,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -670,10 +727,10 @@
       }
     ],
     "stats": {
-      "likes": 36,
-      "saves": 16,
+      "likes": 37,
+      "saves": 17,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -712,10 +769,10 @@
       }
     ],
     "stats": {
-      "likes": 267,
-      "saves": 176,
+      "likes": 285,
+      "saves": 182,
       "comments": 3,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -754,10 +811,10 @@
       }
     ],
     "stats": {
-      "likes": 83,
-      "saves": 23,
+      "likes": 84,
+      "saves": 24,
       "comments": 3,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -924,7 +981,7 @@
       "likes": 62,
       "saves": 21,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -964,10 +1021,10 @@
       }
     ],
     "stats": {
-      "likes": 104,
-      "saves": 66,
+      "likes": 110,
+      "saves": 70,
       "comments": 2,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1005,10 +1062,10 @@
       }
     ],
     "stats": {
-      "likes": 33,
+      "likes": 36,
       "saves": 20,
       "comments": 0,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1132,10 +1189,10 @@
       }
     ],
     "stats": {
-      "likes": 95,
-      "saves": 28,
+      "likes": 99,
+      "saves": 30,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1174,10 +1231,10 @@
       }
     ],
     "stats": {
-      "likes": 102,
-      "saves": 47,
+      "likes": 112,
+      "saves": 52,
       "comments": 0,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1216,10 +1273,10 @@
       }
     ],
     "stats": {
-      "likes": 49,
+      "likes": 50,
       "saves": 19,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1259,9 +1316,9 @@
     ],
     "stats": {
       "likes": 139,
-      "saves": 54,
+      "saves": 53,
       "comments": 2,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1294,10 +1351,10 @@
       }
     ],
     "stats": {
-      "likes": 525,
-      "saves": 1681,
+      "likes": 528,
+      "saves": 1684,
       "comments": 12,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1354,7 +1411,7 @@
       "likes": 59,
       "saves": 18,
       "comments": 9,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1396,7 +1453,7 @@
       "likes": 54,
       "saves": 23,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1455,7 +1512,7 @@
       "likes": 70,
       "saves": 6,
       "comments": 1,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1497,7 +1554,7 @@
       "likes": 42,
       "saves": 8,
       "comments": 0,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1536,10 +1593,10 @@
     ],
     "itemsSource": "video-footage",
     "stats": {
-      "likes": 69,
+      "likes": 70,
       "saves": 13,
       "comments": 0,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1772,10 +1829,10 @@
       }
     ],
     "stats": {
-      "likes": 171,
-      "saves": 115,
+      "likes": 173,
+      "saves": 116,
       "comments": 0,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1834,10 +1891,10 @@
       }
     ],
     "stats": {
-      "likes": 145,
+      "likes": 146,
       "saves": 150,
       "comments": 2,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1880,7 +1937,7 @@
       "likes": 79,
       "saves": 19,
       "comments": 10,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -1945,7 +2002,7 @@
       "likes": 72,
       "saves": 8,
       "comments": 2,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -2005,10 +2062,10 @@
       }
     ],
     "stats": {
-      "likes": 403,
+      "likes": 405,
       "saves": 347,
       "comments": 20,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-04"
     }
   },
   {
@@ -12890,6 +12947,421 @@
       }
     ],
     "itemsSource": "2024年分の取り込み（2026-11-03）"
+  },
+  {
+    "id": "mac-apps-two-2024-03",
+    "title": "2つ目のアプリが人気っぽい",
+    "status": "hidden",
+    "postedDate": "2024-03-22",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C4xtAQCPZCI/",
+    "youtubeUrl": null,
+    "cover": "mac-apps-two-2024-03.jpg",
+    "hook": "2つ目のアプリが人気っぽい😳",
+    "caption": "2つ目のアプリが人気っぽい😳\n\n他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n⁡今日はここ最近ずっとお気に入りの\n神アプリを２つご紹介します✨\n\n前にもご紹介しましたが、実際に使っている様子を👨🏻‍💻🫧📸\n\nぜっっっったいつかってよなっ👍🔥（主人公風）\n⁡\n⁡\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro\n#mac初心者 #macアプリ #アプリ #便利アプリ #アプリ紹介",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#mac初心者",
+      "#macアプリ",
+      "#アプリ",
+      "#便利アプリ",
+      "#アプリ紹介"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-04）",
+    "hiddenReason": "Macアプリの紹介で製品紹介でない投稿のため非表示（アプリ名は本文に無し）（自動更新 2026-11-04）"
+  },
+  {
+    "id": "mac-cafe-shortcuts-2024",
+    "title": "カフェで使えるショートカットキー3つ",
+    "status": "hidden",
+    "postedDate": "2024-03-07",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C4NnFFjPypm/",
+    "youtubeUrl": null,
+    "cover": "mac-cafe-shortcuts-2024.jpg",
+    "hook": "他の投稿はこちら ⇢ @simple_suna ",
+    "caption": "他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n今日はカフェで使える\nショートカットキーを3つご紹介しますっ👨🏻‍💻🫧\n明日から使ってね！\n\n《裏話》\nカフェで撮影するの恥ずかった…\n⁡\n⁡\n⁡\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro\n#ショートカットキー #ショートカットキー操作 #パソコンスキル #パソコン#パソコンで稼ぐ #パソコン仕事 #仕事術 #パソコン初心者 #作業効率化 #仕事効率化 #時間術 #効率化 #生産性 #効率化アップ #時短術",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#ショートカットキー",
+      "#ショートカットキー操作",
+      "#パソコンスキル",
+      "#パソコン",
+      "#パソコンで稼ぐ",
+      "#パソコン仕事",
+      "#仕事術",
+      "#パソコン初心者",
+      "#作業効率化",
+      "#仕事効率化",
+      "#時間術",
+      "#効率化",
+      "#生産性",
+      "#効率化アップ",
+      "#時短術"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-04）",
+    "hiddenReason": "Macのショートカットキーの紹介で製品紹介でない投稿のため非表示（自動更新 2026-11-04）"
+  },
+  {
+    "id": "lofree-flow-2024",
+    "title": "気持ちいい打鍵音聞いてほしい",
+    "status": "posted",
+    "postedDate": "2024-03-05",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C4IYqnJvDbF/",
+    "youtubeUrl": null,
+    "cover": "lofree-flow-2024.jpg",
+    "hook": "気持ちいい打鍵音聞いてほしい",
+    "caption": "気持ちいい打鍵音聞いてほしい\n\n他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n⁡提供：Lofree\n\nなんとなんと！！！！\n過去にLofreeの可愛くてごめんなマウスを紹介したところ\nありがたいことに約20万再生されまして、それがLofreeさんに届き\nこの度タイアップさせていただけることに…🫧\n\n正直、2023年後半のガジェット好きを虜にしてきたキーボードだけに\nずっと気になってたんだけど、これは最高だ。\n\nロープロファイルメカニカルキーボード（薄型メカニカル）界の\nHHKBとも呼び声の高い確かな打鍵感は、もう止まらない。\nほんと癖になる。無駄にタイピングしたくなります👨‍💻✨\n\nぜひ、気になっていた方は試してほしいな🌿\n\n《製品の詳細》\nLofree\nFlow\n25,999円\nカラー展開\nブラック：タクタイル、茶軸\nホワイト：リニア、赤軸\n\n《特徴》\n・打鍵感が最高なメカニカル\n・ロープロファイル世界初のガスケットマウント\n・PBTキャップが高品質で耐久性&打鍵感いい\n・RGBサイドライト&ホワイトバックライト\n・ホットスワップ対応\n・アルミニウム素材で高級感ある\n・バッテリー寿命が長い（最大40時間）\n・持ち運びもできる軽量設計\n\n⁡\n⁡\n⁡\n⁡\n⁡\nしたっけね〜👋️\n⁡\n________________________\n⁡\n#lofree #lofreeflow #メカニカルキーボード #キーボード #タイピング #デスク #デスク周り \n#MacBook #macbookair #マックブック #macbookpro \n#ガジェット#ガジェット好き \n⁡",
+    "hashtags": [
+      "#lofree",
+      "#lofreeflow",
+      "#メカニカルキーボード",
+      "#キーボード",
+      "#タイピング",
+      "#デスク",
+      "#デスク周り",
+      "#MacBook",
+      "#macbookair",
+      "#マックブック",
+      "#macbookpro",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": true,
+    "items": [
+      {
+        "name": "Lofree Flow",
+        "brand": "Lofree",
+        "price": "25,999円（紹介時点・2024年3月）",
+        "note": "ロープロファイルのメカニカルキーボード。ブラック（タクタイル・茶軸）／ホワイト（リニア・赤軸）（提供品）。Amazonでは同名の商品が見つからず（現行はFlow2・Flow Lite）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/511fVEDyh9L._AC_SX679_.jpg",
+        "imageSource": "amazon"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-04）"
+  },
+  {
+    "id": "talk-2024-03-03",
+    "title": "2024/03/03 トークテーマ",
+    "status": "hidden",
+    "postedDate": "2024-03-04",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C4DZudZPdEa/",
+    "youtubeUrl": null,
+    "cover": "talk-2024-03-03.jpg",
+    "hook": "2024/03/03",
+    "caption": "2024/03/03\n\n《トークテーマ》\n・本業と副業（SNSとカメラ）\n・最近欲しいガジェット\n・人生30年で初体験したこと\n・最近ハマってしまったもの",
+    "hashtags": [],
+    "category": "日常・Vlog",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-04）",
+    "hiddenReason": "トーク（雑談）の投稿で製品紹介でない投稿のため非表示（自動更新 2026-11-04）"
+  },
+  {
+    "id": "mac-folder-tips-2024-02",
+    "title": "フォルダ整理で使える便利術3つ",
+    "status": "hidden",
+    "postedDate": "2024-02-29",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C37fq0-vwpX/",
+    "youtubeUrl": null,
+    "cover": "mac-folder-tips-2024-02.jpg",
+    "hook": "他の投稿はこちら ⇢ @simple_suna ",
+    "caption": "他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n⁡フォルダの整理で使える\n知ってると得する便利術を3つご紹介しますっ🫧\n明日から使ってね！\n\n①一括名称変更\n・右クリック→名称変更→カウタムフォーマットの名前を入力\n\n②スタック整理\n右クリック→スタックを使用\n\n③フォルダ移動\nCommand＋Aでフォルダを全選択\nCommand＋Cでコピー\n移動先のフォルダを開いて\noption＋Command＋V\nこれで移動完了！\n⁡\n⁡\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro\n#ショートカットキー #ショートカットキー操作 #パソコンスキル #パソコン#パソコンで稼ぐ #パソコン仕事 #仕事術 #パソコン初心者 #作業効率化 #仕事効率化 #時間術 #効率化 #生産性 #効率化アップ #時短術",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#ショートカットキー",
+      "#ショートカットキー操作",
+      "#パソコンスキル",
+      "#パソコン",
+      "#パソコンで稼ぐ",
+      "#パソコン仕事",
+      "#仕事術",
+      "#パソコン初心者",
+      "#作業効率化",
+      "#仕事効率化",
+      "#時間術",
+      "#効率化",
+      "#生産性",
+      "#効率化アップ",
+      "#時短術"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-04）",
+    "hiddenReason": "Macのフォルダ整理の使い方紹介で製品紹介でない投稿のため非表示（自動更新 2026-11-04）"
+  },
+  {
+    "id": "edifier-neobuds-pro-2-2024",
+    "title": "Edifier NeoBuds Pro 2 1ヶ月レビュー",
+    "status": "posted",
+    "postedDate": "2024-02-13",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C3PtYiNPl3v/",
+    "youtubeUrl": null,
+    "cover": "edifier-neobuds-pro-2-2024.jpg",
+    "hook": "他の投稿はこちら ⇢ @simple_suna ",
+    "caption": "他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n⁡提供:Edifire（ @edifier.japan ）\n今日は1月にEdifireさんからご提供いただいたワイヤレスイヤホンを1ヶ月使い倒し、めちゃくちゃよかったのでレビュー投稿をします👨🏻‍💻🫧\n\nこのイヤホン、2023年末に各インフルエンサーさんが\nこぞってコスパ最強イヤホンベスト3にはランクインさせていた、最高のイヤホンです🌙✨\n\n今イヤホンを買おうと悩んでいた方は\nぜひ検討してみてくださいね☺️\n\nEdifire\nNeoBudsPro2\n19,990円\n\n‼️今日現在（2024/02/12）‼️\nAmazonにてタイムセール実施中！\n価格:15,190円（24%OFF）\n\n【特徴】\n\n①最大-50dBの「ワイドバンドマルチチャンネルANC™」特許技術 \n②「Hi-Res Wireless」認証を取得、業界標準のハイレゾ対応高音質オーディオコーデック技術「LDAC」および「LHDC」に対応 \n➂革新的なヘッドトラッキング機能を備え、没入感あふれる360°空間オーディオを実現\n④AI搭載のスマートノイズキャンセリングで、最高の通話品質を実現 \n⑤革新のAIマルチモード自己適応システム搭載 \n⑥最長24時間の連続再生が可能で、急速充電にも対応。たったの15分の充電で2時間の音楽を楽しむことが可能\n⑦装着検出機能搭載＆専用アプリでよりカスタマイズ可能な音楽体験を\n⑧IP54防水規格\n\n【気になる点】\n・ワイヤレス充電非対応\n・マルチポイント非対応\n⁡\n⁡\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro #ワイヤレスイヤホン #ワイヤレスイヤホンデビュー #イヤホン #コスパ最高 #コスパ最強 #ガジェット #ガジェット好き #edifire #qol向上 #暮らしの最適化 #音質 #ノイズキャンセリング #ノイキャン #pr",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#ワイヤレスイヤホン",
+      "#ワイヤレスイヤホンデビュー",
+      "#イヤホン",
+      "#コスパ最高",
+      "#コスパ最強",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#edifire",
+      "#qol向上",
+      "#暮らしの最適化",
+      "#音質",
+      "#ノイズキャンセリング",
+      "#ノイキャン",
+      "#pr"
+    ],
+    "category": "オーディオ",
+    "pr": true,
+    "items": [
+      {
+        "name": "EDIFIER NeoBuds Pro 2",
+        "brand": "EDIFIER",
+        "price": "19,990円（紹介時点・2024年2月。2024年2月12日時点のAmazonタイムセールで15,190円）",
+        "note": "最大-50dBのANC・LDAC/LHDC対応・空間オーディオ・IP54。ワイヤレス充電とマルチポイントは非対応（提供品）。Amazonでは同名の商品が見つからず（現行はNeoBuds Pro 3）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-04）"
+  },
+  {
+    "id": "mac-finder-tips-2024-02",
+    "title": "フォルダ管理の効率を上げる裏技",
+    "status": "hidden",
+    "postedDate": "2024-02-08",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C3FhxKJvh5A/",
+    "youtubeUrl": null,
+    "cover": "mac-finder-tips-2024-02.jpg",
+    "hook": "他の投稿はこちら ⇢ @simple_suna ",
+    "caption": "他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n⁡フォルダ管理の効率を劇的に上げてくれる\n魔法の裏技をご紹介します！\n\n詳しいやり方は\n「Finder」とコメントすると\nマックブックマンAIが詳細を送るよ🫧\n\nぜひ試してみてね🌿✨\n⁡\n⁡\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro #仕事術 #仕事効率化 #事務作業 #作業効率 #作業効率アップ #生産性 #生産性向上 #パソコン初心者 #ショートカットキー #ショートカットキー操作 #フォルダ整理",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#仕事術",
+      "#仕事効率化",
+      "#事務作業",
+      "#作業効率",
+      "#作業効率アップ",
+      "#生産性",
+      "#生産性向上",
+      "#パソコン初心者",
+      "#ショートカットキー",
+      "#ショートカットキー操作",
+      "#フォルダ整理"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [],
+    "itemsSource": "2024年分の取り込み（2026-11-04）",
+    "hiddenReason": "MacのFinderの使い方紹介で製品紹介でない投稿のため非表示（自動更新 2026-11-04）"
+  },
+  {
+    "id": "mistel-airone-2024",
+    "title": "MISTEL AIRONEをご紹介",
+    "status": "posted",
+    "postedDate": "2024-01-31",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C2w6cFVPscA/",
+    "youtubeUrl": null,
+    "cover": "mistel-airone-2024.jpg",
+    "hook": "他の投稿はこちら ⇢ @simple_suna ",
+    "caption": "他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡今日は最近人気急上昇中のメカニカルキーボード\nMISTELのAIRONEをご紹介！\n\n《紹介している商品》\nMISTEL\nAIRONE\n価格:27,800円\nカラー:シルバー、ブラック\n種類:タクタイル、クリック\n吸音フォームあり\n\nCHERRY MX ウルトラロープロファイルスイッチ\n採用で、超薄いのにメカニカルキーボードを実現。\n\n※英字配列\n※有線接続のみ\n※65%キーボード\n※マクロのリマッピングが複雑\n⁡\n\n《比較》\nMistel AIRONE\n高さ：1.31cm\n重量：0.295kg\n\nApple Magic Keyboard\n高さ：0.14〜1.09cm\n重量：0.239kg\n⁡\n\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro #キーボード #keyboard #メカニカルキーボード #magickeyboard #mistel #airone #ガジェット #ガジェット好き #ガジェット好きと繋がりたい #ガジェット紹介 #ガジェット男子 #ミニマル #暮らしを愉しむ #qol向上",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#キーボード",
+      "#keyboard",
+      "#メカニカルキーボード",
+      "#magickeyboard",
+      "#mistel",
+      "#airone",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#ガジェット好きと繋がりたい",
+      "#ガジェット紹介",
+      "#ガジェット男子",
+      "#ミニマル",
+      "#暮らしを愉しむ",
+      "#qol向上"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "MISTEL AIRONE",
+        "brand": "MISTEL",
+        "price": "27,800円（紹介時点・2024年1月）",
+        "note": "CHERRY MX ウルトラロープロファイルスイッチの65%メカニカルキーボード。英字配列・有線のみ。シルバー／ブラック、タクタイル／クリック",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CHMGSN8Z?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/61fWGRsq68L._AC_SL1500_.jpg",
+        "imageSource": "amazon"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-04）"
+  },
+  {
+    "id": "belkin-disney100-2024",
+    "title": "Belkin×ディズニー100周年コラボ",
+    "status": "posted",
+    "postedDate": "2024-01-27",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C2meRcoPSBc/",
+    "youtubeUrl": null,
+    "cover": "belkin-disney100-2024.jpg",
+    "hook": "他の投稿はこちら ⇢ @simple_suna ",
+    "caption": "他の投稿はこちら ⇢ @simple_suna \n⁡\n⁡\nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡\n提供:Belkin\n\n大好きBelkinと\n大好きDisneyが……\n\n100周年記念コラボ！！\nモバイルバッテリーだけじゃない😳😳😳\n充電器もあります🙏\n\n夢の世界でぜひ使ってね！\nといいつつ、普段使いにもめちゃくちゃいいので、\nハイライトのリンクからAmazonでチェックしてね🫶✨\n\n【ご紹介した製品】\nBelkin\nディズニー100周年アイアンマン \nPD充電器65W\n価格:6,186円\n\n⁡\nBelkin\nディズニー創立100周年限定モデル\nUSB-C to USBシリコンケーブル\n価格:2,731円\n\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡________________________\n⁡\n⁡\n________________________\n⁡\n#pr #ベルキン #belkin #ディズニー #ディズニー100周年 #ディズニー100周年コラボ #ディズニーコラボ #充電器 #充電ケーブル #ガジェット #ガジェット好き #iphone充電器 #便利グッズ #便利アイテム",
+    "hashtags": [
+      "#pr",
+      "#ベルキン",
+      "#belkin",
+      "#ディズニー",
+      "#ディズニー100周年",
+      "#ディズニー100周年コラボ",
+      "#ディズニーコラボ",
+      "#充電器",
+      "#充電ケーブル",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#iphone充電器",
+      "#便利グッズ",
+      "#便利アイテム"
+    ],
+    "category": "PC・周辺機器",
+    "pr": true,
+    "items": [
+      {
+        "name": "Belkin ディズニー100周年 アイアンマン PD充電器 65W",
+        "brand": "Belkin",
+        "price": "6,186円（紹介時点・2024年1月）",
+        "note": "ディズニー創立100周年の限定モデル（提供品）。Amazonでは同じ柄の商品が見つからず、リンクは付けていない",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "Belkin ディズニー創立100周年限定モデル USB-C to USB シリコンケーブル",
+        "brand": "Belkin",
+        "price": "2,731円（紹介時点・2024年1月）",
+        "note": "限定モデル（提供品）。どの柄か本文から決められないため、リンクは付けていない",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-04）"
+  },
+  {
+    "id": "ugreen-revodok-pro-313-2024",
+    "title": "UGREEN Revodok Pro 313",
+    "status": "posted",
+    "postedDate": "2024-01-19",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/C2R8HIwvXd9/",
+    "youtubeUrl": null,
+    "cover": "ugreen-revodok-pro-313-2024.jpg",
+    "hook": "特別クーポンはこちら！⁡⁡",
+    "caption": "特別クーポンはこちら！⁡⁡\n\n提供：UGREEN \nこんばんは、すなおです！\nいつもいいねやコメント、保存していただきありがとうございます🌿\n⁡\n⁡⁡\n今日は、あのコスパ最強のブランド\nUGREENから新商品が登場したのでご紹介いたします✨\n\nUGREEN\nRevodok pro 313\n17,990円⁡\n\nクーポンコード：SIMPLE05\n割引：5％オフ　初回購入限定\n\n《特徴》\n①13個のポート搭載\n・HDMI（2.0）ポート×2\n・DP ポート×1\n・100W Type-C PD3.0 充電ポート×1\n・USB C 10Gbps データ転送ポート×1\n・USB 3.2 (USB-A)ポート×2\n・USB 3.0 (USB-A)ポート×2\n・SDカードリーダー×1\n・microSDカードリーダー×1 \n・3.5MMオーディオポート×1\n・イーサネットポート×1\n\n②複製・拡張モード\n最大3台のディスプレイ拡張が可能。\n・Windows で最大3台のディスプレイに拡張できる\n・macOS では3台のディスプレイにミラーリングができる\n※2台目以降は拡張ではなく、ミラーリングになる\n\n③10Gbps 高速データ転送\n20G ファイルを およそ16 秒で転送可能！嬉しい！\n\n④PD 100W 高速充電\n接続されたPCの最大 100W 充電をサポート。\nこれは、最新のMacBookを含むほぼすべてのUSB-Cラップトップを高速充電するのに十分な電力！\n\n⑤優れている放熱性\nアルミ製のケースで放熱製が抜群だし、軽量で扱いやすい\n\n⁡\n皆さんが明日も楽しくMac Lifeを\n送れますよーに🤭\nしたっけね〜👋️\n⁡\n⁡他の投稿はこちら ⇢ @simple_suna \n\n⁡\n________________________\n⁡\n#マックブック #マックブックエアー #マックブックプロ #MacBook #MacBookair #MacBookpro\n#周辺機器 #ガジェット #ガジェット好き #USBハブ #デュアルディスプレイ #デスクセットアップ\n#PR",
+    "hashtags": [
+      "#マックブック",
+      "#マックブックエアー",
+      "#マックブックプロ",
+      "#MacBook",
+      "#MacBookair",
+      "#MacBookpro",
+      "#周辺機器",
+      "#ガジェット",
+      "#ガジェット好き",
+      "#USBハブ",
+      "#デュアルディスプレイ",
+      "#デスクセットアップ",
+      "#PR"
+    ],
+    "category": "PC・周辺機器",
+    "pr": true,
+    "items": [
+      {
+        "name": "UGREEN Revodok Pro 313",
+        "brand": "UGREEN",
+        "price": "17,990円（紹介時点・2024年1月）",
+        "note": "13ポートのドッキングステーション。HDMI×2・DP・100W PD・10Gbps（提供品）。投稿時のクーポンは初回購入限定。Amazonでは同名の商品が見つからず（現行はRevodok Pro 314）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-04）"
   },
   {
     "id": "ipad-mini-no-promotion",
