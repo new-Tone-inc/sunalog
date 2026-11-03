@@ -12951,7 +12951,7 @@
   {
     "id": "mac-apps-two-2024-03",
     "title": "2つ目のアプリが人気っぽい",
-    "status": "hidden",
+    "status": "posted",
     "postedDate": "2024-03-22",
     "dateSource": "instagram",
     "instagramUrl": "https://www.instagram.com/reel/C4xtAQCPZCI/",
@@ -12975,8 +12975,8 @@
     "category": "PC・周辺機器",
     "pr": false,
     "items": [],
-    "itemsSource": "2024年分の取り込み（2026-11-04）",
-    "hiddenReason": "Macアプリの紹介で製品紹介でない投稿のため非表示（アプリ名は本文に無し）（自動更新 2026-11-04）"
+    "itemsSource": "2024年分の取り込み（2026-11-04）。本文にアイテム名なし（動画内のみ）",
+    "itemsPending": true
   },
   {
     "id": "mac-cafe-shortcuts-2024",
