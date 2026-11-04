@@ -151,6 +151,41 @@
     ).join("");
   }
 
+  // ---- 共有 ----
+  // 共有URLは投稿ごとのページ（p/{id}）。OGP（タイトル・画像）を持ち、開くとトップの詳細（#id）へ戻る
+  function shareUrl(id) {
+    const base = ((window.SUNALOG_CONFIG || {}).siteUrl || location.origin).replace(/\/$/, "");
+    return `${base}/p/${encodeURIComponent(id)}`;
+  }
+  let toastTimer = 0;
+  function toast(msg) {
+    let el = $("#toast");
+    if (!el) { el = document.createElement("div"); el.id = "toast"; el.className = "toast"; el.setAttribute("role", "status"); document.body.appendChild(el); }
+    el.textContent = msg;
+    el.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("is-show"), 2200);
+  }
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch (_) {}
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); ta.remove(); return ok;
+    } catch (_) { return false; }
+  }
+  async function sharePost(id, title) {
+    const url = shareUrl(id);
+    const data = { title: `${title} | すなおのガジェログ`, text: title, url };
+    if (navigator.share && (!navigator.canShare || navigator.canShare(data))) {
+      try { await navigator.share(data); track("share", { method: "native", post_id: id, post_title: title }); return; }
+      catch (e) { if (e && e.name === "AbortError") return; } // キャンセルは何もしない。それ以外はコピーへ
+    }
+    const ok = await copyText(url);
+    toast(ok ? "リンクをコピーしました" : url);
+    track("share", { method: ok ? "copy" : "copy_failed", post_id: id, post_title: title });
+  }
+
   // ---- 計測（Google Analytics 4）----
   // 測定IDが無いとき（ローカル・プレビュー）は window.gtag が無いので何もしない
   function track(name, params) {
@@ -241,6 +276,7 @@
         <div class="modal-actions">
           ${v.instagramUrl ? `<a class="btn btn-primary" href="${esc(v.instagramUrl)}" target="_blank" rel="noopener" data-track="outbound" data-shop="instagram" data-post="${esc(v.id)}" data-post-title="${esc(v.title)}">Instagramで動画を見る<span class="ext">↗</span></a>` : ""}
           ${v.youtubeUrl ? `<a class="btn btn-dark" href="${esc(v.youtubeUrl)}" target="_blank" rel="noopener" data-track="outbound" data-shop="youtube" data-post="${esc(v.id)}" data-post-title="${esc(v.title)}">YouTube Shorts<span class="ext">↗</span></a>` : ""}
+          <button class="btn btn-share" type="button" data-share="${esc(v.id)}" data-share-title="${esc(v.title)}" aria-label="この投稿を共有"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg>共有</button>
         </div>
         <div class="modal-section">
           <h3>紹介したアイテム${(v.items || []).length ? `（${v.items.length}点）` : ""}</h3>
@@ -433,6 +469,8 @@
       });
       // 別タブで開くので、ここで止める必要はない（そのまま通常のリンク動作）
     }
+    const sh = e.target.closest("[data-share]");
+    if (sh) { sharePost(sh.getAttribute("data-share"), sh.getAttribute("data-share-title") || ""); return; }
     const play = e.target.closest("[data-embed]");
     if (play) {
       // Instagramの埋め込み（公開アカウントの投稿のみ再生できる）

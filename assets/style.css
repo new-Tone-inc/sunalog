@@ -145,6 +145,13 @@ img { display: block; max-width: 100%; }
 .btn-dark { background: var(--dark); border-color: var(--dark); color: #fff; }
 .btn-dark:hover { background: #32393f; }
 .btn .ext { font-size: 10px; opacity: .6; }
+.btn-share svg { width: 15px; height: 15px; }
+.toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 12px);
+  background: var(--dark); color: #fff; font-size: 13px; padding: 10px 16px; border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.2); opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s; z-index: 1000; max-width: calc(100vw - 32px); word-break: break-all;
+}
+.toast.is-show { opacity: 1; transform: translate(-50%, 0); }
 .btn-amazon { border-color: #f0c14b; }
 .btn-rakuten { border-color: #bf0000; }
 .btn-yahoo { border-color: #ff0033; }

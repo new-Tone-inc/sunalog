@@ -10619,7 +10619,7 @@
     "dateSource": "instagram",
     "instagramUrl": "https://www.instagram.com/reel/DBL4R7NIUew/",
     "youtubeUrl": null,
-    "cover": "casetify-sapporo-parco-vlog.jpg",
+    "cover": null,
     "hook": "サッポロビールコラボ最高🍺",
     "caption": "サッポロビールコラボ最高🍺\n他の投稿はこちら ⇢ @simple_suna \nこんばんは、すなおです！\nいつも見ていただきありがとうございます🫧\n\n今日は\n【CASTiFY札幌PARCO店に潜入してみた】\nをVLOG風にお届けします✨\n\nあらためて\n10月17日(木)にオープンしますので\nみなさんぜひ足を運んでくださいね💨\nサッポロビールのケース欲しい人は\nぜひ手に入れてください🍺\n\n\nしたっけね〜👋️\n\n________________________\n\n#CASETiFY／#PR／#CASETiFYSAPPORO/#ShowYourColors\n#ガジェット#ガジェット好き #スマホケース \n#iphoneケース \n#札幌parco #サッポロビール #サッポロビールクラシック",
     "hashtags": [
@@ -10639,7 +10639,8 @@
     "pr": true,
     "items": [],
     "itemsSource": "2024年分の取り込み（2026-10-29）。本文にアイテム名なし（動画内のみ）",
-    "itemsPending": true
+    "itemsPending": true,
+    "coverNote": "Instagram側で取得できず（2024-10-16の投稿。2026-10-29の取り込み時に404。2026-11-04に再取得も404）。カバー無しで表示"
   },
   {
     "id": "benq-ma-series-monitor",

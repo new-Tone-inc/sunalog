@@ -96,8 +96,9 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && git status --sh
 
 ## 4. 検査・公開
 ```bash
-cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/validate.py && git add data/videos.json data/social.json data/instagram/reels-list.json data/instagram/image-sources.json assets/covers && git commit -q -m "自動更新 $(date +%Y-%m-%d): 新規○本・2024年分○本・インサイト○本・フォロワー更新" && git push -q origin main && git log --oneline -1
+cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/share_pages.py && python3 tools/validate.py && git add data/videos.json data/social.json data/instagram/reels-list.json data/instagram/image-sources.json assets/covers p assets/og && git commit -q -m "自動更新 $(date +%Y-%m-%d): 新規○本・2024年分○本・インサイト○本・フォロワー更新" && git push -q origin main && git log --oneline -1
 ```
+- `share_pages.py` は投稿ごとの共有用ページ（`p/{id}.html`、OGP付き）とOGP画像（`assets/og/{id}.jpg`、1200x630）を作り直す。新しい投稿・カバー差し替え・非公開化があっても、これを走らせれば追従する（2026-11-04追加）
 - `validate.py` が `ok: false` なら push しない。原因を直せなければ `git checkout -- data assets` で戻し、報告に書く
 - push 後1〜2分で https://sunalog.newtone-inc.jp に反映される（`curl -s https://sunalog.newtone-inc.jp/data/videos.json | head -c 200` で確かめてよい）
 
