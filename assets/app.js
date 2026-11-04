@@ -142,11 +142,20 @@
   }
 
   // ---- render: link buttons ----
-  function linkButtons(item, small) {
+  // video: このリンクが置かれている投稿（クリック計測で「どの投稿のどのアイテムのどのショップか」を送る）
+  function linkButtons(item, small, video) {
     const links = itemLinks(item);
+    const v = video || item.video || (item.videos || [])[0] || {};
     return MALLS.filter((m) => links[m.key]).map((m) =>
-      `<a class="btn ${small ? "btn-sm" : ""} ${m.cls}" href="${esc(links[m.key])}" target="_blank" rel="noopener sponsored">${m.label}<span class="ext">↗</span></a>`
+      `<a class="btn ${small ? "btn-sm" : ""} ${m.cls}" href="${esc(links[m.key])}" target="_blank" rel="noopener sponsored" data-track="affiliate" data-shop="${m.key}" data-item="${esc(item.name || "")}" data-brand="${esc(item.brand || "")}" data-post="${esc(v.id || "")}" data-post-title="${esc(v.title || "")}">${m.label}<span class="ext">↗</span></a>`
     ).join("");
+  }
+
+  // ---- 計測（Google Analytics 4）----
+  // 測定IDが無いとき（ローカル・プレビュー）は window.gtag が無いので何もしない
+  function track(name, params) {
+    if (typeof window.gtag !== "function") return;
+    try { window.gtag("event", name, params || {}); } catch (_) {}
   }
 
   // ---- render: video grid ----
@@ -209,6 +218,7 @@
   function openModal(id, fromHistory) {
     const v = VIDEOS.find((x) => x.id === id);
     if (!v) return;
+    track("post_open", { post_id: v.id, post_title: v.title, post_category: v.category || "", items_count: (v.items || []).length });
     if (!fromHistory) {
       const depth = (history.state && history.state.depth) || 0;
       history.pushState({ modal: v.id, depth: depth + 1 }, "", `#${encodeURIComponent(v.id)}`);
@@ -229,8 +239,8 @@
         <h2 id="modal-title">${esc(v.title)}</h2>
         ${v.hook ? `<p class="modal-hook">${esc(v.hook)}</p>` : ""}
         <div class="modal-actions">
-          ${v.instagramUrl ? `<a class="btn btn-primary" href="${esc(v.instagramUrl)}" target="_blank" rel="noopener">Instagramで動画を見る<span class="ext">↗</span></a>` : ""}
-          ${v.youtubeUrl ? `<a class="btn btn-dark" href="${esc(v.youtubeUrl)}" target="_blank" rel="noopener">YouTube Shorts<span class="ext">↗</span></a>` : ""}
+          ${v.instagramUrl ? `<a class="btn btn-primary" href="${esc(v.instagramUrl)}" target="_blank" rel="noopener" data-track="outbound" data-shop="instagram" data-post="${esc(v.id)}" data-post-title="${esc(v.title)}">Instagramで動画を見る<span class="ext">↗</span></a>` : ""}
+          ${v.youtubeUrl ? `<a class="btn btn-dark" href="${esc(v.youtubeUrl)}" target="_blank" rel="noopener" data-track="outbound" data-shop="youtube" data-post="${esc(v.id)}" data-post-title="${esc(v.title)}">YouTube Shorts<span class="ext">↗</span></a>` : ""}
         </div>
         <div class="modal-section">
           <h3>紹介したアイテム${(v.items || []).length ? `（${v.items.length}点）` : ""}</h3>
@@ -242,7 +252,7 @@
                 <div class="item-name">${esc(it.name)}</div>
                 ${it.price ? `<div class="item-price">${esc(it.price)}</div>` : ""}
                 ${it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
-                <div class="item-links">${linkButtons(it, false)}</div>
+                <div class="item-links">${linkButtons(it, false, v)}</div>
               </div>
             </li>`).join("")}</ul>` : (v.itemsPending ? `<p class="item-note">アイテムの一覧は準備中です。動画の中で紹介しています。</p>` : `<p class="item-note">この動画はアイテム紹介ではありません。</p>`)}
         </div>
@@ -409,10 +419,25 @@
 
   // ---- events ----
   document.addEventListener("click", (e) => {
+    const tr = e.target.closest("a[data-track]");
+    if (tr) {
+      const kind = tr.getAttribute("data-track");
+      track(kind === "affiliate" ? "affiliate_click" : "outbound_click", {
+        shop: tr.getAttribute("data-shop") || "",
+        item_name: tr.getAttribute("data-item") || "",
+        item_brand: tr.getAttribute("data-brand") || "",
+        post_id: tr.getAttribute("data-post") || "",
+        post_title: tr.getAttribute("data-post-title") || "",
+        view: state.view,
+        link_url: tr.getAttribute("href") || "",
+      });
+      // 別タブで開くので、ここで止める必要はない（そのまま通常のリンク動作）
+    }
     const play = e.target.closest("[data-embed]");
     if (play) {
       // Instagramの埋め込み（公開アカウントの投稿のみ再生できる）
       const url = play.getAttribute("data-embed").replace(/\/?$/, "/") + "embed/";
+      track("video_play", { post_id: decodeURIComponent(location.hash.slice(1)) });
       const box = $("#modal-cover");
       box.classList.add("is-embed");
       box.innerHTML = `<iframe src="${esc(url)}" title="Instagramの動画" allow="autoplay; encrypted-media" allowtransparency="true" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
@@ -431,6 +456,7 @@
     const tab = e.target.closest(".tab");
     if (tab) {
       state.view = tab.dataset.view;
+      track("switch_view", { view: state.view });
       state.page = 1;
       document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("is-active", t === tab));
       render();

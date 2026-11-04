@@ -25,6 +25,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css?v=202610281930">
+<script src="assets/config.js?v=202611041"></script>
+<script>
+// Google Analytics 4。assets/config.js に測定IDがあるときだけ読み込む（ローカル確認と claude.ai のプレビューでは計測しない）
+(function () {
+  var id = (window.SUNALOG_CONFIG || {}).gaId;
+  var host = location.hostname;
+  if (!id || host === "localhost" || host === "127.0.0.1" || /(^|\.)claude\.ai$/.test(host)) return;
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+  window.gtag("js", new Date());
+  window.gtag("config", id, { send_page_view: true });
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(id);
+  document.head.appendChild(s);
+})();
+</script>
 </head>
 <body>
 
@@ -56,7 +73,7 @@
   <section class="intro">
     <h1>Instagramで紹介した<br class="sp">ショート動画とアイテム</h1>
     <p class="lead">動画で取り上げたガジェットを、動画ごと・アイテムごとに探せます。<br class="pc">価格は紹介した時点のものです。最新の価格は各ショップでご確認ください。</p>
-    <p class="note" id="disclosure">※ 当サイトのリンクには、アフィリエイトリンクが含まれる場合があります。</p>
+    <p class="note" id="disclosure">※ 当サイトのリンクには、アフィリエイトリンクが含まれる場合があります。<br class="pc">※ アクセス状況の把握のため Google アナリティクスを利用しています（Cookie を使って閲覧状況を収集します。個人を特定するものではありません）。</p>
   </section>
 
   <section class="popular" id="popular" hidden>
@@ -122,6 +139,6 @@
   </div>
 </div>
 
-<script src="assets/app.js?v=202610281930"></script>
+<script src="assets/app.js?v=202611041"></script>
 </body>
 </html>
