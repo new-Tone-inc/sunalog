@@ -9579,9 +9579,110 @@
     ],
     "category": "その他",
     "pr": false,
-    "items": [],
-    "itemsSource": "2024年分の取り込み（2026-10-28）。本文にアイテム名なし（動画内のみ）",
-    "itemsPending": true
+    "items": [
+      {
+        "name": "Apple MacBook Pro（M4 Pro）",
+        "brand": "Apple",
+        "price": null,
+        "officialUrl": "https://www.apple.com/jp/macbook-pro/",
+        "note": "2024年ベストバイ 1位。字幕は「Apple M4 Pro MacBook Pro」「価格据え置きで性能アップ」。メモリ24GB・ストレージ1TBの構成。Amazonでは同名の商品が見つからず（現行はM5 Pro）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.apple.com/jp/macbook-pro/"
+        },
+        "key": "macbook-pro-m4pro",
+        "image": "https://www.apple.com/v/macbook-pro/a/images/meta/mbp_splitter__c9bpyxdvy6eu_og.png?202610272106",
+        "imageSource": "official"
+      },
+      {
+        "name": "HUAWEI FreeClip",
+        "brand": "HUAWEI",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 2位。開放型イヤホン",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CP7XGGQB?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/huawei-official/cabinet/10545437/11679298/11679300/fc1-idblack.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "任天堂 ゲームボーイアドバンスSP",
+        "brand": "Nintendo",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 3位。字幕「純正のカスタマイズ」「クリアシェルに身を包む」。販売終了",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "key": "gameboy-advance-sp",
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
+      },
+      {
+        "name": "SONY FE 35mm F1.4 GM（SEL35F14GM）",
+        "brand": "SONY",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 4位。字幕「SONY最高峰のGMレンズ」。リンクは本人のAmazonページ「2024年年間ベストバイ」の商品",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B08T1MRC74?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/41tEpQk21cL._AC_SX679_.jpg",
+        "imageSource": "amazon"
+      },
+      {
+        "name": "HONDA フリード",
+        "brand": "HONDA",
+        "price": null,
+        "officialUrl": "https://www.honda.co.jp/FREED/",
+        "note": "2024年ベストバイ 5位。字幕「ミニマリストだから問題ない」「今では物で溢れているけど」。グレードは動画に記載なし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.honda.co.jp/FREED/"
+        },
+        "image": "https://www.honda.co.jp/FREED/common/images/og_image.jpg",
+        "imageSource": "official"
+      },
+      {
+        "name": "Anker Prime Charger（100W, 3 Ports, GaN）",
+        "brand": "Anker",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 6位。字幕「MacBook Pro用に購入」",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0D73JBJ56?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/51itDaLo7BL._AC_SL1500_.jpg",
+        "imageSource": "amazon"
+      },
+      {
+        "name": "On Cloud 5 Waterproof",
+        "brand": "On",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 7位。色・サイズは動画に記載なし。リンクは本人のAmazonページ「2024年年間ベストバイ」の商品（Navy | Ink）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CN9595HQ?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/31w1M2xfIjL._AC_SX679_.jpg",
+        "imageSource": "amazon"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-28）。動画の字幕から読み取り（2026-11-04）",
+    "itemsPending": false
   },
   {
     "id": "best-buy-2024-14-8",
@@ -9604,9 +9705,106 @@
     ],
     "category": "その他",
     "pr": false,
-    "items": [],
-    "itemsSource": "2024年分の取り込み（2026-10-28）。本文にアイテム名なし（動画内のみ）",
-    "itemsPending": true
+    "items": [
+      {
+        "name": "MONDO by Defunk Over Ear Headphones トランスペアレント",
+        "brand": "MONDO by Defunk",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 8位。字幕「MONDO by DEFUNC オーバーイヤー」",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CZ34WXNN?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/e-earphone/cabinet/mondo_by_defunc/imgrc0097611520.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "MISTEL AIRONE",
+        "brand": "MISTEL",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 9位。字幕「超薄型のメカニカルキーボード」「打鍵感、音ともに大好きすぎて職場で愛用」",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CHMGSN8Z?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/61fWGRsq68L._AC_SL1500_.jpg",
+        "imageSource": "amazon"
+      },
+      {
+        "name": "Fellow Carter Move Mug",
+        "brand": "Fellow",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 10位。字幕「外出先でもコーヒーを飲むならコレがおすすめ」",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B08PJVSY5L?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/kigu-coffee/cabinet/biiino/item/main-image/20260604203528_1.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Ulanzi MA30 スマホスタンド",
+        "brand": "Ulanzi",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 11位。字幕「Ulanzi MA30 スマホスタンド」",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DBZGC91Y?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/ulanzidirect/cabinet/12384520/imgrc0103430183.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Blueair 2-in-1 加湿空気清浄機",
+        "brand": "Blueair",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 12位。空気清浄と加湿の両立、上から給水。リンクは30畳のDH3i（40畳のDH5iもあり）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B08KQJG42X?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/61E3ulsCx4L._AC_SL1500_.jpg",
+        "imageSource": "amazon"
+      },
+      {
+        "name": "incase Tracks Backpack",
+        "brand": "incase",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 13位。字幕「incase tracks backpack」。容量・色は動画に記載なし。リンクはAmazonの25L ブラック",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0FWCH5S6F?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/41vIDru+oML._AC_SX679_.jpg",
+        "imageSource": "amazon"
+      },
+      {
+        "name": "虎大工業 BT-20 WINGMAN",
+        "brand": "虎大工業",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年ベストバイ 14位。電池式モバイルバッテリー（1本あたり5000mAh・PD20W）。Makuakeで購入、現在は公式サイトで購入とのこと（本文より）。Amazonでは見つからず、リンクは付けていない",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-10-28）。動画の字幕から読み取り（2026-11-04）",
+    "itemsPending": false
   },
   {
     "id": "troubadour-backpack",
@@ -12044,9 +12242,24 @@
     ],
     "category": "バッグ・小物",
     "pr": true,
-    "items": [],
-    "itemsSource": "2024年分の取り込み（2026-11-01）。本文にアイテム名なし（動画内のみ）",
-    "itemsPending": true
+    "items": [
+      {
+        "name": "incase Tracks Backpack",
+        "brand": "incase",
+        "price": null,
+        "officialUrl": null,
+        "note": "2024年5月発売。コーデュラバリスティックナイロン、ブランド史上最多のポケット数、PCスリーブ起毛（本文より）。容量・色は本文・動画に記載なし。リンクはAmazonの25L ブラック",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0FWCH5S6F?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/41vIDru+oML._AC_SX679_.jpg",
+        "imageSource": "amazon"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-01）。動画の字幕から読み取り（2026-11-04）",
+    "itemsPending": false
   },
   {
     "id": "elgato-neo-3items",
@@ -12693,9 +12906,24 @@
     ],
     "category": "その他",
     "pr": true,
-    "items": [],
-    "itemsSource": "2024年分の取り込み（2026-11-03）。本文にアイテム名なし（動画内のみ。FLEXISPOTのリクライニングソファ）",
-    "itemsPending": true
+    "items": [
+      {
+        "name": "FlexiSpot 電動リクライニングソファ X1",
+        "brand": "FlexiSpot",
+        "price": "29,800円（動画字幕・2024年4月時点。公式ストアでも29,800円・2026-11-04時点）",
+        "officialUrl": "https://www.flexispot.jp/x1.html",
+        "note": "箱の表記は「X1LG 電動リクライニングソファ」。ご提供（本文より）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://www.flexispot.jp/x1.html"
+        },
+        "image": "https://s3.springbeetle.eu/dev-de-s3-flexispot/commodity/item/1028_file_newX1-800-8.jpg",
+        "imageSource": "official"
+      }
+    ],
+    "itemsSource": "2024年分の取り込み（2026-11-03）。動画の字幕から読み取り（2026-11-04）",
+    "itemsPending": false
   },
   {
     "id": "mac-instagram-live-2024",
