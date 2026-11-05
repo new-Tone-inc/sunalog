@@ -293,3 +293,4 @@ body.modal-open { overflow: hidden; }
 /* footer */
 .site-footer { border-top: 1px solid var(--line); margin-top: 60px; padding: 24px 0; font-size: 12px; color: var(--text-sub); }
 .site-footer a { color: var(--red); }
+.footer-note { margin: 0 0 12px; line-height: 1.8; }
