@@ -39,12 +39,13 @@
         "brand": "Logicool",
         "price": null,
         "officialUrl": null,
-        "note": "マウス。Amazonで現行品はMX MASTER 3S・4で、MX MASTER 3はfor Mac版（MX2200sSG）のみ掲載のためリンクなし",
+        "note": "マウス。リンクは現行モデルのMX MASTER 4（すなおさん指定・2026-11-09）",
         "links": {
-          "amazon": null,
-          "rakuten": null,
-          "official": null
-        }
+          "amazon": "https://www.amazon.co.jp/dp/B0FR8M3WS8?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flogicool%2Fmx2400gr%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+        },
+        "image": "https://shop.r10s.jp/logicool/cabinet/prd/mice/mx2400gr/mx2400gr_n_.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       },
       {
         "name": "Audioengine A2+ ワイヤレス・パワードスピーカー",
@@ -89,16 +90,16 @@
         "imageSource": "rakuten"
       },
       {
-        "name": "Belkin MagSafe対応 3-in-1 ワイヤレス充電器",
+        "name": "Belkin Qi2 3in1 ワイヤレス充電スタンド（ブラック）",
         "brand": "Belkin",
         "price": null,
         "officialUrl": null,
-        "note": "デスクの下に設置。型番は本文に記載なし（Belkinの3-in-1は複数あるためリンクなし）",
+        "note": "デスクの下に設置。MagSafe/Qi2対応・3台同時充電（本文では「MagSafe対応3-in-1ワイヤレス充電器」）",
         "links": {
-          "amazon": null,
-          "rakuten": null,
-          "official": null
-        }
+          "amazon": "https://www.amazon.co.jp/dp/B0D5D4HLWW?tag=simplesuna-22"
+        },
+        "image": "https://m.media-amazon.com/images/I/51bujqYY2KL._AC_SX679_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Anker Nano Charging Station",
@@ -115,16 +116,16 @@
         "imageSource": "rakuten"
       },
       {
-        "name": "Western Digital 外付けHDD 8TB",
+        "name": "Western Digital WD Blue 内蔵HDD 8TB（WD80EAAZ-AJP）",
         "brand": "Western Digital",
         "price": null,
         "officialUrl": null,
-        "note": "8TB×2台。型番（Elements / My Book等）は本文に記載なしのためリンクなし",
+        "note": "8TB×2台（本文では「外付けHDD」。すなおさん確認の品はWD Blue 8TB・2026-11-09）",
         "links": {
-          "amazon": null,
-          "rakuten": null,
-          "official": null
-        }
+          "amazon": "https://www.amazon.co.jp/dp/B0CP7D7QYK?tag=simplesuna-22"
+        },
+        "image": "https://m.media-amazon.com/images/I/71GMHO2rHOL._AC_SX679_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Ulanzi 40W PRO COB撮影用ライト",
@@ -155,16 +156,16 @@
         "imageSource": "rakuten"
       },
       {
-        "name": "オキナ プロジェクトペーパー",
+        "name": "オキナ プロジェクトペーパー B4 5mm方眼（PPB45S）",
         "brand": "オキナ",
         "price": null,
         "officialUrl": null,
-        "note": "方眼紙。サイズ（A4/A5/B5）は本文に記載なしのためリンクなし",
+        "note": "方眼紙。B4（すなおさん確認・2026-11-09）。リンクは5mm方眼・50枚。10mm方眼（PPB40S）もあり",
         "links": {
-          "amazon": null,
-          "rakuten": null,
-          "official": null
-        }
+          "amazon": "https://www.amazon.co.jp/dp/B002U0ORQ6?tag=simplesuna-22"
+        },
+        "image": "https://m.media-amazon.com/images/I/71UVUGyzoUS._AC_SX679_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "Anker PowerExpand Elite 13-in-1",
@@ -181,28 +182,30 @@
         "imageSource": "rakuten"
       },
       {
-        "name": "NEE 卓上カメラマウントリグ",
-        "brand": "NEE",
+        "name": "NEEWER オーバーヘッドカメラスタンド デスクマウントリグ DS007",
+        "brand": "NEEWER",
         "price": null,
         "officialUrl": null,
-        "note": "Amazon・楽天で同名の商品が見つからずリンクなし",
+        "note": "卓上カメラマウントリグ（本文では「NEE」表記。すなおさん確認・2026-11-09）。Amazonでは在庫切れ・再入荷未定（2026-11-09時点）",
         "links": {
-          "amazon": null,
-          "rakuten": null,
-          "official": null
-        }
+          "amazon": "https://www.amazon.co.jp/dp/B0CNGK17YG?tag=simplesuna-22"
+        },
+        "key": "neewer-ds007",
+        "image": "https://m.media-amazon.com/images/I/61FU-U3st8L._AC_SX679_.jpg",
+        "imageSource": "amazon"
       },
       {
-        "name": "AULUMU MagSafeホルダー",
-        "brand": "AULUMU",
+        "name": "AULUMU G09 Ghost",
+        "brand": "Aulumu",
         "price": null,
         "officialUrl": null,
-        "note": "スマホのMagSafeホルダー。型番は本文に記載なしのためリンクなし",
+        "note": "スマホのMagSafeホルダー（G09 Ghost。すなおさん確認・2026-11-09）",
         "links": {
-          "amazon": null,
-          "rakuten": null,
-          "official": null
-        }
+          "amazon": "https://www.amazon.co.jp/dp/B0H1PYRCMG?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faulumu%2Fg09t%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+        },
+        "image": "https://shop.r10s.jp/aulumu/cabinet/13141089/20260623.jpg?_ex=300x300",
+        "imageSource": "rakuten"
       },
       {
         "name": "DJI Osmo Nano（スタンダードコンボ 64GB）",
@@ -7216,12 +7219,17 @@
         "links": {}
       },
       {
-        "name": "NEE 卓上カメラマウントリグ",
-        "brand": "NEE",
+        "name": "NEEWER オーバーヘッドカメラスタンド デスクマウントリグ DS007",
+        "brand": "NEEWER",
         "price": null,
         "officialUrl": null,
-        "note": null,
-        "links": {}
+        "note": "Amazonでは在庫切れ・再入荷未定（2026-11-09時点）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CNGK17YG?tag=simplesuna-22"
+        },
+        "key": "neewer-ds007",
+        "image": "https://m.media-amazon.com/images/I/61FU-U3st8L._AC_SX679_.jpg",
+        "imageSource": "amazon"
       },
       {
         "name": "BenQ PD2705UA",
