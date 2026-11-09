@@ -1,5 +1,228 @@
 [
   {
+    "id": "desk-tour-08tatami-2026",
+    "title": "0.8畳を侮るなかれ",
+    "status": "posted",
+    "postedDate": "2026-11-09",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfhHeEAolre/",
+    "youtubeUrl": null,
+    "cover": "desk-tour-08tatami-2026.jpg",
+    "hook": "0.8畳を侮るなかれ。",
+    "caption": "0.8畳を侮るなかれ。\n\n家に書斎が2つあるんだけど、ここは精神と時の部屋。\n超集中したい時に使ってます。\n\nこれから家を建てる人は、ぜひ検討してみて！\n\n【このデスクのガジェット】\n※詳しくはプロフィールのリンクにわかりやすくまとめてます！\nPFU HHKB Studio（キーボード）\nLogicool MX Master 3（マウス）\nAudioengine A2+ ワイヤレス・パワードスピーカー\nPokémon + STARBUCKS スタッキングマグ コーヒーアドベンチャー 355ml\nSHURE SM7B（マイク）\nBelkin MagSafe対応3-in-1ワイヤレス充電器（デスクの下）\nAnker Nano Charging Station\nWestern Digital 外付けHDD（8TB×2）\nUlanzi 40W PRO COB撮影用ライト\nEpilogue GB Operator\nオキナ プロジェクトペーパー\nAnker PowerExpand Elite 13-in-1（ドッキングステーション）\nNEE 卓上カメラマウントリグ\nAULUMU（スマホのMagSafeホルダー）\nDJI Osmo Nano（天井からの俯瞰撮影）\n\nデスク周りのガジェットを知りたい人はフォローしてね！\nしたっけね〜👋\n\n#デスクツアー #書斎 #デスク周り #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#デスクツアー",
+      "#書斎",
+      "#デスク周り",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "PFU HHKB Studio",
+        "brand": "PFU",
+        "price": null,
+        "officialUrl": null,
+        "note": "キーボード",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CL76JB2M?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpfudirect%2Fpd-id120b%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/pfudirect/cabinet/kb/hhkb/pd-id120b.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Logicool MX Master 3",
+        "brand": "Logicool",
+        "price": null,
+        "officialUrl": null,
+        "note": "マウス。Amazonで現行品はMX MASTER 3S・4で、MX MASTER 3はfor Mac版（MX2200sSG）のみ掲載のためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Audioengine A2+ ワイヤレス・パワードスピーカー",
+        "brand": "Audioengine",
+        "price": null,
+        "officialUrl": null,
+        "note": null,
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B07RT9NBNZ?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkitcut-ps%2F49489864871%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/kitcut-ps/cabinet/item/164/p-324597.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Pokémon + STARBUCKS スタッキングマグ コーヒーアドベンチャー 355ml",
+        "brand": "STARBUCKS",
+        "price": null,
+        "officialUrl": "https://menu.starbucks.co.jp/4524785641358",
+        "note": null,
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": "https://menu.starbucks.co.jp/4524785641358"
+        },
+        "image": "https://asset.menu.starbucks.co.jp/public/sku_images/4524785641358/4524785641358_1_m.jpg",
+        "imageSource": "official"
+      },
+      {
+        "name": "SHURE SM7B",
+        "brand": "SHURE",
+        "price": null,
+        "officialUrl": null,
+        "note": "マイク",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0002E4Z8M?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshure-store%2Fr42406088879%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/shure-store/cabinet/79/r_42406088879.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Belkin MagSafe対応 3-in-1 ワイヤレス充電器",
+        "brand": "Belkin",
+        "price": null,
+        "officialUrl": null,
+        "note": "デスクの下に設置。型番は本文に記載なし（Belkinの3-in-1は複数あるためリンクなし）",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Anker Nano Charging Station",
+        "brand": "Anker",
+        "price": null,
+        "officialUrl": null,
+        "note": null,
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DPWW49HK?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa91c8%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/anker/cabinet/tmb/a9/a91c8_normal.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Western Digital 外付けHDD 8TB",
+        "brand": "Western Digital",
+        "price": null,
+        "officialUrl": null,
+        "note": "8TB×2台。型番（Elements / My Book等）は本文に記載なしのためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Ulanzi 40W PRO COB撮影用ライト",
+        "brand": "Ulanzi",
+        "price": null,
+        "officialUrl": null,
+        "note": null,
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0CY5KVDG8?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fulanzidirect%2Fl130-lt1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/ulanzidirect/cabinet/12347317/11.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "Epilogue GB Operator",
+        "brand": "Epilogue",
+        "price": null,
+        "officialUrl": null,
+        "note": null,
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0DXF6D6BR?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwmarket%2Fc2s2ij3mqppkdu7i7bvrtkwuty%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/wmarket/cabinet/11147090/46454620_1.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "オキナ プロジェクトペーパー",
+        "brand": "オキナ",
+        "price": null,
+        "officialUrl": null,
+        "note": "方眼紙。サイズ（A4/A5/B5）は本文に記載なしのためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "Anker PowerExpand Elite 13-in-1",
+        "brand": "Anker",
+        "price": null,
+        "officialUrl": null,
+        "note": "ドッキングステーション",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B087JKDD4M?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Fa8396%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/anker/cabinet/tmb/a8/a8396_normal.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      },
+      {
+        "name": "NEE 卓上カメラマウントリグ",
+        "brand": "NEE",
+        "price": null,
+        "officialUrl": null,
+        "note": "Amazon・楽天で同名の商品が見つからずリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "AULUMU MagSafeホルダー",
+        "brand": "AULUMU",
+        "price": null,
+        "officialUrl": null,
+        "note": "スマホのMagSafeホルダー。型番は本文に記載なしのためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        }
+      },
+      {
+        "name": "DJI Osmo Nano（スタンダードコンボ 64GB）",
+        "brand": "DJI",
+        "price": null,
+        "officialUrl": "https://store.dji.com/jp/product/osmo-nano",
+        "note": "天井からの俯瞰撮影に使用",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0FBFZM45S?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6937224115453v%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "key": "dji-osmo-nano",
+        "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6937224115453v_t3.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "自動更新（2026-11-09）"
+  },
+  {
     "id": "nothing-phone-4a-pro-snow-autumn",
     "title": "雪と紅葉をNothing Phone (4a) Proで撮ってみた",
     "status": "posted",
