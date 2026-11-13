@@ -1,5 +1,50 @@
 [
   {
+    "id": "osmo-nano-kids-pov-hat",
+    "title": "癒されすぎる…",
+    "status": "posted",
+    "postedDate": "2026-11-13",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfqJ3S1S2Sl/",
+    "youtubeUrl": null,
+    "cover": "osmo-nano-kids-pov-hat.jpg",
+    "hook": "癒されすぎる…🥹",
+    "caption": "癒されすぎる…🥹\n\n子ども目線の映像ってずっと見てられるなぁ📸\n\n【スペック】※価格は2026年11月9日時点\n@dji_japan\nDJI Osmo Nano（スタンダードコンボ 64GB）\nセンサー：1/1.3インチ\n動画：最大4K/60fps\n防水：10m（カメラ単体）\n価格：43,890円（DJI公式より）\n\n思い出を“残す”ガジェット、また投稿するのでフォローしてね！\nみんなは、子どもにカメラつけてみたことある？\n\nしたっけね〜👋\n\n#OsmoNano #子どものいる暮らし #子どものいる生活 #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#OsmoNano",
+      "#子どものいる暮らし",
+      "#子どものいる生活",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "カメラ・映像",
+    "pr": false,
+    "items": [
+      {
+        "name": "DJI Osmo Nano（スタンダードコンボ 64GB）",
+        "brand": "DJI",
+        "price": "43,890円（DJI公式）※2026年11月9日時点",
+        "officialUrl": "https://store.dji.com/jp/product/osmo-nano",
+        "note": "1/1.3インチ・最大4K/60fps・防水10m（カメラ単体）",
+        "key": "dji-osmo-nano",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0FBFZM45S?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdji-shop%2F6937224115453v%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "image": "https://shop.r10s.jp/dji-shop/cabinet/thum/6937224115453v_t3.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "自動更新（2026-11-13）",
+    "stats": {
+      "likes": 18,
+      "saves": 4,
+      "comments": 1,
+      "asOf": "2026-11-13"
+    }
+  },
+  {
     "id": "ulanzi-ma60-vs-majextand-s",
     "title": "正直、どっちも好きだけど",
     "status": "posted",
@@ -64,7 +109,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "自動更新（2026-11-12）"
+    "itemsSource": "自動更新（2026-11-12）",
+    "stats": {
+      "likes": 57,
+      "saves": 14,
+      "comments": 0,
+      "asOf": "2026-11-13"
+    }
   },
   {
     "id": "elecom-bitra-trackball",
@@ -160,10 +211,10 @@
     ],
     "itemsSource": "自動更新（2026-11-11）",
     "stats": {
-      "likes": 57,
+      "likes": 60,
       "saves": 7,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -205,9 +256,9 @@
     "itemsSource": "自動更新（2026-11-10）",
     "stats": {
       "likes": 64,
-      "saves": 25,
+      "saves": 27,
       "comments": 3,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -436,10 +487,10 @@
     ],
     "itemsSource": "自動更新（2026-11-09）",
     "stats": {
-      "likes": 153,
-      "saves": 91,
+      "likes": 160,
+      "saves": 93,
       "comments": 4,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -483,7 +534,7 @@
       "likes": 40,
       "saves": 4,
       "comments": 0,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -555,10 +606,10 @@
     ],
     "itemsSource": "新しい投稿（自動更新 2026-11-07）",
     "stats": {
-      "likes": 117,
+      "likes": 120,
       "saves": 6,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -630,9 +681,9 @@
     "itemsSource": "新しい投稿（自動更新 2026-11-07）",
     "stats": {
       "likes": 66,
-      "saves": 43,
+      "saves": 44,
       "comments": 3,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -703,9 +754,9 @@
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-05）",
     "stats": {
       "likes": 74,
-      "saves": 13,
+      "saves": 14,
       "comments": 8,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -749,7 +800,7 @@
       "likes": 75,
       "saves": 22,
       "comments": 3,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -794,7 +845,7 @@
       "likes": 90,
       "saves": 27,
       "comments": 10,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -850,10 +901,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
-      "likes": 38,
+      "likes": 39,
       "saves": 10,
       "comments": 0,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1042,10 +1093,10 @@
     ],
     "itemsSource": "投稿本文（2026-11-01）",
     "stats": {
-      "likes": 122,
+      "likes": 123,
       "saves": 58,
       "comments": 3,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1144,10 +1195,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
-      "likes": 163,
+      "likes": 167,
       "saves": 42,
-      "comments": 52,
-      "asOf": "2026-11-12"
+      "comments": 53,
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1188,10 +1239,10 @@
     "pr": false,
     "itemsSource": "新しい投稿（自動更新 2026-11-01）",
     "stats": {
-      "likes": 640,
+      "likes": 644,
       "saves": 88,
       "comments": 5,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1263,7 +1314,7 @@
       "likes": 52,
       "saves": 37,
       "comments": 2,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1307,7 +1358,7 @@
       "likes": 179,
       "saves": 31,
       "comments": 4,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1379,7 +1430,7 @@
       "likes": 69,
       "saves": 25,
       "comments": 4,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1426,10 +1477,10 @@
       }
     ],
     "stats": {
-      "likes": 149,
+      "likes": 150,
       "saves": 24,
       "comments": 10,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1483,7 +1534,7 @@
       "likes": 43,
       "saves": 19,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1522,10 +1573,10 @@
       }
     ],
     "stats": {
-      "likes": 308,
+      "likes": 310,
       "saves": 187,
       "comments": 3,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1567,7 +1618,7 @@
       "likes": 91,
       "saves": 25,
       "comments": 3,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1734,7 +1785,7 @@
       "likes": 64,
       "saves": 21,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1777,7 +1828,7 @@
       "likes": 116,
       "saves": 74,
       "comments": 2,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1818,7 +1869,7 @@
       "likes": 37,
       "saves": 21,
       "comments": 0,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1945,7 +1996,7 @@
       "likes": 105,
       "saves": 31,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -1987,7 +2038,7 @@
       "likes": 117,
       "saves": 54,
       "comments": 0,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -2029,7 +2080,7 @@
       "likes": 50,
       "saves": 18,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -2068,10 +2119,10 @@
       }
     ],
     "stats": {
-      "likes": 139,
+      "likes": 140,
       "saves": 53,
       "comments": 2,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -2104,10 +2155,10 @@
       }
     ],
     "stats": {
-      "likes": 530,
-      "saves": 1668,
+      "likes": 531,
+      "saves": 1666,
       "comments": 12,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -2161,10 +2212,10 @@
       }
     ],
     "stats": {
-      "likes": 66,
+      "likes": 67,
       "saves": 22,
       "comments": 9,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -2206,7 +2257,7 @@
       "likes": 55,
       "saves": 23,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
@@ -2262,10 +2313,10 @@
       }
     ],
     "stats": {
-      "likes": 77,
+      "likes": 78,
       "saves": 6,
       "comments": 1,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-13"
     }
   },
   {
