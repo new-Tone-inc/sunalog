@@ -1,5 +1,79 @@
 [
   {
+    "id": "gbasp-headphone-adapter",
+    "title": "GBA SP唯一の欠点…",
+    "status": "posted",
+    "postedDate": "2026-11-15",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfwfmuQo6AJ/",
+    "youtubeUrl": null,
+    "cover": "gbasp-headphone-adapter.jpg",
+    "hook": "GBA SP唯一の欠点…",
+    "caption": "GBA SP唯一の欠点…\n\n公共の場だと、さすがにゲーム音は出せない。\nこと変換の線を1本挿して、ノイキャンのヘッドホンを有線でつないだら…\nあの頃の音楽が、鮮明によみがえりました🎧←\n\nこれは最高すぎる…。\n\n【スペック】\n任天堂 ゲームボーイアドバンスSP\n発売日：2003年2月14日\n当時の希望小売価格：9,333円（税別・任天堂公式）\nイヤホン：本体に端子なし（ACアダプタと同じ端子に、ヘッドホン変換プラグを挿す形）\n\nFUMAJIS GBA SP/NDS 3.5mmイヤホンアダプター\n長さ：10cm\n価格：480円（税込・Amazon）\n※任天堂のライセンス商品ではありません\n\n@nothing.japan\nNothing Headphone (1)\nカラー：ホワイト（ほかにブラック）\nノイズキャンセリング：リアルタイムアダプティブANC\n再生時間：80時間\n価格：39,800円（公式）\n\n普段から使ってるガジェットを紹介しているので、フォローしてね！\nしたっけね〜👋\n\n#ゲームボーイアドバンスSP #gbasp #平成レトロ #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#ゲームボーイアドバンスSP",
+      "#gbasp",
+      "#平成レトロ",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "その他",
+    "pr": false,
+    "items": [
+      {
+        "name": "Nintendo ゲームボーイアドバンスSP",
+        "brand": "Nintendo",
+        "key": "gameboy-advance-sp",
+        "price": "9,333円（税別・当時の希望小売価格・任天堂公式）",
+        "note": "2003年2月14日発売。イヤホン端子なし（ACアダプタと同じ端子に変換プラグを挿す）。販売終了",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null,
+        "image": "https://www.nintendo.co.jp/n08/hardware/gbasp/main.jpg",
+        "imageSource": "official"
+      },
+      {
+        "name": "FUMAJIS GBA SP/NDS 3.5mmイヤホンアダプター",
+        "brand": "FUMAJIS",
+        "price": "480円（税込・Amazon）",
+        "note": "長さ10cm。任天堂のライセンス商品ではありません",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B00K2VDPMM?tag=simplesuna-22",
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null,
+        "image": "https://m.media-amazon.com/images/I/31a5E86UtzL._AC_.jpg",
+        "imageSource": "amazon"
+      },
+      {
+        "name": "Nothing Headphone (1)",
+        "brand": "Nothing",
+        "key": "nothing-headphone-1",
+        "price": "39,800円（公式）",
+        "officialUrl": "https://jp.nothing.tech/products/headphone-1",
+        "note": "カラー：ホワイト（ほかにブラック）。リアルタイムアダプティブANC、再生80時間",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0F66XD5LF?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnothingagent%2Fnothing_headphone1%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": "https://jp.nothing.tech/products/headphone-1"
+        },
+        "image": "https://shop.r10s.jp/nothingagent/cabinet/12371301/headphone1_main_v2_2.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "自動更新（2026-11-15）",
+    "stats": {
+      "likes": 35,
+      "saves": 10,
+      "comments": 1,
+      "asOf": "2026-11-15"
+    }
+  },
+  {
     "id": "daily-carry-gadgets-7",
     "title": "毎日持ち歩くなら、見た目も機能も大事！",
     "status": "posted",
@@ -121,7 +195,13 @@
         "imageSource": "rakuten"
       }
     ],
-    "itemsSource": "自動更新（2026-11-14）"
+    "itemsSource": "自動更新（2026-11-14）",
+    "stats": {
+      "likes": 85,
+      "saves": 51,
+      "comments": 4,
+      "asOf": "2026-11-15"
+    }
   },
   {
     "id": "osmo-nano-kids-pov-hat",
@@ -162,10 +242,10 @@
     ],
     "itemsSource": "自動更新（2026-11-13）",
     "stats": {
-      "likes": 41,
-      "saves": 6,
+      "likes": 53,
+      "saves": 7,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -235,10 +315,10 @@
     ],
     "itemsSource": "自動更新（2026-11-12）",
     "stats": {
-      "likes": 58,
-      "saves": 17,
+      "likes": 60,
+      "saves": 18,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -338,7 +418,7 @@
       "likes": 61,
       "saves": 7,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -380,10 +460,10 @@
     ],
     "itemsSource": "自動更新（2026-11-10）",
     "stats": {
-      "likes": 66,
+      "likes": 71,
       "saves": 27,
       "comments": 3,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -612,10 +692,10 @@
     ],
     "itemsSource": "自動更新（2026-11-09）",
     "stats": {
-      "likes": 163,
-      "saves": 98,
+      "likes": 171,
+      "saves": 111,
       "comments": 4,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -659,7 +739,7 @@
       "likes": 40,
       "saves": 4,
       "comments": 0,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -731,10 +811,10 @@
     ],
     "itemsSource": "新しい投稿（自動更新 2026-11-07）",
     "stats": {
-      "likes": 121,
-      "saves": 6,
+      "likes": 126,
+      "saves": 7,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -808,7 +888,7 @@
       "likes": 66,
       "saves": 44,
       "comments": 3,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -878,10 +958,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-05）",
     "stats": {
-      "likes": 74,
-      "saves": 14,
+      "likes": 75,
+      "saves": 15,
       "comments": 8,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -925,7 +1005,7 @@
       "likes": 75,
       "saves": 22,
       "comments": 3,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -968,9 +1048,9 @@
     "itemsSource": "新しい投稿（自動更新 2026-11-04）",
     "stats": {
       "likes": 90,
-      "saves": 27,
+      "saves": 29,
       "comments": 10,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1026,10 +1106,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
-      "likes": 39,
+      "likes": 41,
       "saves": 10,
       "comments": 0,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1218,10 +1298,10 @@
     ],
     "itemsSource": "投稿本文（2026-11-01）",
     "stats": {
-      "likes": 124,
-      "saves": 58,
+      "likes": 126,
+      "saves": 60,
       "comments": 3,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1320,10 +1400,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
-      "likes": 168,
-      "saves": 42,
-      "comments": 54,
-      "asOf": "2026-11-14"
+      "likes": 172,
+      "saves": 43,
+      "comments": 55,
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1364,10 +1444,10 @@
     "pr": false,
     "itemsSource": "新しい投稿（自動更新 2026-11-01）",
     "stats": {
-      "likes": 653,
-      "saves": 90,
+      "likes": 667,
+      "saves": 94,
       "comments": 5,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1436,10 +1516,10 @@
     ],
     "itemsSource": "自動更新（2026-10-31）",
     "stats": {
-      "likes": 52,
+      "likes": 53,
       "saves": 37,
-      "comments": 2,
-      "asOf": "2026-11-14"
+      "comments": 3,
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1483,7 +1563,7 @@
       "likes": 179,
       "saves": 31,
       "comments": 4,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1555,7 +1635,7 @@
       "likes": 69,
       "saves": 25,
       "comments": 4,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1605,7 +1685,7 @@
       "likes": 150,
       "saves": 24,
       "comments": 10,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1656,10 +1736,10 @@
       }
     ],
     "stats": {
-      "likes": 43,
+      "likes": 45,
       "saves": 19,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1698,10 +1778,10 @@
       }
     ],
     "stats": {
-      "likes": 312,
-      "saves": 187,
+      "likes": 316,
+      "saves": 188,
       "comments": 3,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1740,10 +1820,10 @@
       }
     ],
     "stats": {
-      "likes": 92,
+      "likes": 93,
       "saves": 25,
       "comments": 3,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1910,7 +1990,7 @@
       "likes": 64,
       "saves": 21,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1950,10 +2030,10 @@
       }
     ],
     "stats": {
-      "likes": 117,
-      "saves": 73,
+      "likes": 122,
+      "saves": 74,
       "comments": 2,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -1994,7 +2074,7 @@
       "likes": 37,
       "saves": 21,
       "comments": 0,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2121,7 +2201,7 @@
       "likes": 105,
       "saves": 31,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2160,10 +2240,10 @@
       }
     ],
     "stats": {
-      "likes": 118,
+      "likes": 121,
       "saves": 54,
       "comments": 0,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2205,7 +2285,7 @@
       "likes": 50,
       "saves": 18,
       "comments": 1,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2247,7 +2327,7 @@
       "likes": 140,
       "saves": 53,
       "comments": 2,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2280,10 +2360,10 @@
       }
     ],
     "stats": {
-      "likes": 531,
-      "saves": 1662,
+      "likes": 530,
+      "saves": 1660,
       "comments": 12,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2340,7 +2420,7 @@
       "likes": 67,
       "saves": 23,
       "comments": 9,
-      "asOf": "2026-11-14"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2382,7 +2462,7 @@
       "likes": 55,
       "saves": 23,
       "comments": 1,
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2441,7 +2521,7 @@
       "likes": 78,
       "saves": 6,
       "comments": 1,
-      "asOf": "2026-11-13"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2483,7 +2563,7 @@
       "likes": 42,
       "saves": 8,
       "comments": 0,
-      "asOf": "2026-11-12"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2522,10 +2602,10 @@
     ],
     "itemsSource": "video-footage",
     "stats": {
-      "likes": 79,
+      "likes": 80,
       "saves": 14,
       "comments": 0,
-      "asOf": "2026-11-11"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2759,9 +2839,9 @@
     ],
     "stats": {
       "likes": 175,
-      "saves": 116,
+      "saves": 117,
       "comments": 0,
-      "asOf": "2026-11-10"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2820,10 +2900,10 @@
       }
     ],
     "stats": {
-      "likes": 146,
-      "saves": 150,
+      "likes": 149,
+      "saves": 151,
       "comments": 2,
-      "asOf": "2026-11-08"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2863,10 +2943,10 @@
       }
     ],
     "stats": {
-      "likes": 80,
-      "saves": 19,
+      "likes": 84,
+      "saves": 20,
       "comments": 11,
-      "asOf": "2026-11-07"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2928,10 +3008,10 @@
       }
     ],
     "stats": {
-      "likes": 72,
+      "likes": 73,
       "saves": 8,
       "comments": 2,
-      "asOf": "2026-11-06"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -2991,10 +3071,10 @@
       }
     ],
     "stats": {
-      "likes": 405,
-      "saves": 347,
+      "likes": 417,
+      "saves": 348,
       "comments": 20,
-      "asOf": "2026-11-04"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3033,10 +3113,10 @@
       }
     ],
     "stats": {
-      "likes": 154,
-      "saves": 57,
+      "likes": 158,
+      "saves": 61,
       "comments": 9,
-      "asOf": "2026-11-02"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3141,10 +3221,10 @@
     ],
     "itemsSource": "video-footage",
     "stats": {
-      "likes": 90,
+      "likes": 91,
       "saves": 28,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3183,10 +3263,10 @@
       }
     ],
     "stats": {
-      "likes": 67,
+      "likes": 68,
       "saves": 7,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3339,10 +3419,10 @@
       }
     ],
     "stats": {
-      "likes": 854,
+      "likes": 856,
       "saves": 347,
       "comments": 4,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3445,7 +3525,7 @@
       "likes": 83,
       "saves": 50,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3678,7 +3758,7 @@
       "likes": 75,
       "saves": 13,
       "comments": 4,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3796,7 +3876,7 @@
       "likes": 53,
       "saves": 7,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -3966,10 +4046,10 @@
       }
     ],
     "stats": {
-      "likes": 121,
+      "likes": 122,
       "saves": 51,
       "comments": 5,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4140,7 +4220,7 @@
       "likes": 80,
       "saves": 7,
       "comments": 2,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4205,7 +4285,7 @@
       "likes": 71,
       "saves": 8,
       "comments": 10,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4421,7 +4501,7 @@
       "likes": 59,
       "saves": 10,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4634,7 +4714,7 @@
       "likes": 47,
       "saves": 4,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4834,7 +4914,7 @@
       "likes": 97,
       "saves": 24,
       "comments": 0,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4876,7 +4956,7 @@
       "likes": 106,
       "saves": 5,
       "comments": 5,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
@@ -4915,10 +4995,10 @@
       }
     ],
     "stats": {
-      "likes": 142,
+      "likes": 145,
       "saves": 74,
       "comments": 7,
-      "asOf": "2026-11-01"
+      "asOf": "2026-11-15"
     }
   },
   {
