@@ -1,5 +1,95 @@
 [
   {
+    "id": "desk-items-under-1000yen",
+    "title": "1,000円以下で買えるデスクアイテム5選",
+    "status": "posted",
+    "postedDate": "2026-11-16",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DfzF4YDoE4n/",
+    "youtubeUrl": null,
+    "cover": "desk-items-under-1000yen.jpg",
+    "hook": "5つ全部買っても、2,310円😳",
+    "caption": "5つ全部買っても、2,310円😳\nなのに、全部ほんとに買ってよかったやつ！\n\n【1,000円以下で買えるデスクアイテム5選】※価格は2026年11月16日時点\n① Standard Products ステンレスアナログキッチンタイマー（アップル）：500円（税込550円）\n② Standard Products カップウォーマー（白）：500円（税込550円）\n③ 3COINS マイクロファイバークロス20枚セット：500円（税込550円）\n④ DAISO フローリングドライシート（40枚）：100円（税込110円）\n⑤ Standard Products 2重ゴミ箱（BK）：500円（税込550円）\n\n※Standard Products・DAISOはダイソーネットストア、3COINSは公式通販（PAL CLOSET）の価格です\n\nシンプルで機能的なガジェットを毎日投稿しているので、フォローしてね！\nしたっけね〜👋\n\n#デスク周り #買ってよかったもの #ダイソー #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#デスク周り",
+      "#買ってよかったもの",
+      "#ダイソー",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "PC・周辺機器",
+    "pr": false,
+    "items": [
+      {
+        "name": "Standard Products ステンレスアナログキッチンタイマー（アップル）",
+        "brand": "Standard Products",
+        "price": "550円（税込・2026年11月16日時点）",
+        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "Standard Products カップウォーマー（白）",
+        "brand": "Standard Products",
+        "price": "550円（税込・2026年11月16日時点）",
+        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "3COINS マイクロファイバークロス20枚セット",
+        "brand": "3COINS",
+        "price": "550円（税込・2026年11月16日時点）",
+        "note": "3COINS公式通販（PAL CLOSET）の価格。3COINSの店舗・公式通販のみのためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "DAISO フローリングドライシート（40枚）",
+        "brand": "DAISO",
+        "price": "110円（税込・2026年11月16日時点）",
+        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      },
+      {
+        "name": "Standard Products 2重ゴミ箱（BK）",
+        "brand": "Standard Products",
+        "price": "550円（税込・2026年11月16日時点）",
+        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "links": {
+          "amazon": null,
+          "rakuten": null,
+          "official": null
+        },
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "自動更新（2026-11-16）",
+    "stats": {
+      "likes": 17,
+      "saves": 4,
+      "comments": 0,
+      "asOf": "2026-11-16"
+    }
+  },
+  {
     "id": "gbasp-headphone-adapter",
     "title": "GBA SP唯一の欠点…",
     "status": "posted",
@@ -67,10 +157,10 @@
     ],
     "itemsSource": "自動更新（2026-11-15）",
     "stats": {
-      "likes": 35,
-      "saves": 10,
-      "comments": 1,
-      "asOf": "2026-11-15"
+      "likes": 103,
+      "saves": 22,
+      "comments": 2,
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -197,10 +287,10 @@
     ],
     "itemsSource": "自動更新（2026-11-14）",
     "stats": {
-      "likes": 85,
-      "saves": 51,
+      "likes": 93,
+      "saves": 61,
       "comments": 4,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -242,10 +332,10 @@
     ],
     "itemsSource": "自動更新（2026-11-13）",
     "stats": {
-      "likes": 53,
+      "likes": 56,
       "saves": 7,
-      "comments": 1,
-      "asOf": "2026-11-15"
+      "comments": 3,
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -318,7 +408,7 @@
       "likes": 60,
       "saves": 18,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -415,10 +505,10 @@
     ],
     "itemsSource": "自動更新（2026-11-11）",
     "stats": {
-      "likes": 61,
-      "saves": 7,
+      "likes": 63,
+      "saves": 8,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -460,10 +550,10 @@
     ],
     "itemsSource": "自動更新（2026-11-10）",
     "stats": {
-      "likes": 71,
-      "saves": 27,
+      "likes": 74,
+      "saves": 29,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -692,10 +782,10 @@
     ],
     "itemsSource": "自動更新（2026-11-09）",
     "stats": {
-      "likes": 171,
-      "saves": 111,
+      "likes": 179,
+      "saves": 117,
       "comments": 4,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -739,7 +829,7 @@
       "likes": 40,
       "saves": 4,
       "comments": 0,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -811,10 +901,10 @@
     ],
     "itemsSource": "新しい投稿（自動更新 2026-11-07）",
     "stats": {
-      "likes": 126,
+      "likes": 128,
       "saves": 7,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -886,9 +976,9 @@
     "itemsSource": "新しい投稿（自動更新 2026-11-07）",
     "stats": {
       "likes": 66,
-      "saves": 44,
+      "saves": 45,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -961,7 +1051,7 @@
       "likes": 75,
       "saves": 15,
       "comments": 8,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1003,9 +1093,9 @@
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-05）",
     "stats": {
       "likes": 75,
-      "saves": 22,
+      "saves": 23,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1050,7 +1140,7 @@
       "likes": 90,
       "saves": 29,
       "comments": 10,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1107,9 +1197,9 @@
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
       "likes": 41,
-      "saves": 10,
+      "saves": 12,
       "comments": 0,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1298,10 +1388,10 @@
     ],
     "itemsSource": "投稿本文（2026-11-01）",
     "stats": {
-      "likes": 126,
-      "saves": 60,
+      "likes": 128,
+      "saves": 61,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1400,10 +1490,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
-      "likes": 172,
-      "saves": 43,
+      "likes": 173,
+      "saves": 46,
       "comments": 55,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1444,10 +1534,10 @@
     "pr": false,
     "itemsSource": "新しい投稿（自動更新 2026-11-01）",
     "stats": {
-      "likes": 667,
-      "saves": 94,
+      "likes": 678,
+      "saves": 95,
       "comments": 5,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1517,9 +1607,9 @@
     "itemsSource": "自動更新（2026-10-31）",
     "stats": {
       "likes": 53,
-      "saves": 37,
+      "saves": 38,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1563,7 +1653,7 @@
       "likes": 179,
       "saves": 31,
       "comments": 4,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1635,7 +1725,7 @@
       "likes": 69,
       "saves": 25,
       "comments": 4,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1685,7 +1775,7 @@
       "likes": 150,
       "saves": 24,
       "comments": 10,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1739,7 +1829,7 @@
       "likes": 45,
       "saves": 19,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1778,10 +1868,10 @@
       }
     ],
     "stats": {
-      "likes": 316,
-      "saves": 188,
+      "likes": 319,
+      "saves": 189,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1820,10 +1910,10 @@
       }
     ],
     "stats": {
-      "likes": 93,
-      "saves": 25,
+      "likes": 95,
+      "saves": 26,
       "comments": 3,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -1990,7 +2080,7 @@
       "likes": 64,
       "saves": 21,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -2030,10 +2120,10 @@
       }
     ],
     "stats": {
-      "likes": 122,
-      "saves": 74,
+      "likes": 127,
+      "saves": 75,
       "comments": 2,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -2074,7 +2164,7 @@
       "likes": 37,
       "saves": 21,
       "comments": 0,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -2201,7 +2291,7 @@
       "likes": 105,
       "saves": 31,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -2243,7 +2333,7 @@
       "likes": 121,
       "saves": 54,
       "comments": 0,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -2285,7 +2375,7 @@
       "likes": 50,
       "saves": 18,
       "comments": 1,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
@@ -2327,7 +2417,7 @@
       "likes": 140,
       "saves": 53,
       "comments": 2,
-      "asOf": "2026-11-15"
+      "asOf": "2026-11-16"
     }
   },
   {
