@@ -24,37 +24,43 @@
         "name": "Standard Products ステンレスアナログキッチンタイマー（アップル）",
         "brand": "Standard Products",
         "price": "550円（税込・2026年11月16日時点）",
-        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "note": "ダイソーネットストア（公式通販）の価格。「公式サイト」のリンク先はダイソーネットストアの商品ページ（2026-11-16確認）",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
+          "official": "https://jp.daisonet.com/products/4550480771212"
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://cdn.shopify.com/s/files/1/0557/3646/7629/files/4550480771212_01.jpg?v=1774938562",
+        "imageSource": "official"
       },
       {
         "name": "Standard Products カップウォーマー（白）",
         "brand": "Standard Products",
         "price": "550円（税込・2026年11月16日時点）",
-        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "note": "ダイソーネットストア（公式通販）の価格。「公式サイト」のリンク先はダイソーネットストアの商品ページ（2026-11-16確認）",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
+          "official": "https://jp.daisonet.com/products/4550480393964"
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://cdn.shopify.com/s/files/1/0557/3646/7629/files/4550480393964_10.jpg?v=1766044146",
+        "imageSource": "official"
       },
       {
         "name": "3COINS マイクロファイバークロス20枚セット",
         "brand": "3COINS",
         "price": "550円（税込・2026年11月16日時点）",
-        "note": "3COINS公式通販（PAL CLOSET）の価格。3COINSの店舗・公式通販のみのためリンクなし",
+        "note": "3COINS公式通販（PAL CLOSET）の価格。公式通販での商品名は「《マルチに拭ける！》マイクロファイバークロス20枚セット」（2026-11-16確認）",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
+          "official": "https://www.palcloset.jp/display/item/2423-M01-000000/"
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://contents.palcloset.jp/static/images/item/593968_2577180_1.jpg",
+        "imageSource": "official"
       },
       {
         "name": "DAISO フローリングドライシート（40枚）",
@@ -72,13 +78,15 @@
         "name": "Standard Products 2重ゴミ箱（BK）",
         "brand": "Standard Products",
         "price": "550円（税込・2026年11月16日時点）",
-        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "note": "ダイソーネットストア（公式通販）の価格。「公式サイト」のリンク先はダイソーネットストアの商品ページ（2026-11-16確認）",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
+          "official": "https://jp.daisonet.com/products/4550480478159"
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://cdn.shopify.com/s/files/1/0557/3646/7629/files/4550480478159_22.jpg?v=1755516248",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "自動更新（2026-11-16）",
