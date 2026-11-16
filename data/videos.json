@@ -66,13 +66,15 @@
         "name": "DAISO フローリングドライシート（40枚）",
         "brand": "DAISO",
         "price": "110円（税込・2026年11月16日時点）",
-        "note": "ダイソーネットストアの価格。100円ショップ系の商品のためリンクなし",
+        "note": "ダイソーネットストア（公式通販）の価格。「公式サイト」のリンク先はダイソーネットストアのDAISO扱いの商品ページ（同名・同価格のStandard Products扱いの商品も別にある。すなおさん確認・2026-11-16）",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
+          "official": "https://jp.daisonet.com/products/4550480322223"
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://cdn.shopify.com/s/files/1/0557/3646/7629/files/5f2cc36abae58e25feebdf9aea313eb8.jpg?v=1755587725",
+        "imageSource": "official"
       },
       {
         "name": "Standard Products 2重ゴミ箱（BK）",
