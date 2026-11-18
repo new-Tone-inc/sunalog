@@ -1,5 +1,43 @@
 [
   {
+    "id": "jozankei-sauna-meeting-vlog",
+    "title": "ちゃんと仕事してます…",
+    "status": "posted",
+    "postedDate": "2026-11-18",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/Df4d7w8okYx/",
+    "youtubeUrl": null,
+    "cover": "jozankei-sauna-meeting-vlog.jpg",
+    "hook": "ちゃんと仕事してます…📝",
+    "caption": "ちゃんと仕事してます…📝\n\n…って言いつつ、しっかり整い。\nおかげでいいミーティングが出来ました😌🙏\n\n【📍】\n休日ビルヂング（札幌・定山渓）\n\n【撮影】\nNothing Phone (4a) Pro\n\nみんなも、平日朝イチのサウナ行きたくなるよな？\nしたっけね〜👋\n\n#Vlog #NothingPhone #サウナ #ガジェット #ガジェット好き",
+    "hashtags": [
+      "#Vlog",
+      "#NothingPhone",
+      "#サウナ",
+      "#ガジェット",
+      "#ガジェット好き"
+    ],
+    "category": "日常・Vlog",
+    "pr": false,
+    "items": [
+      {
+        "name": "Nothing Phone (4a) Pro",
+        "brand": "Nothing",
+        "officialUrl": "https://jp.nothing.tech/products/phone-4a-pro",
+        "links": {
+          "amazon": null,
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frakutenmobile-store%2Fphone-4a-pro%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": "https://jp.nothing.tech/products/phone-4a-pro"
+        },
+        "price": null,
+        "note": "撮影に使用",
+        "image": "https://shop.r10s.jp/rakutenmobile-store/cabinet/product/phone-4a-pro/pc/phone4apro-d-m.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "自動更新（2026-11-18）"
+  },
+  {
     "id": "eos-r50v-kids-photos",
     "title": "この写真、全部6歳が撮った",
     "status": "posted",
