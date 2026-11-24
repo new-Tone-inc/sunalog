@@ -24,13 +24,15 @@
         "name": "ニトリ 充電式 お守りライト（ホワイト・NTR-01W）",
         "brand": "ニトリ",
         "price": "1,490円（税込・ニトリネット・2026年11月23日時点）",
-        "note": "カバンの中にクリップで付けて使用。充電用のUSBケーブルと充電器は付属しない。Amazon・楽天（ニトリ楽天市場店）では同じ商品が見つからずリンクなし",
+        "note": "カバンの中にクリップで付けて使用。充電用のUSBケーブルと充電器は付属しない。「公式サイト」のリンク先はニトリネットの商品ページ（表記は「充電式お守りライト (ホワイト NTR01)」）。2026年11月24日時点でニトリネットは「準備中」の表示で注文できない。Amazon・楽天（ニトリ楽天市場店）では同じ商品が見つからずリンクなし",
         "links": {
           "amazon": null,
           "rakuten": null,
-          "official": null
+          "official": "https://www.nitori-net.jp/ec/product/4954849990564s/"
         },
-        "officialUrl": null
+        "officialUrl": null,
+        "image": "https://www.nitori-net.jp/ecstatic/image/product/4954849990564/495484999056401.jpg?ts=20250407072139423",
+        "imageSource": "official"
       }
     ],
     "itemsSource": "自動更新（2026-11-24）"
