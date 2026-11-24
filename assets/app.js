@@ -323,9 +323,11 @@
     else if (!$("#modal").hidden) closeModal(true);
   });
 
-  // ---- render: 人気の動画（直近1年・いいね+保存の合計が多い順。stats が入っている動画だけ） ----
+  // ---- render: 人気の動画（直近Nヶ月・いいね+保存の合計が多い順。stats が入っている動画だけ。Nは assets/config.js の popularMonths） ----
   function popularVideos(n = 8) {
-    const since = Date.now() - 365 * 864e5;
+    const months = Number((window.SUNALOG_CONFIG || {}).popularMonths) || 12;
+    const d = new Date(); d.setMonth(d.getMonth() - months);
+    const since = d.getTime();
     return VIDEOS.filter((v) => v.stats && v.postedDate && Date.parse(v.postedDate) >= since)
       .map((v) => ({ v, score: (v.stats.likes || 0) + (v.stats.saves || 0) }))
       .filter((r) => r.score > 0).sort((a, b) => b.score - a.score).slice(0, n).map((r) => r.v);
