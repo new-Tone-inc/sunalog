@@ -3,6 +3,7 @@
 
 - 共有URLは https://sunalog.newtone-inc.jp/p/{id}（GitHub Pagesは拡張子なしで .html を返す）
 - ページはOGP（タイトル・説明・画像）を持ち、開くとすぐトップの詳細（/#id）へ移る
+- 移る先のURLには utm_source=share を付ける（Google アナリティクスで「共有ボタンのリンクから来た」と分かるように。2026-11-25追加）
 - OGP画像は 1200x630。縦長のカバー画像を高さ630に縮めて中央に置き、両脇をブランド色で埋める（macOSの sips を使う）
 - 公開中（status: posted）の投稿だけ作る。非公開・未投稿の分は消す
 実行: python3 tools/share_pages.py   （作業フォルダから。毎朝の自動更新の「4. 検査・公開」の前に走らせる）
@@ -40,13 +41,13 @@ TEMPLATE = """<!doctype html>
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{desc}">
 <meta name="twitter:image" content="{site}/{image}">
-<meta http-equiv="refresh" content="0; url=/#{id}">
-<script>location.replace("/#" + {id_json});</script>
+<meta http-equiv="refresh" content="0; url=/?utm_source=share&amp;utm_medium=referral&amp;utm_campaign=post#{id}">
+<script>location.replace("/?utm_source=share&utm_medium=referral&utm_campaign=post#" + {id_json});</script>
 <style>body{{font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;margin:0;padding:40px 16px;text-align:center;color:#2b3135}}a{{color:#e94b25}}</style>
 </head>
 <body>
 <p>{title}</p>
-<p><a href="/#{id}">すなおのガジェログで見る</a></p>
+<p><a href="/?utm_source=share&amp;utm_medium=referral&amp;utm_campaign=post#{id}">すなおのガジェログで見る</a></p>
 </body>
 </html>
 """

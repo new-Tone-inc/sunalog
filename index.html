@@ -31,6 +31,13 @@
 (function () {
   var id = (window.SUNALOG_CONFIG || {}).gaId;
   var host = location.hostname;
+  // 自分のアクセスを数えない: ?notrack=1 で開くと、この端末・このブラウザを計測から外す（?notrack=0 で戻す）
+  var ls = null; try { ls = window.localStorage; } catch (e) {}
+  var q = /[?&]notrack=([01])(&|$)/.exec(location.search);
+  try { if (q && ls) { if (q[1] === "1") ls.setItem("sunalog_notrack", "1"); else ls.removeItem("sunalog_notrack"); } } catch (e) {}
+  var off = false; try { off = q ? q[1] === "1" : !!(ls && ls.getItem("sunalog_notrack") === "1"); } catch (e) {}
+  window.SUNALOG_NOTRACK = off;
+  if (off) return;
   if (!id || host === "localhost" || host === "127.0.0.1" || /(^|\.)claude\.ai$/.test(host)) return;
   window.dataLayer = window.dataLayer || [];
   window.gtag = function () { window.dataLayer.push(arguments); };
@@ -126,6 +133,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <p class="note footer-note" id="disclosure">※ 当サイトのリンクには、アフィリエイトリンクが含まれる場合があります。<br>※ アクセス状況の把握のため Google アナリティクスを利用しています（Cookie を使って閲覧状況を収集します。個人を特定するものではありません）。</p>
+    <p class="note footer-note" id="notrack-note" hidden>この端末・このブラウザは、アクセス計測の対象から外しています。</p>
     <p>© すなお / <a href="https://www.instagram.com/simple_suna/" target="_blank" rel="noopener">@simple_suna</a></p>
   </div>
 </footer>
@@ -139,6 +147,6 @@
   </div>
 </div>
 
-<script src="assets/app.js?v=202611240"></script>
+<script src="assets/app.js?v=202611250"></script>
 </body>
 </html>

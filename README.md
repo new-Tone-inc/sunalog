@@ -134,3 +134,34 @@ Claude Codeの定時タスク「サイト更新＋インサイト記録」が毎
 - 2024年のリール93本を、毎日の自動更新で新しい順に10本ずつ載せていく（2026-10-29に5本→10本へ）（`tools/DAILY_UPDATE.md` の 1b、対象は `tools/backfill_targets.py` が出す）。初回（10-28）は2024年12月の10本、第2回（10-29）は9〜10月の15本を手で取り込んだ
 - 本文に製品名が無く動画の中だけで紹介している投稿（ベストバイ、カバンの中身、VLOG）は `itemsPending: true` で載せ、カードは「アイテムは動画内で紹介」、詳細は「一覧は準備中」と出す。本人からアイテムを聞いて順次埋める
 - 2024年の投稿にはインサイト（いいね・保存）は付けない。「人気の動画」は直近3ヶ月（試験運用前は直近1年）の投稿だけが対象なので影響しない
+
+## アクセス計測（Google アナリティクス 4。2026-11-04〜、11-25に3点追加）
+
+測定IDは `assets/config.js` の `gaId`。読み込みは `index.html` の先頭のスクリプト。ローカルと claude.ai のプレビューでは計測しない。
+
+### 自分のアクセスを数えない（2026-11-25）
+
+- `https://sunalog.newtone-inc.jp/?notrack=1` を1回開くと、その端末・そのブラウザは計測から外れる（ブラウザに覚えさせる。フッターに「計測の対象から外しています」と出る）
+- 戻すときは `?notrack=0` を開く
+- 覚えるのはブラウザごと。Safari・Chrome・Instagramのアプリ内ブラウザは別々なので、使うものそれぞれで1回ずつ開く
+- 表示の確認で本番を開くとき（Claudeの確認を含む）は、URLに `?notrack=1` を付けて開く
+
+### 入口を区別するURL（2026-11-25）
+
+SNSに貼るURLは、貼る場所ごとに下のものを使う。Google アナリティクスの「トラフィック獲得」で、参照元（`utm_source`）とキャンペーン（`utm_campaign`）として分かれて出る。
+
+| 貼る場所 | URL |
+|---|---|
+| Instagram プロフィール | `https://sunalog.newtone-inc.jp/?utm_source=instagram&utm_medium=social&utm_campaign=profile` |
+| Instagram ストーリーズ | `https://sunalog.newtone-inc.jp/?utm_source=instagram&utm_medium=social&utm_campaign=story` |
+| Threads プロフィール | `https://sunalog.newtone-inc.jp/?utm_source=threads&utm_medium=social&utm_campaign=profile` |
+| TikTok プロフィール | `https://sunalog.newtone-inc.jp/?utm_source=tiktok&utm_medium=social&utm_campaign=profile` |
+| YouTube チャンネル・概要欄 | `https://sunalog.newtone-inc.jp/?utm_source=youtube&utm_medium=social&utm_campaign=profile` |
+
+- 特定の投稿へ飛ばすときは、末尾に `#投稿のID` を付ける（例: `…&utm_campaign=story#nitori-omamori-light`）
+- 共有ボタンのリンク（`/p/{id}`）から来た人は、`tools/share_pages.py` が作るページが `utm_source=share` を付けてトップへ送る
+
+### 投稿をどこから開いたか（2026-11-25）
+
+`post_open` イベントに `open_from` を付けている。値は `popular`（人気の動画）／`list`（動画の一覧）／`items`（アイテムの一覧）／`related`（こちらもどうぞ）／`link`（URLを直接開いた・共有リンク）／`back`（戻る・進む）。
+Google アナリティクスで見るには、カスタム ディメンション（イベント スコープ、イベント パラメータ `open_from`）の登録が要る。

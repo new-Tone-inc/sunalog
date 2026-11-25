@@ -250,10 +250,11 @@
   }
 
   // 戻る操作: モーダルを開くたびに履歴を1つ積み、ブラウザ/スマホの「戻る」で閉じられるようにする
-  function openModal(id, fromHistory) {
+  // from: どこから開いたか（popular=人気の動画 / list=動画の一覧 / items=アイテムの一覧 / related=こちらもどうぞ / link=URLを直接開いた・共有リンク / back=戻る・進む）
+  function openModal(id, fromHistory, from) {
     const v = VIDEOS.find((x) => x.id === id);
     if (!v) return;
-    track("post_open", { post_id: v.id, post_title: v.title, post_category: v.category || "", items_count: (v.items || []).length });
+    track("post_open", { post_id: v.id, post_title: v.title, post_category: v.category || "", items_count: (v.items || []).length, open_from: from || "other" });
     if (!fromHistory) {
       const depth = (history.state && history.state.depth) || 0;
       history.pushState({ modal: v.id, depth: depth + 1 }, "", `#${encodeURIComponent(v.id)}`);
@@ -319,7 +320,7 @@
   }
   window.addEventListener("popstate", () => {
     const st = history.state;
-    if (st && st.modal) openModal(st.modal, true);
+    if (st && st.modal) openModal(st.modal, true, "back");
     else if (!$("#modal").hidden) closeModal(true);
   });
 
@@ -491,7 +492,11 @@
       return;
     }
     const open = e.target.closest("[data-open]");
-    if (open) { openModal(open.getAttribute("data-open")); return; }
+    if (open) {
+      const from = open.closest("#popular") ? "popular" : open.closest("#modal") ? "related" : open.closest("#view-items") ? "items" : open.closest("#view-videos") ? "list" : "other";
+      openModal(open.getAttribute("data-open"), false, from);
+      return;
+    }
     if (e.target.closest("[data-close]")) closeModal();
     const tab = e.target.closest(".tab");
     if (tab) {
@@ -519,8 +524,9 @@
     if (hash && VIDEOS.some((v) => v.id === hash)) {
       // 共有されたURLで直接開いたとき: 履歴は積まず、閉じるボタンで一覧へ戻る
       history.replaceState({ modal: hash, depth: 0 }, "", `#${encodeURIComponent(hash)}`);
-      openModal(hash, true);
+      openModal(hash, true, "link");
     }
+    if (window.SUNALOG_NOTRACK) { const n = $("#notrack-note"); if (n) n.hidden = false; }
   }
   if (window.VIDEOS_DATA) {
     init(window.VIDEOS_DATA);
