@@ -6,4 +6,14 @@ window.SUNALOG_CONFIG = {
   gaId: "G-CW06FTNHQX",
   // 「人気の動画」の対象期間（直近何ヶ月の投稿か）。2026-11-24から3ヶ月で試験運用中（それまでは12）
   popularMonths: 3,
+  // 「今話題の製品」（人気の動画の上に出す枠）。until の日（日本時間）の終わりまで出し、過ぎると自動で消える。空（[]）なら枠ごと出ない
+  // id: data/videos.json の投稿ID / note: 見出しの下に出す一言（無くてもよい） / cta: 追加のリンクボタン（無くてもよい）
+  featured: [
+    {
+      id: "ecovacs-winbot-window-cleaning",
+      until: "2026-12-09",
+      note: "Amazonブラックフライデー 11/27〜12/7",
+      cta: { label: "Amazonのセール会場を見る", url: "https://ecovacs.band/69fd51" },
+    },
+  ],
 };

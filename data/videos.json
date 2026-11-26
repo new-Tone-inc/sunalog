@@ -1,5 +1,57 @@
 [
   {
+    "id": "ecovacs-winbot-window-cleaning",
+    "title": "今年の大掃除、窓はもうやらない。",
+    "status": "posted",
+    "postedDate": "2026-11-26",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DgMvAJPhing/",
+    "youtubeUrl": null,
+    "cover": "ecovacs-winbot-window-cleaning.jpg",
+    "hook": "今年の大掃除、窓はもうやらない。",
+    "caption": "今年の大掃除、窓はもうやらない。\n\n吹き抜けの高い窓、手が届かなくて\n家を建ててから、ちゃんと拭けたのはこれが初めて。\nボタンを長押しするだけで、窓の大きさを測って\nコーナーのキワまで拭いてくれるんよ。\n\n@ecovacs_jp\n\n11/27～12/7 Amazonブラックフライデー！\nエコバックス製品が最大60%OFF！\nエコバックスセール会場はこちら▼\nhttps://ecovacs.band/69fd51\n\nーーーーーーーーーー\nコンパクト設計で、狭い窓もスッキリお掃除！\nWINBOT mini 2\n■通常価格：49,800円\n■セール価格：24,800円(50%OFF)\n■Amazonでチェック：https://ecovacs.band/a0017d\n····································\nコードレスでもっと自由に！便利なステーション付きモデル\nWINBOT W2S PRO OMNI\n■通常価格：99,800円\n■セール価格：79,800円(20%OFF)\n■Amazonでチェック：https://ecovacs.band/a0017d\nーーーーーーーーーー\nスクショもしくは長押し、プロフィールからチェック！\n\n*窓拭きロボット売上世界No.1　\n出典：IDC『Quarterly Robotics Tracker Window Cleaning Robot, 2026Q2』。2025年Q1〜2026年Q2の世界の窓用清掃ロボット市場における出荷台数（Sales-in）でエコバックスが第1位\n\nしたっけね〜👋\n\n#PR #エコバックス #WINBOT #窓拭きロボット #ロボット掃除機 ECOVACS",
+    "hashtags": [
+      "#PR",
+      "#エコバックス",
+      "#WINBOT",
+      "#窓拭きロボット",
+      "#ロボット掃除機"
+    ],
+    "category": "家電",
+    "pr": true,
+    "items": [
+      {
+        "name": "ECOVACS WINBOT mini 2",
+        "brand": "ECOVACS",
+        "price": "24,800円（Amazonブラックフライデー価格・通常49,800円・2026/11/27〜12/7）",
+        "note": "動画で紹介しているモデル。コンパクト設計。リンク先はAmazonのECOVACSストア（WINBOTのページ）",
+        "links": {
+          "amazon": "https://ecovacs.band/a0017d",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/61diSaj7ttL._AC_SX679_.jpg",
+        "imageSource": "amazon",
+        "officialUrl": null
+      },
+      {
+        "name": "ECOVACS WINBOT W2S PRO OMNI",
+        "brand": "ECOVACS",
+        "price": "79,800円（Amazonブラックフライデー価格・通常99,800円・2026/11/27〜12/7）",
+        "note": "本文で紹介している、コードレス・ステーション付きのモデル。リンク先はAmazonのECOVACSストア（WINBOTのページ）",
+        "links": {
+          "amazon": "https://ecovacs.band/a0017d",
+          "rakuten": null,
+          "official": null
+        },
+        "image": "https://m.media-amazon.com/images/I/413phXIKSXL._AC_SX679_.jpg",
+        "imageSource": "amazon",
+        "officialUrl": null
+      }
+    ],
+    "itemsSource": "手動で追加（2026-11-26・すなお依頼。プロモーション案件）"
+  },
+  {
     "id": "fitbit-air-1month",
     "title": "1ヶ月つけたら、デメリット多く見えてきた？",
     "status": "posted",

@@ -250,7 +250,7 @@
   }
 
   // 戻る操作: モーダルを開くたびに履歴を1つ積み、ブラウザ/スマホの「戻る」で閉じられるようにする
-  // from: どこから開いたか（popular=人気の動画 / list=動画の一覧 / items=アイテムの一覧 / related=こちらもどうぞ / link=URLを直接開いた・共有リンク / back=戻る・進む）
+  // from: どこから開いたか（featured=今話題の製品 / popular=人気の動画 / list=動画の一覧 / items=アイテムの一覧 / related=こちらもどうぞ / link=URLを直接開いた・共有リンク / back=戻る・進む）
   function openModal(id, fromHistory, from) {
     const v = VIDEOS.find((x) => x.id === id);
     if (!v) return;
@@ -323,6 +323,55 @@
     if (st && st.modal) openModal(st.modal, true, "back");
     else if (!$("#modal").hidden) closeModal(true);
   });
+
+  // ---- render: 今話題の製品（assets/config.js の featured。until の日（日本時間）の終わりまで、人気の動画の上に出す） ----
+  function featuredList() {
+    const now = Date.now();
+    return ((window.SUNALOG_CONFIG || {}).featured || []).map((f) => {
+      const v = VIDEOS.find((x) => x.id === f.id);
+      const end = f.until ? Date.parse(`${f.until}T23:59:59+09:00`) : Infinity; // 日付が読めないとき（NaN）は出さない
+      return v && now <= end ? { f, v } : null;
+    }).filter(Boolean);
+  }
+  // 価格の文字列「24,800円（…）」を、金額（太字）と補足（小さめ）に分けて出す。「（」が無ければそのまま
+  function priceHtml(p) {
+    const i = p.indexOf("（");
+    if (i <= 0) return esc(p);
+    return `<strong>${esc(p.slice(0, i))}</strong><span class="price-sub">${esc(p.slice(i))}</span>`;
+  }
+  function renderFeatured() {
+    const box = $("#featured");
+    if (!box) return;
+    const list = featuredList();
+    box.hidden = list.length === 0;
+    if (!list.length) return;
+    $("#featured-list").innerHTML = list.map(({ f, v }) => {
+      const brands = [...new Set((v.items || []).map((it) => it.brand).filter(Boolean))];
+      const cta = f.cta && f.cta.url ? f.cta : null;
+      return `
+      <article class="featured-card">
+        <button class="featured-cover" data-open="${esc(v.id)}" aria-label="${esc(v.title)} の詳細">${coverHtml(v)}</button>
+        <div class="featured-head">
+          <p class="featured-kicker">${v.pr ? `<span class="featured-pr">PR</span>` : ""}${brands.length ? `<span>${esc(brands.join("・"))}</span>` : ""}</p>
+          <h3 class="featured-title"><button data-open="${esc(v.id)}">${esc(v.title)}</button></h3>
+          ${f.note ? `<p class="featured-note">${esc(f.note)}</p>` : ""}
+        </div>
+        ${(v.items || []).length ? `<ul class="featured-items">${v.items.map((it) => `
+          <li class="featured-item">
+            ${thumbHtml(it, v)}
+            <div class="featured-item-body">
+              <div class="item-name">${esc(it.name)}</div>
+              ${it.price ? `<div class="item-price">${priceHtml(it.price)}</div>` : ""}
+              <div class="item-links">${linkButtons(it, true, v)}</div>
+            </div>
+          </li>`).join("")}</ul>` : ""}
+        <div class="featured-actions">
+          <button class="btn btn-primary" data-open="${esc(v.id)}">動画と詳細を見る</button>
+          ${cta ? `<a class="btn" href="${esc(cta.url)}" target="_blank" rel="noopener sponsored" data-track="affiliate" data-shop="amazon" data-item="${esc(cta.label || "")}" data-brand="${esc(brands[0] || "")}" data-post="${esc(v.id)}" data-post-title="${esc(v.title)}">${esc(cta.label || "くわしく見る")}<span class="ext">↗</span></a>` : ""}
+        </div>
+      </article>`;
+    }).join("");
+  }
 
   // ---- render: 人気の動画（直近Nヶ月・いいね+保存の合計が多い順。stats が入っている動画だけ。Nは assets/config.js の popularMonths） ----
   function popularVideos(n = 8) {
@@ -493,7 +542,7 @@
     }
     const open = e.target.closest("[data-open]");
     if (open) {
-      const from = open.closest("#popular") ? "popular" : open.closest("#modal") ? "related" : open.closest("#view-items") ? "items" : open.closest("#view-videos") ? "list" : "other";
+      const from = open.closest("#featured") ? "featured" : open.closest("#popular") ? "popular" : open.closest("#modal") ? "related" : open.closest("#view-items") ? "items" : open.closest("#view-videos") ? "list" : "other";
       openModal(open.getAttribute("data-open"), false, from);
       return;
     }
@@ -517,6 +566,7 @@
     ITEMS = buildItems();
     $("#count-videos").textContent = VIDEOS.length;
     $("#count-items").textContent = ITEMS.length;
+    renderFeatured();
     renderPopular();
     render();
     fetch("data/social.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : []).then(renderSocial).catch(() => {});
