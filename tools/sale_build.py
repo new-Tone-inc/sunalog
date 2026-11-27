@@ -75,6 +75,12 @@ def yen(s):
     return int(m.group(1).replace(",", "")) if m else None
 
 
+# サイトの名前と、リンク先の商品ページの色などが違うもの（リンクは変えず、特設ページの名前だけ商品ページに合わせる）。2026-11-27に確認
+NAME = {
+    "B0FLYDJHB4": "Ray-Ban Meta Wayfarer (Gen 2) マットブラック / クリア",  # サイトの名前は「シャイニートランスペアレントグレー」（それは B0GQZVG4MD）
+}
+
+
 def site_items():
     """サイトに載せている（公開中の）アイテムを、ASINごとにまとめて返す"""
     videos = sorted((v for v in load(VIDEOS) if v.get("status") == "posted"), key=lambda v: v.get("postedDate") or "", reverse=True)
@@ -136,7 +142,7 @@ def main():
             image = "../" + image
         items.append({
             "asin": a,
-            "name": it["name"],
+            "name": NAME.get(a, it["name"]),
             "brand": it.get("brand") or "",
             "category": category_of(a, g["posts"]),
             "image": image or "",
