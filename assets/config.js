@@ -15,8 +15,14 @@ window.SUNALOG_CONFIG = {
     until: "2026-12-07",
   },
   // 「今話題の製品」（人気の動画の上に出す枠）。until の日（日本時間）の終わりまで出し、過ぎると自動で消える。空（[]）なら枠ごと出ない
+  // 2件以上あると、1枚ずつの横スライドになり6秒ごとに自動で次へ送る（書いた順に並ぶ）
   // id: data/videos.json の投稿ID / note: 見出しの下に出す一言（無くてもよい） / cta: 追加のリンクボタン（無くてもよい）
   featured: [
+    {
+      id: "insta360-mic",
+      until: "2026-12-07",
+      note: "Amazonブラックフライデー 11/27〜12/7",
+    },
     {
       id: "ecovacs-winbot-window-cleaning",
       until: "2026-12-09",

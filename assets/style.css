@@ -223,6 +223,18 @@ details.caption pre { white-space: pre-wrap; font: inherit; font-size: 13px; mar
 /* 今話題の製品（人気の動画の上。assets/config.js の featured） */
 .featured { margin: 4px 0 26px; }
 .featured-list { display: grid; gap: 12px; }
+/* 2件以上のときは1枚ずつの横スライド（assets/app.js の startFeaturedSlider）。高さは一番高いカードにそろう */
+.featured-list.is-slider { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; scrollbar-width: none; }
+.featured-list.is-slider::-webkit-scrollbar { display: none; }
+.featured-list.is-slider > .featured-card { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; scroll-snap-stop: always; }
+/* 低いカードは、余った高さをボタンの上に空ける（ボタンの位置をカード間でそろえる） */
+.featured-list.is-slider > .featured-card { grid-template-rows: auto auto 1fr; }
+.featured-list.is-slider .featured-actions { align-self: end; }
+.featured-dots { display: flex; justify-content: center; gap: 2px; margin-top: 4px; }
+.featured-dots[hidden] { display: none; }
+.featured-dot { width: 28px; height: 28px; border: 0; padding: 0; background: none; display: grid; place-items: center; }
+.featured-dot::before { content: ""; width: 8px; height: 8px; border-radius: 4px; background: var(--chip-line); transition: width .2s, background-color .2s; }
+.featured-dot.is-active::before { width: 20px; background: var(--red); }
 .featured-card {
   display: grid; grid-template-columns: 150px minmax(0, 1fr); grid-template-areas: "cover head" "cover items" "cover actions";
   grid-template-rows: auto auto 1fr; gap: 10px 16px; padding: 14px; border: 1px solid var(--line); border-top: 4px solid var(--red);
@@ -246,6 +258,7 @@ details.caption pre { white-space: pre-wrap; font: inherit; font-size: 13px; mar
 .featured-item .item-price { font-size: 13px; line-height: 1.5; }
 .featured-item .item-price strong { color: var(--red); margin-right: 2px; }
 .featured-item .price-sub { font-size: 11px; color: var(--text-sub); }
+.featured-item .item-note { font-size: 11px; line-height: 1.5; margin-top: 2px; } /* アイテムが1つのカードだけ、補足も出す */
 .featured-item .item-links { margin-top: 4px; }
 .featured-actions { grid-area: actions; display: flex; flex-wrap: wrap; gap: 8px; align-content: start; }
 @media (max-width: 640px) {

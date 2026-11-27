@@ -341,7 +341,21 @@
     }).catch(() => {});
   }
 
-  // ---- render: 今話題の製品（assets/config.js の featured。until の日（日本時間）の終わりまで、人気の動画の上に出す） ----
+  // 横スクロールの枠を target まで動かす。scrollBy({behavior:"smooth"}) は環境によって動かない（スナップとの組み合わせ）ので、自前で動かす
+  function animateScroll(row, target, dur) {
+    const from = row.scrollLeft, dist = target - from, t0 = performance.now();
+    row.style.scrollSnapType = "none";
+    const stepFn = (now) => {
+      const t = Math.min(1, (now - t0) / dur);
+      const e = 1 - Math.pow(1 - t, 3); // ease-out
+      row.scrollLeft = from + dist * e;
+      if (t < 1) requestAnimationFrame(stepFn);
+      else row.style.scrollSnapType = "";
+    };
+    requestAnimationFrame(stepFn);
+  }
+
+  // ---- render: 今話題の製品（assets/config.js の featured。until の日（日本時間）の終わりまで、人気の動画の上に出す。2件以上なら横スライド） ----
   function featuredList() {
     const now = Date.now();
     return ((window.SUNALOG_CONFIG || {}).featured || []).map((f) => {
@@ -379,6 +393,7 @@
             <div class="featured-item-body">
               <div class="item-name">${esc(it.name)}</div>
               ${it.price ? `<div class="item-price">${priceHtml(it.price)}</div>` : ""}
+              ${v.items.length === 1 && it.note ? `<div class="item-note">${esc(it.note)}</div>` : ""}
               <div class="item-links">${linkButtons(it, true, v)}</div>
             </div>
           </li>`).join("")}</ul>` : ""}
@@ -388,6 +403,50 @@
         </div>
       </article>`;
     }).join("");
+    startFeaturedSlider(list.length);
+  }
+  // 今話題の製品が2件以上のとき、1枚ずつの横スライドにして6秒ごとに次へ送る（最後まで行ったら先頭へ）。指でも送れる・下の点でも選べる。
+  // 触っている間・マウスを乗せている間・画面外・詳細を開いている間は止める。動きを減らす設定のときは自動では送らない（指と点では送れる）
+  let featuredTimer = null;
+  function startFeaturedSlider(count) {
+    const row = $("#featured-list");
+    const dots = $("#featured-dots");
+    if (!row || !dots) return;
+    row.classList.toggle("is-slider", count > 1);
+    dots.hidden = count < 2;
+    if (count < 2 || featuredTimer) return;
+    dots.innerHTML = Array.from({ length: count }, (_, i) => `<button type="button" class="featured-dot${i === 0 ? " is-active" : ""}" data-slide="${i}" aria-label="${i + 1}件目を表示（全${count}件）"></button>`).join("");
+    const cards = () => [...row.querySelectorAll(".featured-card")];
+    const leftOf = (i) => { const c = cards()[i]; return c ? c.offsetLeft - row.offsetLeft : 0; };
+    const current = () => {
+      const xs = cards().map((_, i) => Math.abs(leftOf(i) - row.scrollLeft));
+      return xs.indexOf(Math.min(...xs));
+    };
+    const mark = () => { const n = current(); dots.querySelectorAll(".featured-dot").forEach((d, i) => d.classList.toggle("is-active", i === n)); };
+    let ticking = false;
+    row.addEventListener("scroll", () => { if (ticking) return; ticking = true; requestAnimationFrame(() => { ticking = false; mark(); }); }, { passive: true });
+
+    let paused = false, visible = true, holdUntil = 0;
+    const hold = (ms) => { holdUntil = Date.now() + ms; }; // 触ったあとは、しばらく自動で送らない
+    row.addEventListener("mouseenter", () => { paused = true; });
+    row.addEventListener("mouseleave", () => { paused = false; });
+    row.addEventListener("touchstart", () => hold(12000), { passive: true });
+    row.addEventListener("touchend", () => hold(8000), { passive: true });
+    row.addEventListener("wheel", () => hold(8000), { passive: true });
+    row.addEventListener("focusin", () => { paused = true; });
+    row.addEventListener("focusout", () => { paused = false; });
+    dots.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-slide]");
+      if (!b) return;
+      hold(12000);
+      animateScroll(row, leftOf(Number(b.getAttribute("data-slide"))), 400);
+    });
+    if ("IntersectionObserver" in window) new IntersectionObserver((es) => { visible = es[0].isIntersecting; }).observe(row);
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) { featuredTimer = -1; return; }
+    featuredTimer = setInterval(() => {
+      if (paused || !visible || document.hidden || !$("#modal").hidden || Date.now() < holdUntil) return;
+      animateScroll(row, leftOf((current() + 1) % cards().length), 500);
+    }, 6000);
   }
 
   // ---- render: 人気の動画（直近Nヶ月・いいね+保存の合計が多い順。stats が入っている動画だけ。Nは assets/config.js の popularMonths） ----
@@ -430,20 +489,7 @@
     row.addEventListener("focusin", pause);
     row.addEventListener("focusout", resume);
     if ("IntersectionObserver" in window) new IntersectionObserver((es) => { visible = es[0].isIntersecting; }).observe(row);
-    // scrollBy({behavior:"smooth"}) は環境によって動かない（スナップとの組み合わせ）ので、自前で動かす
-    const animateTo = (target) => {
-      const from = row.scrollLeft, dist = target - from, dur = 350, t0 = performance.now();
-      const prevSnap = row.style.scrollSnapType;
-      row.style.scrollSnapType = "none";
-      const stepFn = (now) => {
-        const t = Math.min(1, (now - t0) / dur);
-        const e = 1 - Math.pow(1 - t, 3); // ease-out
-        row.scrollLeft = from + dist * e;
-        if (t < 1) requestAnimationFrame(stepFn);
-        else row.style.scrollSnapType = prevSnap;
-      };
-      requestAnimationFrame(stepFn);
-    };
+    const animateTo = (target) => animateScroll(row, target, 350);
     popularTimer = setInterval(() => {
       if (paused || !visible || document.hidden || !$("#modal").hidden) return;
       const card = row.querySelector(".related-card");
