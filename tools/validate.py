@@ -18,6 +18,14 @@ for v in videos:
             if l.get("rakuten") and not re.match(r"https://(hb\.afl\.rakuten\.co\.jp/|a\.r10\.to/|bit\.ly/)", l["rakuten"]): errors.append(f"{v['id']}: 楽天リンクの形 {l['rakuten'][:60]}")
 for p in load(SOCIAL):
     if p.get("followers") is not None and not isinstance(p["followers"], int): errors.append(f"social {p['platform']}: followers")
+sale_path = os.path.join(os.path.dirname(VIDEOS), "sale.json")
+if os.path.exists(sale_path):  # セールの特設ページ（blackfriday/）のデータ
+    sale = load(sale_path)
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sale.get("until") or ""): errors.append("sale.json: until")
+    for it in sale.get("items", []):
+        if not it.get("name") or not isinstance(it.get("salePrice"), int): errors.append(f"sale.json: {it.get('asin')} 名前か価格")
+        if not re.match(r"https://(www\.amazon\.co\.jp/dp/[A-Z0-9]{10}\?tag=simplesuna-22|amzn\.to/|ecovacs\.band/)", it.get("link") or ""): errors.append(f"sale.json: {it.get('asin')} リンクの形")
+        if any(p["id"] not in ids for p in it.get("posts", [])): errors.append(f"sale.json: {it.get('asin')} 投稿IDが無い")
 posted = sum(1 for v in videos if v.get("status") == "posted")
 print(json.dumps({"ok": not errors, "posted": posted, "items": sum(len(v.get("items", [])) for v in videos if v.get("status") == "posted"), "errors": errors}, ensure_ascii=False))
 sys.exit(1 if errors else 0)

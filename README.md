@@ -111,6 +111,32 @@ python3 -m http.server 8787
 - **フォロワー数と目標**: 一覧の下の枠。`data/social.json` の `followers` が入っているSNSだけ表示する。`featured: true` のSNS（Instagram）を大きくメイン表示。目標: Instagram 50,000 / TikTok 20,000 / YouTube 10,000、Threads 20,000（すなお、2026-10-28）。`goal` を入れると目標までの残りと進み具合（%）が出る。数値は手で更新する（`asOf` も合わせて直す）
 - **埋め込み動画の音**: 詳細を閉じたときに中身（iframe）を消して、再生を止めるようにした
 
+## セールの特設ページ（2026-11-27追加。Amazonブラックフライデー 2026）
+
+サイトに載せているアイテムのうち、Amazonでセール表示が出ているものだけを並べるページ。URLは `https://sunalog.newtone-inc.jp/blackfriday/`。
+
+- **ファイル**: ページは `blackfriday/index.html`、動きは `assets/sale.js`、見た目は `assets/style.css` の「セールの案内」の所、データは `data/sale.json`
+- **トップの帯**: `assets/config.js` の `sale`（`title`・`text`・`url`・`until`）。`until` の日（日本時間）の終わりまで、トップの一番上に赤い帯で出る。件数は `data/sale.json` から自動で入る。クリックは `sale_banner_click` イベントで数える
+- **終了後**: `data/sale.json` の `until` を過ぎると、特設ページは「このセールは終了しました」だけになり、トップの帯も消える。ファイルは残してよい
+- **載せる条件**: Amazonの商品ページにセールのバッジ（先行セール・厳選目玉商品・タイムセールなど）が出ていて、価格が読め、在庫があるもの。値引き率（-○%）だけでバッジが無いものは、ふだんから出ている表示なので載せない
+- **価格の扱い**: セール価格・参考価格／過去価格・割引率は、確認した日の商品ページの表示をそのまま載せる。ページの上に確認日を出している（`checkedAt`）
+- **「PR」の表示**: 紹介した投稿がすべて `pr: true` のアイテムにだけ付く（投稿の `pr` は「PR・提供品を含む投稿」の意味で、アイテム単位の情報ではないため）
+- **計測**: Amazonへのクリックは `affiliate_click`（`view` が `sale`）。並び順の変更は `sale_sort`
+
+### 調べ直す手順（セール中に価格や対象が変わるので、本セール開始の11/30などに行う）
+
+1. ブラウザで `https://www.amazon.co.jp/blackfriday` を開く（ログイン不要）
+2. `tools/sale_check.js` の中身をそのページで実行し、続けて `window.__saleCheck([...])` に調べるASINの配列を渡す。ASINは `data/videos.json` のAmazonリンク（`/dp/ASIN`）と、`tools/sale_build.py` の `LINK_ASIN`・`ITEM_ASIN`（短縮リンク・案件リンクの対応）から集める
+3. `window.__saleState` が `done` になったら `window.__saleResults` を `data/sale-raw.json` に保存する（1件に5秒ほど。約190件で15〜20分）
+4. `python3 tools/sale_build.py 2026-11-30`（確認した日）で `data/sale.json` の `items` と `checkedAt` を作り直す。カテゴリが合わないものは `tools/sale_build.py` の `CATEGORY` に ASIN ごとに書く
+5. `python3 tools/validate.py` → `data/sale.json` `data/sale-raw.json` を commit・push
+
+文字認証（CAPTCHA）や 503 が出たら自動で止まる。回避はせず、時間を置いてやり直す。
+
+### 次のセールで使い回すとき
+
+`blackfriday/` を別の名前でコピーし、`data/sale.json` の `id`・`title`・`periods`・`until`・`venue` と、`assets/config.js` の `sale` を書き換える（`assets/sale.js` は `../data/sale.json` を読む。セールを同時に2つ出すなら、読むファイル名を分ける改修が要る）。
+
 ## 毎日21時の自動更新（2026-10-28〜。11-04までは毎朝5時）
 
 Claude Codeの定時タスク「サイト更新＋インサイト記録」が毎日21時に [tools/DAILY_UPDATE.md](tools/DAILY_UPDATE.md) の手順で動く（Claudeアプリが開いていて、ChromeがInstagramにログインしている必要がある。閉じていれば次に開いたときに動く）。

@@ -324,6 +324,23 @@
     else if (!$("#modal").hidden) closeModal(true);
   });
 
+  // ---- render: セールの案内（assets/config.js の sale。until の日（日本時間）の終わりまで、今話題の製品の上に出す。特設ページへのリンク） ----
+  function renderSaleBanner() {
+    const el = $("#sale-banner");
+    const s = (window.SUNALOG_CONFIG || {}).sale;
+    if (!el || !s || !s.url) return;
+    const end = s.until ? Date.parse(`${s.until}T23:59:59+09:00`) : NaN; // 日付が読めないとき（NaN）は出さない
+    if (!(Date.now() <= end)) return;
+    el.href = s.url;
+    el.innerHTML = `<span class="sale-banner-tag">SALE</span><span class="sale-banner-text"><strong>${esc(s.title || "")}</strong><span id="sale-banner-sub">${esc(s.text || "")}</span></span><span class="sale-banner-arrow" aria-hidden="true">→</span>`;
+    el.hidden = false;
+    // 件数は data/sale.json から（読めなければ文言だけ）
+    fetch("data/sale.json", { cache: "no-store" }).then((r) => r.ok ? r.json() : null).then((d) => {
+      const n = d && (d.items || []).length;
+      if (n) $("#sale-banner-sub").textContent = `${s.text || ""}（${n}点）`;
+    }).catch(() => {});
+  }
+
   // ---- render: 今話題の製品（assets/config.js の featured。until の日（日本時間）の終わりまで、人気の動画の上に出す） ----
   function featuredList() {
     const now = Date.now();
@@ -507,6 +524,7 @@
 
   // ---- events ----
   document.addEventListener("click", (e) => {
+    if (e.target.closest("#sale-banner")) track("sale_banner_click", { link_url: e.target.closest("#sale-banner").getAttribute("href") || "" });
     const tr = e.target.closest("a[data-track]");
     if (tr) {
       const kind = tr.getAttribute("data-track");
@@ -566,6 +584,7 @@
     ITEMS = buildItems();
     $("#count-videos").textContent = VIDEOS.length;
     $("#count-items").textContent = ITEMS.length;
+    renderSaleBanner();
     renderFeatured();
     renderPopular();
     render();
