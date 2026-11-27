@@ -75,11 +75,9 @@ def yen(s):
     return int(m.group(1).replace(",", "")) if m else None
 
 
-def main():
-    checked = sys.argv[1] if len(sys.argv) > 1 else today()
-    raw = {r["asin"]: r for r in load(RAW)}
+def site_items():
+    """サイトに載せている（公開中の）アイテムを、ASINごとにまとめて返す"""
     videos = sorted((v for v in load(VIDEOS) if v.get("status") == "posted"), key=lambda v: v.get("postedDate") or "", reverse=True)
-
     by_asin = {}
     for v in videos:  # 新しい順。名前・画像・リンクは一番新しい投稿のものを使う
         for it in v.get("items", []):
@@ -89,6 +87,18 @@ def main():
             g = by_asin.setdefault(a, {"item": it, "video": v, "posts": []})
             if v["id"] not in [p["id"] for p in g["posts"]]:
                 g["posts"].append({"id": v["id"], "title": v["title"], "postedDate": v.get("postedDate"), "pr": bool(v.get("pr")), "category": v.get("category")})
+    return by_asin
+
+
+def main():
+    checked = sys.argv[1] if len(sys.argv) > 1 else today()
+    raw = {r["asin"]: r for r in load(RAW)}
+    by_asin = site_items()
+    # 調査が途中で止まった結果で作り直すと、対象が減って見える。9割以上を調べられたときだけ書き換える
+    done = sum(1 for a in by_asin if a in raw and not raw[a].get("noTitle"))
+    if done < len(by_asin) * 0.9:
+        print(f"調査結果が足りない（{done} / {len(by_asin)} 点）ので data/sale.json は書き換えない")
+        sys.exit(1)
 
     items, skipped = [], []
     for a, g in by_asin.items():

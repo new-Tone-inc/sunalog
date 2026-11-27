@@ -3,7 +3,8 @@
  * 使い方（手順は README「セールの特設ページ」）:
  *   1. ブラウザで https://www.amazon.co.jp/blackfriday など amazon.co.jp のページを開く（ログインは不要）
  *   2. このファイルの中身をそのページで実行し、続けて  window.__saleCheck([ASINの配列])  を呼ぶ
- *   3. window.__saleState が "done" になったら、window.__saleResults を data/sale-raw.json に保存する
+ *   3. window.__saleState が "done" になったら、window.__saleCompact(0, 50) のように50件ずつ取り出してファイルに書き、
+ *      python3 tools/sale_raw.py merge <ファイル...> で data/sale-raw.json にまとめる
  *
  * 守ること: 1件ごとに2.5〜3.5秒あける。文字認証（CAPTCHA）や 503/429 が出たら自動で止まる。止まったら回避せず、時間を置いてやり直す。
  * 待ち時間に Worker を使うのは、ブラウザのタブが裏にあると setTimeout が1分に1回まで遅くなるため。
@@ -46,7 +47,8 @@
       if (window.__saleResults.some((r) => r.asin === asin)) continue;
       let o;
       try {
-        const r = await fetch("/dp/" + asin + "?th=1&psc=1", { credentials: "include" });
+        // credentials: "omit" = ログイン情報を送らない（ログイン中のChromeで動かしても、未ログインの価格を読み、Amazonの閲覧履歴に残さない）
+        const r = await fetch("/dp/" + asin + "?th=1&psc=1", { credentials: "omit" });
         o = parse(await r.text()); o.status = r.status;
       } catch (e) { o = { error: String(e) }; }
       o.asin = asin;
@@ -56,4 +58,9 @@
     }
     if (window.__saleState === "running") window.__saleState = "done";
   };
+  // 結果を小さくして返す（from〜to件目）。50件ずつ取り出して /tmp/sunalog/sale-chunkN.json に書き、tools/sale_raw.py merge でまとめる
+  // バッジあり: [asin, 価格, 比較の価格, 比較の種類, 値引き率, バッジ, 在庫, 同じ商品か(1 か 移った先のASIN), 画像] ／ バッジなし: [asin, 0 か "NT"(商品名が読めない), 値引き率, 在庫]
+  window.__saleCompact = (from, to) => JSON.stringify(window.__saleResults.slice(from, to).map((r) => r.badge
+    ? [r.asin, r.price, r.basis, (r.basisLabel || "").slice(0, 4), r.pct, r.badge, (r.avail || "").slice(0, 12), r.asinSel === r.asin ? 1 : r.asinSel, (r.image || "").replace("https://m.media-amazon.com/images/I/", "")]
+    : [r.asin, r.title ? 0 : "NT", r.pct || 0, (r.avail || "").slice(0, 8)]));
 })();

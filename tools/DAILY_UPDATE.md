@@ -22,6 +22,18 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && git status --sh
 ```
 ローカルに未コミットの変更があれば触らず、報告に書いて先へ進む（その変更は含めない）。
 
+## 0b. セール価格の調べ直しを始める（2026-12-07まで。2026-11-27追加）
+Amazonブラックフライデーの特設ページ（`blackfriday/`、データは `data/sale.json`）の価格とセール対象を、毎日調べ直す（すなおの希望、2026-11-27）。調査は15〜20分かかるので、**ここで始めておき、ほかの工程を進め、3b で結果を回収する**。
+1. `python3 tools/sale_raw.py asins > /tmp/sunalog/sale-asins.json` を実行する。**終了コードが2（「セールは終了」と出る）なら、0b と 3b は丸ごと飛ばす**（12/8以降。報告にも書かなくてよい）
+2. Chromeで**調査専用のタブを新しく1つ作り**、`https://www.amazon.co.jp/blackfriday` を開いて4秒待つ（ログインやCAPTCHAの画面が出たら、操作せずに 0b・3b を飛ばし、報告に書く）
+3. そのタブで `tools/sale_check.js` の中身（`(function () {` から最後の `})();` まで）をそのまま実行し、続けて次を実行する（`[...]` は sale-asins.json の中身。**待たずに** `'started'` が返ればよい）:
+   ```js
+   window.__saleCheck([...]); 'started'
+   ```
+4. このタブは 3b が終わるまで**閉じない・別のページへ移動しない**（移動すると調査が消える）。1 以降の工程は別のタブで行う
+
+守ること: Amazonは読むだけ（カートに入れる・購入・ログイン・設定変更はしない）。調査は1件ごとに2.5〜3.5秒あけ、ログイン情報は送らない作りになっている（`credentials: "omit"`）。CAPTCHA・503・429 が出ると自動で止まる。**止まったら回避せず、その日は調べ直しをやめる**（前日の内容のまま残す）。
+
 ## 1. 新しい投稿を見つける
 1. Chromeで `https://www.instagram.com/simple_suna/reels/` を開き、8秒待つ。JS:
    ```js
@@ -94,9 +106,22 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && git status --sh
 - Threads: `https://www.threads.com/@simple_suna` を開き5秒待ち、`document.querySelector('span[title]').title`（最初の span[title] が自分のフォロワーの実数。カンマ区切り）
 - `/tmp/sunalog/counts.json` に `{"Instagram": n, "TikTok": n, "YouTube": n, "Threads": n}` と書き、`python3 tools/social_update.py /tmp/sunalog/counts.json`
 
+## 3b. セール価格の調べ直しを回収する（0b を始めた日だけ）
+1. 0b のタブで `JSON.stringify({state: window.__saleState, n: window.__saleResults.length})` を見る。`state` が `running` なら30秒ほど待って見直す（最長で20分待つ）。`done` になったら次へ
+   - `stopped:...`（CAPTCHA・503・429）や、20分待っても終わらないときは、**集まった分だけで続けてよい**（足りなければ 3 のスクリプトが書き換えを止める）
+2. 結果を50件ずつ取り出して、ファイルに書く: `window.__saleCompact(0, 50)`・`window.__saleCompact(50, 100)`・…と `n` に届くまで実行し、返ってきたJSON（配列）をそのまま `/tmp/sunalog/sale-chunk1.json`・`sale-chunk2.json`・…に保存する（古い `sale-chunk*.json` は先に消す）
+3. まとめて、特設ページのデータを作り直す:
+   ```bash
+   cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/sale_raw.py merge /tmp/sunalog/sale-chunk*.json && python3 tools/sale_build.py
+   ```
+   - `sale_build.py` が「調査結果が足りない」と出して終了コード1で止まったら、`git checkout -- data/sale-raw.json` で戻し、前日の内容のまま残す（報告に書く）
+   - 成功すると「調べた商品 ○点 / セール対象 ○点 / 確認日 YYYY-MM-DD」と出る。この数字を報告に書く
+4. 調査専用のタブを閉じる
+5. 新しい投稿で増えたアイテムは、ASINの一覧に自動で入る（`/dp/ASIN` のリンクのもの）。カテゴリが合わないと感じても、自動更新では `tools/sale_build.py` の `CATEGORY` は触らない（報告に書く）
+
 ## 4. 検査・公開
 ```bash
-cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/share_pages.py && python3 tools/validate.py && git add data/videos.json data/social.json data/instagram/reels-list.json data/instagram/image-sources.json assets/covers p assets/og && git commit -q -m "自動更新 $(date +%Y-%m-%d): 新規○本・2024年分○本・インサイト○本・フォロワー更新" && git push -q origin main && git log --oneline -1
+cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/share_pages.py && python3 tools/validate.py && git add data/videos.json data/social.json data/instagram/reels-list.json data/instagram/image-sources.json data/sale.json data/sale-raw.json assets/covers p assets/og && git commit -q -m "自動更新 $(date +%Y-%m-%d): 新規○本・2024年分○本・インサイト○本・フォロワー更新" && git push -q origin main && git log --oneline -1
 ```
 - `share_pages.py` は投稿ごとの共有用ページ（`p/{id}.html`、OGP付き）とOGP画像（`assets/og/{id}.jpg`、1200x630）を作り直す。新しい投稿・カバー差し替え・非公開化があっても、これを走らせれば追従する（2026-11-04追加）
 - `validate.py` が `ok: false` なら push しない。原因を直せなければ `git checkout -- data assets` で戻し、報告に書く
@@ -107,5 +132,6 @@ cd "/Users/sunao/Knowledge/Personal/Sunao/ガジェットWEB" && python3 tools/s
 - 新しく載せた投稿（id・タイトル・アイテム数・付けたリンク・自信が無いリンク）／非表示にした投稿と理由
 - インサイトを取り直した本数、人気の動画の上位3本（前日から入れ替わったか）
 - フォロワー数（4SNS、前日との差）
+- セール価格の調べ直し（0b・3b を行った日だけ）: 調べた商品数・セール対象の点数（前日との差）・飛ばした／止まったときはその理由
 - 取得できなかったもの・手で直してほしいこと
 最後に、要点を3行で返す（ChromeやInstagramが使えず飛ばした工程があれば、それを最初に書く）

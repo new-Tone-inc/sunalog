@@ -123,12 +123,14 @@ python3 -m http.server 8787
 - **「PR」の表示**: 紹介した投稿がすべて `pr: true` のアイテムにだけ付く（投稿の `pr` は「PR・提供品を含む投稿」の意味で、アイテム単位の情報ではないため）
 - **計測**: Amazonへのクリックは `affiliate_click`（`view` が `sale`）。並び順の変更は `sale_sort`
 
-### 調べ直す手順（セール中に価格や対象が変わるので、本セール開始の11/30などに行う）
+### 調べ直す手順（セール中は毎日21時の自動更新が行う。2026-11-27〜12-07）
 
-1. ブラウザで `https://www.amazon.co.jp/blackfriday` を開く（ログイン不要）
-2. `tools/sale_check.js` の中身をそのページで実行し、続けて `window.__saleCheck([...])` に調べるASINの配列を渡す。ASINは `data/videos.json` のAmazonリンク（`/dp/ASIN`）と、`tools/sale_build.py` の `LINK_ASIN`・`ITEM_ASIN`（短縮リンク・案件リンクの対応）から集める
-3. `window.__saleState` が `done` になったら `window.__saleResults` を `data/sale-raw.json` に保存する（1件に5秒ほど。約190件で15〜20分）
-4. `python3 tools/sale_build.py 2026-11-30`（確認した日）で `data/sale.json` の `items` と `checkedAt` を作り直す。カテゴリが合わないものは `tools/sale_build.py` の `CATEGORY` に ASIN ごとに書く
+毎日21時の自動更新（`tools/DAILY_UPDATE.md` の 0b・3b）が、価格とセール対象を毎日調べ直す（すなおの希望、2026-11-27）。12/8以降は `tools/sale_raw.py asins` が「セールは終了」を返すので、自動で飛ばされる。手で調べ直すときも同じ手順でよい。
+
+1. `python3 tools/sale_raw.py asins` → 調べるASINの一覧（サイトに載せている公開中のアイテム。`/dp/ASIN` のリンクと、`tools/sale_build.py` の `LINK_ASIN`・`ITEM_ASIN` にある短縮リンク・案件リンク）
+2. ブラウザで `https://www.amazon.co.jp/blackfriday` を開き、`tools/sale_check.js` の中身をそのページで実行して、`window.__saleCheck([...])` に一覧を渡す（1件に5秒ほど。約190件で15〜20分。ログイン情報は送らない）
+3. `window.__saleState` が `done` になったら、`window.__saleCompact(0, 50)` のように50件ずつ取り出してファイルに書き、`python3 tools/sale_raw.py merge <ファイル...>` で `data/sale-raw.json` にまとめる
+4. `python3 tools/sale_build.py` で `data/sale.json` の `items` と `checkedAt` を作り直す（調べられたのが9割未満なら書き換えない）。カテゴリが合わないものは `tools/sale_build.py` の `CATEGORY` に ASIN ごとに書く
 5. `python3 tools/validate.py` → `data/sale.json` `data/sale-raw.json` を commit・push
 
 文字認証（CAPTCHA）や 503 が出たら自動で止まる。回避はせず、時間を置いてやり直す。
