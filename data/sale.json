@@ -504,6 +504,27 @@
       ]
     },
     {
+      "asin": "B0DRYR6L9S",
+      "name": "Ulanzi SL02 ミニカメラフラッシュ",
+      "brand": "Ulanzi",
+      "category": "カメラ・映像",
+      "image": "https://m.media-amazon.com/images/I/612N--W0QcL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0DRYR6L9S?tag=simplesuna-22",
+      "salePrice": 2707,
+      "basePrice": 3799,
+      "baseLabel": "参考価格",
+      "off": 29,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "ulanzi-prime-day-10",
+          "title": "買うなら今がチャンス！",
+          "postedDate": "2025-07-12"
+        }
+      ]
+    },
+    {
       "asin": "B0G6L57FHV",
       "name": "Nothing Headphone (a)",
       "brand": "Nothing",
@@ -542,6 +563,52 @@
           "id": "best-buy-no15-no11",
           "title": "鬼滅観たすぎる病かも…",
           "postedDate": "2025-07-30"
+        }
+      ]
+    },
+    {
+      "asin": "B0FHPN26RJ",
+      "name": "Ulanzi MA60 スマホ三脚",
+      "brand": "Ulanzi",
+      "category": "スマホ・タブレット",
+      "image": "https://m.media-amazon.com/images/I/61rp0FK+ukL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0FHPN26RJ?tag=simplesuna-22",
+      "salePrice": 2548,
+      "basePrice": 3499,
+      "baseLabel": "参考価格",
+      "off": 27,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "ulanzi-ma60-vs-majextand-s",
+          "title": "正直、どっちも好きだけど",
+          "postedDate": "2026-11-12"
+        },
+        {
+          "id": "bag-emerald-rainy",
+          "title": "仕事しながらエメラルドする時のカバンの中身",
+          "postedDate": "2026-10-23"
+        },
+        {
+          "id": "bag-contents-pokemon-kogei",
+          "title": "ポケモンって最高だよね！",
+          "postedDate": "2026-05-21"
+        },
+        {
+          "id": "bag-contents-no-holiday",
+          "title": "休日という概念はないけど……",
+          "postedDate": "2026-05-14"
+        },
+        {
+          "id": "bag-contents-holiday",
+          "title": "休日のカバンの中身",
+          "postedDate": "2026-05-12"
+        },
+        {
+          "id": "best-buy-2025-09",
+          "title": "今月も散財しました",
+          "postedDate": "2025-10-06"
         }
       ]
     },
@@ -800,7 +867,7 @@
       "category": "ウェアラブル",
       "image": "https://m.media-amazon.com/images/I/51IK2l2msBL._AC_SX679_.jpg",
       "link": "https://www.amazon.co.jp/dp/B0FLYL6DBL?tag=simplesuna-22",
-      "salePrice": 66825,
+      "salePrice": 66824,
       "basePrice": 89100,
       "baseLabel": "参考価格",
       "off": 25,
@@ -1080,6 +1147,131 @@
           "id": "shure-sm7b-mvx2u",
           "title": "私はイケボになりたい…",
           "postedDate": "2025-01-10"
+        }
+      ]
+    },
+    {
+      "asin": "B0F48B87M2",
+      "name": "Ulanzi スマホ三脚スタンド SK-20",
+      "brand": "Ulanzi",
+      "category": "カメラ・映像",
+      "image": "https://m.media-amazon.com/images/I/61tX1sKfn+L._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0F48B87M2?tag=simplesuna-22",
+      "salePrice": 2375,
+      "basePrice": 2999,
+      "baseLabel": "過去価格",
+      "off": 21,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "ulanzi-prime-day-10",
+          "title": "買うなら今がチャンス！",
+          "postedDate": "2025-07-12"
+        },
+        {
+          "id": "ulanzi-sk20-stand",
+          "title": "カバンに１つ忍ばせよう",
+          "postedDate": "2025-07-01"
+        }
+      ]
+    },
+    {
+      "asin": "B0F533MCVH",
+      "name": "Ulanzi Maglock MA07",
+      "brand": "Ulanzi",
+      "category": "カメラ・映像",
+      "image": "https://m.media-amazon.com/images/I/61BOQ875wEL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0F533MCVH?tag=simplesuna-22",
+      "salePrice": 2597,
+      "basePrice": 3280,
+      "baseLabel": "過去価格",
+      "off": 21,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "ulanzi-prime-day-10",
+          "title": "買うなら今がチャンス！",
+          "postedDate": "2025-07-12"
+        }
+      ]
+    },
+    {
+      "asin": "B0DNJH457Y",
+      "name": "Ulanzi TT88オーバーヘッドセルフィースティック",
+      "brand": "Ulanzi",
+      "category": "カメラ・映像",
+      "image": "https://m.media-amazon.com/images/I/61H2du19TTL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0DNJH457Y?tag=simplesuna-22",
+      "salePrice": 3482,
+      "basePrice": 4399,
+      "baseLabel": "参考価格",
+      "off": 21,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "ulanzi-tt88",
+          "title": "マジカルステッキ",
+          "postedDate": "2025-08-19"
+        },
+        {
+          "id": "ulanzi-prime-day-10",
+          "title": "買うなら今がチャンス！",
+          "postedDate": "2025-07-12"
+        }
+      ]
+    },
+    {
+      "asin": "B0CY5KVDG8",
+      "name": "Ulanzi 40W PRO COB撮影用ライト",
+      "brand": "Ulanzi",
+      "category": "PC・周辺機器",
+      "image": "https://m.media-amazon.com/images/I/61zRZLBqewL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0CY5KVDG8?tag=simplesuna-22",
+      "salePrice": 11086,
+      "basePrice": 13998,
+      "baseLabel": "参考価格",
+      "off": 21,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "desk-tour-08tatami-2026",
+          "title": "0.8畳を侮るなかれ",
+          "postedDate": "2026-11-09"
+        },
+        {
+          "id": "desk-tour-08tatami",
+          "title": "極狭の秘密基地",
+          "postedDate": "2025-07-21"
+        },
+        {
+          "id": "ulanzi-video-light-40w",
+          "title": "動画撮影に必須なアイテム",
+          "postedDate": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "asin": "B0FLK6TTBQ",
+      "name": "Ulanzi TH04 オーバーヘッドカメラマウントスタンド",
+      "brand": "Ulanzi",
+      "category": "カメラ・映像",
+      "image": "https://m.media-amazon.com/images/I/61hGq8zvnLL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0FLK6TTBQ?tag=simplesuna-22",
+      "salePrice": 11087,
+      "basePrice": 13999,
+      "baseLabel": "過去価格",
+      "off": 21,
+      "badge": "ブラックフライデー先行セール",
+      "pr": true,
+      "posts": [
+        {
+          "id": "ulanzi-th04",
+          "title": "自宅で簡単に俯瞰撮影できるアイテム",
+          "postedDate": "2025-05-21"
         }
       ]
     },
@@ -1418,6 +1610,27 @@
           "id": "marshall-willen2",
           "title": "小型なのにコレは……",
           "postedDate": "2025-01-30"
+        }
+      ]
+    },
+    {
+      "asin": "B0HKQZ2LZ3",
+      "name": "MALEDAN マグネット式シリコンバンド（Fitbit Air対応）",
+      "brand": "MALEDAN",
+      "category": "ウェアラブル",
+      "image": "https://m.media-amazon.com/images/I/61HX0PU4KaL._AC_SX679_.jpg",
+      "link": "https://www.amazon.co.jp/dp/B0HKQZ2LZ3?tag=simplesuna-22",
+      "salePrice": 2776,
+      "basePrice": 3299,
+      "baseLabel": "参考価格",
+      "off": 16,
+      "badge": "ブラックフライデー先行セール",
+      "pr": false,
+      "posts": [
+        {
+          "id": "fitbit-air-band",
+          "title": "Fitbit Air、ここがイケてない",
+          "postedDate": "2026-10-26"
         }
       ]
     },

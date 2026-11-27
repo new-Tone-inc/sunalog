@@ -1,5 +1,49 @@
 [
   {
+    "id": "insta360-mic",
+    "title": "マイク、音だけで選ぶ時代じゃないんよ",
+    "status": "posted",
+    "postedDate": "2026-11-27",
+    "dateSource": "instagram",
+    "instagramUrl": "https://www.instagram.com/reel/DgPfukPhLP4/",
+    "youtubeUrl": null,
+    "cover": "insta360-mic.jpg",
+    "hook": "マイク、音だけで選ぶ時代じゃないんよ。",
+    "caption": "マイク、音だけで選ぶ時代じゃないんよ。\n\nInsta360 Micは、前面を好きな画像に変えられるワイヤレスマイク!\n胸に付けるワイヤレスピンマイクだから、その画面がそのまま映る。\nこれがかなり画期的✨️\n\nしかも、見た目だけじゃなくて音質も普通にいい🤔\nこのマイク、これからもっと流行る気がする。\n見た目も楽しめる動画撮影用ワイヤレスマイクを探してる人は、ぜひ！\n\n【スペック】\nInsta360 Mic\n画面：E-Inkディスプレイ（アプリで選んだ画像に切り替え）\nノイズキャンセリング：AIノイズキャンセリング（弱・強）\n収録：32bitフロートで本体に収録（microSDカードが必要）\n\n▼ブラックフライデーセール情報（11/27時点・Amazon）\nInsta360 Mic（送信機1台＋受信機1台）：22,900円（10%OFF）\nInsta360 Mic（送信機2台＋受信機1台）：40,500円（10%OFF・プライム会員価格）\nセール期間：11/27（金）〜12/7（月）23:59\n※セール価格は予告なく変更・終了する場合があります\n\n音声機材をアップグレード！\nInsta360 Micは、プロフィールのリンクからチェックできます！\nしたっけね〜👋\n\n提供：Insta360 @insta360_jp @insta360mic\n#PR #Insta360Mic #Insta360 #ブラックフライデー #ワイヤレスマイク",
+    "hashtags": [
+      "#PR",
+      "#Insta360Mic",
+      "#Insta360",
+      "#ブラックフライデー",
+      "#ワイヤレスマイク"
+    ],
+    "category": "カメラ・映像",
+    "pr": true,
+    "items": [
+      {
+        "name": "Insta360 Mic（送信機1台＋受信機1台）",
+        "brand": "Insta360",
+        "price": "22,900円（ブラックフライデーセール価格・10%OFF・2026年11月27日時点・Amazon、セール期間12/7 23:59まで）",
+        "note": "送信機2台＋受信機1台のセットは40,500円（10%OFF・プライム会員価格・2026年11月27日時点・Amazon）",
+        "links": {
+          "amazon": "https://www.amazon.co.jp/dp/B0HKJ9WXXS?tag=simplesuna-22",
+          "rakuten": "https://hb.afl.rakuten.co.jp/ichiba/38aa89e0.03177640.38aa89e1.454ff307/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finsta360-shop2%2Fac-mic0%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjEwMHgxMDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+          "official": null
+        },
+        "officialUrl": null,
+        "image": "https://shop.r10s.jp/insta360-shop2/cabinet/biiino/item/main-image/20261022213358_1.jpg?_ex=300x300",
+        "imageSource": "rakuten"
+      }
+    ],
+    "itemsSource": "自動更新（2026-11-27）",
+    "stats": {
+      "likes": 11,
+      "saves": 1,
+      "comments": 1,
+      "asOf": "2026-11-27"
+    }
+  },
+  {
     "id": "ecovacs-winbot-window-cleaning",
     "title": "今年の大掃除、窓はもうやらない。",
     "status": "posted",
@@ -51,10 +95,10 @@
     ],
     "itemsSource": "手動で追加（2026-11-26・すなお依頼。プロモーション案件）",
     "stats": {
-      "likes": 15,
-      "saves": 4,
-      "comments": 1,
-      "asOf": "2026-11-26"
+      "likes": 37,
+      "saves": 11,
+      "comments": 3,
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -95,10 +139,10 @@
     ],
     "itemsSource": "自動更新（2026-11-25）",
     "stats": {
-      "likes": 115,
+      "likes": 120,
       "saves": 14,
       "comments": 0,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -140,9 +184,9 @@
     "itemsSource": "自動更新（2026-11-24）",
     "stats": {
       "likes": 48,
-      "saves": 42,
+      "saves": 44,
       "comments": 2,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -184,7 +228,7 @@
       "likes": 28,
       "saves": 3,
       "comments": 3,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -225,10 +269,10 @@
     ],
     "itemsSource": "自動更新（2026-11-21）",
     "stats": {
-      "likes": 37,
-      "saves": 9,
+      "likes": 40,
+      "saves": 11,
       "comments": 3,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -386,7 +430,7 @@
       "likes": 34,
       "saves": 12,
       "comments": 0,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -428,7 +472,7 @@
       "likes": 52,
       "saves": 8,
       "comments": 4,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -469,10 +513,10 @@
     ],
     "itemsSource": "自動更新（2026-11-18）",
     "stats": {
-      "likes": 45,
+      "likes": 46,
       "saves": 1,
       "comments": 0,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -527,10 +571,10 @@
     ],
     "itemsSource": "自動更新（2026-11-18）",
     "stats": {
-      "likes": 248,
+      "likes": 251,
       "saves": 20,
       "comments": 7,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -630,7 +674,7 @@
       "likes": 70,
       "saves": 34,
       "comments": 0,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -701,10 +745,10 @@
     ],
     "itemsSource": "自動更新（2026-11-15）",
     "stats": {
-      "likes": 138,
+      "likes": 139,
       "saves": 35,
       "comments": 6,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -832,9 +876,9 @@
     "itemsSource": "自動更新（2026-11-14）",
     "stats": {
       "likes": 132,
-      "saves": 87,
+      "saves": 88,
       "comments": 6,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -879,7 +923,7 @@
       "likes": 64,
       "saves": 9,
       "comments": 6,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -950,9 +994,9 @@
     "itemsSource": "自動更新（2026-11-12）",
     "stats": {
       "likes": 62,
-      "saves": 22,
+      "saves": 23,
       "comments": 1,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1052,7 +1096,7 @@
       "likes": 67,
       "saves": 8,
       "comments": 1,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1097,7 +1141,7 @@
       "likes": 77,
       "saves": 31,
       "comments": 4,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1327,9 +1371,9 @@
     "itemsSource": "自動更新（2026-11-09）",
     "stats": {
       "likes": 200,
-      "saves": 135,
+      "saves": 136,
       "comments": 4,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1373,7 +1417,7 @@
       "likes": 40,
       "saves": 5,
       "comments": 0,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1448,7 +1492,7 @@
       "likes": 132,
       "saves": 7,
       "comments": 1,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1522,7 +1566,7 @@
       "likes": 67,
       "saves": 48,
       "comments": 3,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1595,7 +1639,7 @@
       "likes": 77,
       "saves": 16,
       "comments": 10,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1639,7 +1683,7 @@
       "likes": 75,
       "saves": 25,
       "comments": 3,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1684,7 +1728,7 @@
       "likes": 92,
       "saves": 31,
       "comments": 10,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1743,7 +1787,7 @@
       "likes": 41,
       "saves": 12,
       "comments": 0,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -1935,7 +1979,7 @@
       "likes": 142,
       "saves": 65,
       "comments": 3,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -2034,10 +2078,10 @@
     ],
     "itemsSource": "新しい投稿の本文から（自動更新 2026-11-03）",
     "stats": {
-      "likes": 188,
+      "likes": 189,
       "saves": 48,
       "comments": 59,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -2081,7 +2125,7 @@
       "likes": 725,
       "saves": 105,
       "comments": 5,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -2153,7 +2197,7 @@
       "likes": 58,
       "saves": 41,
       "comments": 3,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -2197,7 +2241,7 @@
       "likes": 179,
       "saves": 31,
       "comments": 4,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
@@ -2267,9 +2311,9 @@
     "itemsSource": "キャプション（自動更新の試運転 2026-10-28）",
     "stats": {
       "likes": 69,
-      "saves": 25,
+      "saves": 26,
       "comments": 4,
-      "asOf": "2026-11-26"
+      "asOf": "2026-11-27"
     }
   },
   {
