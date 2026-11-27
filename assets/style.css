@@ -292,7 +292,7 @@ details.caption pre { white-space: pre-wrap; font: inherit; font-size: 13px; mar
 .sale-card .item-from a:hover { text-decoration: underline; }
 .sale-foot { margin: 20px 0 0; line-height: 1.8; }
 .sale-foot:empty { display: none; }
-.sale-back { margin: 24px 0 0; display: flex; justify-content: center; }
+.sale-back { margin: 24px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
 @media (max-width: 640px) {
   .sale-banner { gap: 10px; padding: 12px 14px; }
   .sale-banner-text strong { font-size: 14px; }

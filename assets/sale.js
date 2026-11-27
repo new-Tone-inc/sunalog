@@ -22,6 +22,44 @@
     try { window.gtag("event", name, params || {}); } catch (_) {}
   }
 
+  // ---- 共有（スマホは共有シート、それ以外はリンクをコピー）。共有URLには utm_source=share を付け、共有リンクから来た人を区別する ----
+  const SHARE_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></svg>`;
+  function shareUrl() {
+    const base = ((window.SUNALOG_CONFIG || {}).siteUrl || location.origin).replace(/\/$/, "");
+    const dir = location.pathname.replace(/index\.html$/, "").replace(/^\/?/, "/").replace(/\/?$/, "/");
+    return `${base}${dir}?utm_source=share&utm_medium=referral&utm_campaign=sale`;
+  }
+  let toastTimer = 0;
+  function toast(msg) {
+    let el = $("#toast");
+    if (!el) { el = document.createElement("div"); el.id = "toast"; el.className = "toast"; el.setAttribute("role", "status"); document.body.appendChild(el); }
+    el.textContent = msg;
+    el.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("is-show"), 2200);
+  }
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); return true; } catch (_) {}
+    try {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.setAttribute("readonly", ""); ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); ta.remove(); return ok;
+    } catch (_) { return false; }
+  }
+  async function sharePage() {
+    const url = shareUrl();
+    const title = `${SALE.title} セール対象まとめ`;
+    const ev = { post_id: `sale:${SALE.id || ""}`, post_title: title };
+    const data = { title: `${title} | すなおのガジェログ`, text: `${title}（すなおのガジェログ）`, url };
+    if (navigator.share && (!navigator.canShare || navigator.canShare(data))) {
+      try { await navigator.share(data); track("share", Object.assign({ method: "native" }, ev)); return; }
+      catch (e) { if (e && e.name === "AbortError") return; } // キャンセルは何もしない。それ以外はコピーへ
+    }
+    const ok = await copyText(url);
+    toast(ok ? "リンクをコピーしました" : url);
+    track("share", Object.assign({ method: ok ? "copy" : "copy_failed" }, ev));
+  }
+
   // セールの最終日（日本時間）の終わりを過ぎたら「終了」
   function isEnded(sale) {
     const end = sale.until ? Date.parse(`${sale.until}T23:59:59+09:00`) : NaN;
@@ -114,14 +152,18 @@
     if (sale.checkedAt) facts.push(`価格とセール表示は ${fmtDate(sale.checkedAt)} に確認した時点のものです。セールは予告なく終わることがあります。最新の価格はAmazonでご確認ください。`);
     facts.push("このページのリンクには、アフィリエイトリンク（Amazonアソシエイトなど）が含まれます。");
     $("#sale-facts").innerHTML = facts.map((f) => `<li>${esc(f)}</li>`).join("");
+    const shareBtn = `<button class="btn btn-share" type="button" data-sale-share aria-label="このページを共有">${SHARE_ICON}共有</button>`;
+    $("#sale-hero-actions").innerHTML = shareBtn;
+    document.querySelectorAll("[data-sale-share][hidden]").forEach((b) => { b.hidden = false; });
     if (sale.venue && sale.venue.url) {
-      $("#sale-hero-actions").innerHTML = `<a class="btn" href="${esc(sale.venue.url)}" target="_blank" rel="noopener sponsored" data-track="affiliate" data-shop="amazon" data-item="${esc(sale.venue.label || "")}" data-brand="" data-post="" data-post-title="">${esc(sale.venue.label || "セール会場を見る")}<span class="ext">↗</span></a>`;
+      $("#sale-hero-actions").innerHTML = `<a class="btn" href="${esc(sale.venue.url)}" target="_blank" rel="noopener sponsored" data-track="affiliate" data-shop="amazon" data-item="${esc(sale.venue.label || "")}" data-brand="" data-post="" data-post-title="">${esc(sale.venue.label || "セール会場を見る")}<span class="ext">↗</span></a>${shareBtn}`;
     }
     if (sale.footnote) $("#sale-foot").textContent = sale.footnote;
     render();
   }
 
   document.addEventListener("click", (e) => {
+    if (e.target.closest("[data-sale-share]")) { if (SALE) sharePage(); return; }
     const tr = e.target.closest("a[data-track]");
     if (!tr) return;
     track("affiliate_click", {

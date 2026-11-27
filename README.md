@@ -122,6 +122,8 @@ python3 -m http.server 8787
 - **価格の扱い**: セール価格・参考価格／過去価格・割引率は、確認した日の商品ページの表示をそのまま載せる。ページの上に確認日を出している（`checkedAt`）
 - **「PR」の表示**: 紹介した投稿がすべて `pr: true` のアイテムにだけ付く（投稿の `pr` は「PR・提供品を含む投稿」の意味で、アイテム単位の情報ではないため）
 - **計測**: Amazonへのクリックは `affiliate_click`（`view` が `sale`）。並び順の変更は `sale_sort`
+- **共有**（2026-11-27追加）: ページの上と下に「共有」ボタン。スマホは共有シート、それ以外はリンクのコピー。共有されるURLは `https://sunalog.newtone-inc.jp/blackfriday/?utm_source=share&utm_medium=referral&utm_campaign=sale`（共有リンクから来た人を Google アナリティクスで区別できる）。押した回数は `share` イベント（`post_id` が `sale:amazon-black-friday-2026`）
+- **共有したときの画像**: `assets/brand/og-blackfriday-2026.jpg`（1200×630）。元は `tools/sale_og.html`。作り直すときは、作業フォルダで `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu --hide-scrollbars --force-device-scale-factor=1 --user-data-dir=/tmp/sunalog/chrome-headless --window-size=1200,630 --screenshot=/tmp/sunalog/sale-og.png "file://$PWD/tools/sale_og.html"` → `sips -s format jpeg -s formatOptions 88 /tmp/sunalog/sale-og.png --out assets/brand/og-blackfriday-2026.jpg`。`assets/og/` は投稿用で `share_pages.py` が掃除するので、そこには置かない。LINEやXは画像をしばらく覚えているので、差し替えたらファイル名を変える
 
 ### 調べ直す手順（セール中は毎日21時の自動更新が行う。2026-11-27〜12-07）
 
