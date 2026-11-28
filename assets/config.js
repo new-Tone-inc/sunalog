@@ -19,6 +19,11 @@ window.SUNALOG_CONFIG = {
   // id: data/videos.json の投稿ID / note: 見出しの下に出す一言（無くてもよい） / cta: 追加のリンクボタン（無くてもよい）
   featured: [
     {
+      id: "saunanova-recovery-wear-yoin",
+      until: "2026-12-11",
+      note: "サウナブランドのリカバリーウェア「Recovery Wear YOIN」",
+    },
+    {
       id: "insta360-mic",
       until: "2026-12-07",
       note: "Amazonブラックフライデー 11/27〜12/7",
